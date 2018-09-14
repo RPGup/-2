@@ -1,0 +1,962 @@
+﻿Log file open, 09/13/18 21:22:57
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: 我的项目2
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.302543
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +8:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin UE4EditorCustomize
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.301s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4302132
+LogInit: Engine Version: 4.20.2-4302132+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz, GPU: Intel(R) HD Graphics 530
+LogInit: Compiled (64-bit): Aug 21 2018 02:06:06
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: -EpicPortal 
+LogInit: Base Directory: D:/Program Files/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.002s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.09.13-13.22.58:038][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.13-13.22.58:038][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.09.13-13.22.58:067][  0]LogHAL: Display: Platform has ~ 16 GB [17058086912 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.09.13-13.22.58:067][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.09.13-13.22.58:067][  0]LogInit: Going up to parent DeviceProfile []
+[2018.09.13-13.22.58:067][  0]LogInit: Computer: DESKTOP-47DQBJE
+[2018.09.13-13.22.58:067][  0]LogInit: User: 86230
+[2018.09.13-13.22.58:067][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.09.13-13.22.58:067][  0]LogInit: High frequency timer resolution =2.531248 MHz
+[2018.09.13-13.22.58:068][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.09.13-13.22.58:068][  0]LogMemory: Platform Memory Stats for Windows
+[2018.09.13-13.22.58:068][  0]LogMemory: Process Physical Memory: 101.34 MB used, 101.34 MB peak
+[2018.09.13-13.22.58:068][  0]LogMemory: Process Virtual Memory: 89.29 MB used, 89.29 MB peak
+[2018.09.13-13.22.58:068][  0]LogMemory: Physical Memory: 4994.71 MB used,  11273.15 MB free, 16267.86 MB total
+[2018.09.13-13.22.58:068][  0]LogMemory: Virtual Memory: 4638.66 MB used,  11273.15 MB free, 134217728.00 MB total
+[2018.09.13-13.22.58:113][  0]LogInit: Using OS detected language (zh-CN).
+[2018.09.13-13.22.58:113][  0]LogInit: Using OS detected locale (zh-CN).
+[2018.09.13-13.22.58:435][  0]LogStreaming: Display: Took  0.322s to InitEngineTextLocalization.
+[2018.09.13-13.22.58:435][  0]LogInit: Setting process to per monitor DPI aware
+[2018.09.13-13.22.58:492][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.09.13-13.22.58:492][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.09.13-13.22.58:816][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.09.13-13.22.58:816][  0]LogD3D11RHI: D3D11 adapters:
+[2018.09.13-13.22.58:905][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060' (Feature Level 11_0)
+[2018.09.13-13.22.58:905][  0]LogD3D11RHI:       6052/0/8133 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.09.13-13.22.58:919][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2018.09.13-13.22.58:919][  0]LogD3D11RHI:       128/0/8133 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.09.13-13.22.58:921][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.09.13-13.22.58:922][  0]LogD3D11RHI:       0/0/8133 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.09.13-13.22.58:922][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.09.13-13.22.58:946][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.09.13-13.22.58:946][  0]LogD3D11RHI:     GPU DeviceId: 0x1c20 (for the marketing name, search the web for "GPU Device Id")
+[2018.09.13-13.22.58:946][  0]LogWindows: EnumDisplayDevices:
+[2018.09.13-13.22.58:947][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2018.09.13-13.22.58:949][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.09.13-13.22.58:951][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.09.13-13.22.58:952][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2018.09.13-13.22.58:954][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2018.09.13-13.22.58:956][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2018.09.13-13.22.58:957][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2018.09.13-13.22.58:959][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2018.09.13-13.22.58:959][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060
+[2018.09.13-13.22.58:959][  0]LogD3D11RHI:   Driver Version: 391.35 (internal:23.21.13.9135, unified:391.35)
+[2018.09.13-13.22.58:959][  0]LogD3D11RHI:      Driver Date: 3-23-2018
+[2018.09.13-13.22.58:959][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2018.09.13-13.22.59:014][  0]LogD3D11RHI: Async texture creation enabled
+[2018.09.13-13.22.59:040][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.09.13-13.22.59:042][  0]LogShaderCompilers: Guid format shader working directory is -1 characters bigger than the processId version (C:/Users/86230/Documents/Unreal Projects/我的项目2/Intermediate/Shaders/WorkingDirectory/10056/).
+[2018.09.13-13.22.59:042][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/86230/AppData/Local/Temp/UnrealShaderWorkingDir/8CF63FE54A3FA01285AD4BBC5B65A7B2/'.
+[2018.09.13-13.22.59:513][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.09.13-13.22.59:531][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.09.13-13.22.59:549][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.09.13-13.22.59:569][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.09.13-13.22.59:584][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.09.13-13.22.59:603][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.09.13-13.22.59:623][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.09.13-13.22.59:642][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.09.13-13.22.59:650][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.09.13-13.22.59:749][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.13-13.22.59:749][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.13-13.22.59:749][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.13-13.22.59:749][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.13-13.22.59:749][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.13-13.22.59:749][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.13-13.22.59:749][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.13-13.22.59:749][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.13-13.22.59:749][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.13-13.22.59:749][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.13-13.22.59:749][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.13-13.22.59:749][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.13-13.22.59:749][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.13-13.22.59:749][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.13-13.22.59:749][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.13-13.22.59:749][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.13-13.22.59:749][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.13-13.22.59:749][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.13-13.22.59:751][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.09.13-13.22.59:819][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.09.13-13.22.59:819][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.09.13-13.22.59:850][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.09.13-13.22.59:850][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.09.13-13.22.59:867][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.09.13-13.22.59:882][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.09.13-13.22.59:900][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.09.13-13.22.59:923][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.09.13-13.22.59:935][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.09.13-13.22.59:935][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.09.13-13.23.00:021][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.09.13-13.23.00:021][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.09.13-13.23.00:021][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.09.13-13.23.00:879][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.09.13-13.23.00:956][  0]LogDerivedDataCache: Loaded boot cache 0.08s 87MB C:/Users/86230/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.09.13-13.23.00:956][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/86230/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.09.13-13.23.00:956][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/86230/Documents/Unreal Projects/我的项目2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.09.13-13.23.00:956][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.09.13-13.23.00:956][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/86230/Documents/Unreal Projects/我的项目2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.09.13-13.23.00:956][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.09.13-13.23.00:973][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.09.13-13.23.00:987][  0]LogDerivedDataCache: Using Local data cache path C:/Users/86230/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.09.13-13.23.00:987][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.09.13-13.23.00:987][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.09.13-13.23.01:010][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.09.13-13.23.01:011][  0]LogSlate: Using FreeType 2.6.0
+[2018.09.13-13.23.01:012][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.09.13-13.23.01:100][  0]LogAssetRegistry: FAssetRegistry took 0.0268 seconds to start up
+[2018.09.13-13.23.01:502][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.13-13.23.01:663][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.09.13-13.23.01:667][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.09.13-13.23.01:667][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.09.13-13.23.01:667][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.09.13-13.23.01:667][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.09.13-13.23.01:685][  0]LogNetVersion: 我的项目2 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1753104541)
+[2018.09.13-13.23.02:606][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 4 prioritized culture(s) in 0.410602 seconds
+[2018.09.13-13.23.02:613][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.09.13-13.23.02:613][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2018.09.13-13.23.02:613][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.09.13-13.23.03:646][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.09.13-13.23.03:659][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.09.13-13.23.03:846][  0]SourceControl: 源码控制已禁用
+[2018.09.13-13.23.05:544][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.09.13-13.23.05:758][  0]LogOcInput: OculusInput pre-init called
+[2018.09.13-13.23.05:826][  0]LogEngine: Initializing Engine...
+[2018.09.13-13.23.05:828][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.09.13-13.23.05:829][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.09.13-13.23.05:829][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.13-13.23.05:829][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.09.13-13.23.05:829][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.09.13-13.23.06:084][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.09.13-13.23.06:100][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.09.13-13.23.06:170][  0]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.13-13.23.06:270][  0]LogInit: FAudioDevice initialized.
+[2018.09.13-13.23.06:270][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.09.13-13.23.06:473][  0]LogDerivedDataCache: Saved boot cache 0.20s 87MB C:/Users/86230/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.09.13-13.23.06:502][  0]LogInit: Texture streaming: Enabled
+[2018.09.13-13.23.06:526][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.09.13-13.23.06:542][  0]LogInit: Transaction tracking system initialized
+[2018.09.13-13.23.06:568][  0]BlueprintLog: New page: 编辑器加载
+[2018.09.13-13.23.06:659][  0]LocalizationService: 本地化服务已被禁用
+[2018.09.13-13.23.06:961][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.09.13-13.23.06:961][  0]LogCook: Display: Mobile HDR setting 1
+[2018.09.13-13.23.06:961][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.09.13-13.23.06:961][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.09.13-13.23.06:961][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.13-13.23.06:961][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.09.13-13.23.06:961][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.09.13-13.23.07:101][  0]LogFileCache: Scanning file cache for directory 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/' took 0.02s
+[2018.09.13-13.23.07:101][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.09.13-13.23.07:102][  0]LightingResults: New page: 光照构建
+[2018.09.13-13.23.07:106][  0]MapCheck: New page: 地图检测
+[2018.09.13-13.23.07:106][  0]LightingResults: New page: 光照构建
+[2018.09.13-13.23.07:335][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2018.09.13-13.23.07:344][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.09.13-13.23.07:372][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.09.13-13.23.07:426][  0]MapCheck: 地图检测完成：0个错误，0 个警告，用时53.946毫秒完成。
+[2018.09.13-13.23.07:426][  0]LogFileHelpers: Loading map 'Template_Default' took 0.325
+[2018.09.13-13.23.07:768][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.13-13.23.07:780][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.13-13.23.07:789][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.13-13.23.07:799][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.13-13.23.07:814][  0]LogCollectionManager: Loaded 0 collections in 0.002157 seconds
+[2018.09.13-13.23.07:890][  0]LogFileCache: Scanning file cache for directory 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/Collections/' took 0.01s
+[2018.09.13-13.23.07:890][  0]LogFileCache: Scanning file cache for directory 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/Developers/86230/Collections/' took 0.01s
+[2018.09.13-13.23.07:890][  0]LogFileCache: Scanning file cache for directory 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/Collections/' took 0.01s
+[2018.09.13-13.23.07:890][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.09.13-13.23.07:904][  0]LogContentBrowser: Native class hierarchy populated in 0.0121 seconds. Added 2573 classes and 606 folders.
+[2018.09.13-13.23.07:918][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.09.13-13.23.08:068][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.09.13-13.23.08:083][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.09.13-13.23.09:499][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.09.13-13.23.11:626][  0]LogTemp: IPP ERROR: Illegal character in bundle ID
+[2018.09.13-13.23.11:626][  0]LogTemp: Usage: iPhonePackager <Command> <GameName> [RPCCommand &| Switch]
+[2018.09.13-13.23.11:626][  0]LogTemp: 
+[2018.09.13-13.23.11:626][  0]LogTemp: Common commands:
+[2018.09.13-13.23.11:626][  0]LogTemp:  ... RepackageIPA GameName
+[2018.09.13-13.23.11:626][  0]LogTemp:  ... PackageIPA GameName
+[2018.09.13-13.23.11:626][  0]LogTemp:  ... PackageApp GameName
+[2018.09.13-13.23.11:626][  0]LogTemp:  ... Deploy PathToIPA
+[2018.09.13-13.23.11:626][  0]LogTemp:  ... RepackageFromStage GameName
+[2018.09.13-13.23.11:626][  0]LogTemp:  ... Devices
+[2018.09.13-13.23.11:626][  0]LogTemp:  ... Validate
+[2018.09.13-13.23.11:626][  0]LogTemp:  ... Install
+[2018.09.13-13.23.11:626][  0]LogTemp: 
+[2018.09.13-13.23.11:626][  0]LogTemp: Configuration switches:
+[2018.09.13-13.23.11:626][  0]LogTemp: 	 -stagedir <path>		  sets the directory to copy staged files from (defaults to none)
+[2018.09.13-13.23.11:626][  0]LogTemp: 	 -project <path>		  path to the project being packaged
+[2018.09.13-13.23.11:626][  0]LogTemp: 	 -provisioning <uuid>	  uuid of the provisioning selected
+[2018.09.13-13.23.11:626][  0]LogTemp: 	 -compress=fast|best|none  packaging compression level (defaults to none)
+[2018.09.13-13.23.11:626][  0]LogTemp: 	 -strip					strip symbols during packaging
+[2018.09.13-13.23.11:626][  0]LogTemp: 	 -config				   game configuration (e.g., Shipping, Development, etc...)
+[2018.09.13-13.23.11:626][  0]LogTemp: 	 -distribution			 packaging for final distribution
+[2018.09.13-13.23.11:626][  0]LogTemp: 	 -codebased				   packaging a c++ code based project
+[2018.09.13-13.23.11:626][  0]LogTemp: 	 -createstub			   packaging stub IPA for later repackaging
+[2018.09.13-13.23.11:626][  0]LogTemp: 	 -mac <MacName>			overrides the machine to use for any Mac operations
+[2018.09.13-13.23.11:626][  0]LogTemp: 	 -arch <Architecture>	  sets the architecture to use (blank for default, -simulator for simulator builds)
+[2018.09.13-13.23.11:626][  0]LogTemp: 	 -device <DeviceID>		sets the device to install the IPA on
+[2018.09.13-13.23.11:626][  0]LogTemp: 
+[2018.09.13-13.23.11:626][  0]LogTemp: Commands: RPC, Clean
+[2018.09.13-13.23.11:626][  0]LogTemp:   StageMacFiles, GetIPA, Deploy, Install, Uninstall
+[2018.09.13-13.23.11:626][  0]LogTemp: 
+[2018.09.13-13.23.11:626][  0]LogTemp: RPC Commands: SetExec, InstallProvision, MakeApp, DeleteIPA, Copy, Kill, Strip, Zip, GenDSYM
+[2018.09.13-13.23.11:627][  0]LogTemp: 
+[2018.09.13-13.23.11:627][  0]LogTemp: Sample commandlines:
+[2018.09.13-13.23.11:627][  0]LogTemp:  ... iPhonePackager Deploy UDKGame Release
+[2018.09.13-13.23.11:627][  0]LogTemp:  ... iPhonePackager RPC SwordGame Shipping MakeApp
+[2018.09.13-13.23.11:627][  0]LogSlate: Took 0.000307 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.09.13-13.23.11:630][  0]LogSlate: Took 0.002829 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2018.09.13-13.23.11:635][  0]LogSlate: Took 0.000367 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.09.13-13.23.11:641][  0]LogSlate: Took 0.002621 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.09.13-13.23.11:747][  0]LogRenderer: Reallocating scene render targets to support 964x460 Format 10 NumSamples 1 (Frame:1).
+[2018.09.13-13.23.11:906][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.09.13-13.23.11:906][  0]LogLoad: (Engine Initialization) Total time: 16.08 seconds
+[2018.09.13-13.23.11:906][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.09.13-13.23.11:975][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (中文 - QQ拼音输入法).
+[2018.09.13-13.23.12:008][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.09.13-13.23.12:048][  1]LogAssetRegistry: Asset discovery search completed in 10.9710 seconds
+[2018.09.13-13.23.12:051][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.09.13-13.23.12:051][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000094 seconds (updated 0 objects)
+[2018.09.13-13.23.12:960][ 47]LogSlate: Took 0.002096 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.09.13-13.23.16:264][244]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.13-13.23.16:554][258]LogRenderer: Reallocating scene render targets to support 964x708 Format 10 NumSamples 1 (Frame:247).
+[2018.09.13-13.24.02:515][907]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.09.13-13.24.02:552][907]LogAssetEditorManager: Opening Asset editor for World /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap
+[2018.09.13-13.24.02:582][907]Cmd: MAP LOAD FILE="C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.09.13-13.24.02:583][907]LightingResults: New page: 光照构建
+[2018.09.13-13.24.02:583][907]LoadErrors: New page: 正在加载地图： TopDownExampleMap.umap
+[2018.09.13-13.24.02:584][907]MapCheck: New page: 地图检测
+[2018.09.13-13.24.02:584][907]LightingResults: New page: 光照构建
+[2018.09.13-13.24.02:643][907]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.09.13-13.24.02:690][907]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.09.13-13.24.02:762][907]MapCheck: 地图检测完成：0个错误，0 个警告，用时72.486毫秒完成。
+[2018.09.13-13.24.02:763][907]LogFileHelpers: Loading map 'TopDownExampleMap' took 0.182
+[2018.09.13-13.24.27:146][225]LogMetaData: Removing '/Game/TopDownBP/Blueprints/BP_monster.BP_monster:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/TopDownBP/Blueprints/monster.PackageMetaData'
+[2018.09.13-13.24.27:146][225]LogMetaData: Removing '/Game/TopDownBP/Blueprints/BP_monster.BP_monster_C' ref from Metadata '/Game/TopDownBP/Blueprints/monster.PackageMetaData'
+[2018.09.13-13.24.27:146][225]LogMetaData: Removing '/Game/TopDownBP/Blueprints/BP_monster.BP_monster:EventGraph.K2Node_Event_0' ref from Metadata '/Game/TopDownBP/Blueprints/monster.PackageMetaData'
+[2018.09.13-13.24.27:146][225]LogMetaData: Removing '/Game/TopDownBP/Blueprints/BP_monster.BP_monster:EventGraph.K2Node_Event_1' ref from Metadata '/Game/TopDownBP/Blueprints/monster.PackageMetaData'
+[2018.09.13-13.24.27:146][225]LogMetaData: Removing '/Game/TopDownBP/Blueprints/BP_monster.BP_monster:EventGraph.K2Node_Event_2' ref from Metadata '/Game/TopDownBP/Blueprints/monster.PackageMetaData'
+[2018.09.13-13.24.27:146][225]LogMetaData: Removing '/Game/TopDownBP/Blueprints/BP_monster.BP_monster:culculate HP.K2Node_FunctionEntry_0' ref from Metadata '/Game/TopDownBP/Blueprints/monster.PackageMetaData'
+[2018.09.13-13.24.27:146][225]LogMetaData: Removing '/Game/TopDownBP/Blueprints/BP_monster.BP_monster:death.K2Node_FunctionEntry_0' ref from Metadata '/Game/TopDownBP/Blueprints/monster.PackageMetaData'
+[2018.09.13-13.24.27:146][225]LogMetaData: Removing '/Game/TopDownBP/Blueprints/BP_monster.SKEL_BP_monster_C' ref from Metadata '/Game/TopDownBP/Blueprints/monster.PackageMetaData'
+[2018.09.13-13.24.27:226][225]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/BP_monster" FILE="C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/BP_monster.uasset" SILENT=true
+[2018.09.13-13.24.27:280][225]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/BP_monsterE8519BB74D93D4884FBCC1881C58498E.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/BP_monster.uasset'
+[2018.09.13-13.24.27:639][225]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/monster" FILE="C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/monster.uasset" SILENT=true
+[2018.09.13-13.24.27:658][225]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/monster3231A6FF41EA4A1009C3EF9BD308F9C3.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/monster.uasset'
+[2018.09.13-13.24.51:383][489]LogMetaData: Removing '/Game/TopDownBP/Blueprints/BP_hero.BP_hero_C' ref from Metadata '/Game/TopDownBP/Blueprints/TopDownCharacter.PackageMetaData'
+[2018.09.13-13.24.51:383][489]LogMetaData: Removing '/Game/TopDownBP/Blueprints/BP_hero.BP_hero:combo++.K2Node_FunctionEntry_0' ref from Metadata '/Game/TopDownBP/Blueprints/TopDownCharacter.PackageMetaData'
+[2018.09.13-13.24.51:383][489]LogMetaData: Removing '/Game/TopDownBP/Blueprints/BP_hero.BP_hero:death.K2Node_FunctionEntry_0' ref from Metadata '/Game/TopDownBP/Blueprints/TopDownCharacter.PackageMetaData'
+[2018.09.13-13.24.51:383][489]LogMetaData: Removing '/Game/TopDownBP/Blueprints/BP_hero.BP_hero:caculate HP.K2Node_FunctionEntry_0' ref from Metadata '/Game/TopDownBP/Blueprints/TopDownCharacter.PackageMetaData'
+[2018.09.13-13.24.51:383][489]LogMetaData: Removing '/Game/TopDownBP/Blueprints/BP_hero.BP_hero:combo clear.K2Node_FunctionEntry_0' ref from Metadata '/Game/TopDownBP/Blueprints/TopDownCharacter.PackageMetaData'
+[2018.09.13-13.24.51:383][489]LogMetaData: Removing '/Game/TopDownBP/Blueprints/BP_hero.SKEL_BP_hero_C' ref from Metadata '/Game/TopDownBP/Blueprints/TopDownCharacter.PackageMetaData'
+[2018.09.13-13.24.51:465][489]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/BP_hero" FILE="C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/BP_hero.uasset" SILENT=true
+[2018.09.13-13.24.51:596][489]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/BP_hero64D70A8A49D146F81E61F7BD0B79876C.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/BP_hero.uasset'
+[2018.09.13-13.24.51:954][489]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/TopDownCharacter" FILE="C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/TopDownCharacter.uasset" SILENT=true
+[2018.09.13-13.24.51:972][489]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/TopDownCharacter7FD7C89E4624B540F9FF4AB620693D25.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2018.09.13-13.24.57:326][749]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/BP_hero.BP_hero
+[2018.09.13-13.24.57:954][749]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
+[2018.09.13-13.24.58:934][749]LogSlate: Took 0.002528 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.09.13-13.24.59:172][751]LogSlate: Took 0.001793 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.09.13-13.25.00:686][837]LogSlate: Window 'BP_hero' being destroyed
+[2018.09.13-13.25.00:703][838]LogRenderer: Reallocating scene render targets to support 1204x708 Format 10 NumSamples 1 (Frame:2426).
+[2018.09.13-13.26.06:203][595]LogMetaData: Removing '/Game/TopDownBP/Blueprints/UI_chushi.UI_chushi_C' ref from Metadata '/Game/TopDownBP/Blueprints/ui.PackageMetaData'
+[2018.09.13-13.26.06:203][595]LogMetaData: Removing '/Game/TopDownBP/Blueprints/UI_chushi.UI_chushi:EventGraph.K2Node_Event_0' ref from Metadata '/Game/TopDownBP/Blueprints/ui.PackageMetaData'
+[2018.09.13-13.26.06:203][595]LogMetaData: Removing '/Game/TopDownBP/Blueprints/UI_chushi.UI_chushi:EventGraph.K2Node_Event_1' ref from Metadata '/Game/TopDownBP/Blueprints/ui.PackageMetaData'
+[2018.09.13-13.26.06:203][595]LogMetaData: Removing '/Game/TopDownBP/Blueprints/UI_chushi.UI_chushi:EventGraph.K2Node_Event_2' ref from Metadata '/Game/TopDownBP/Blueprints/ui.PackageMetaData'
+[2018.09.13-13.26.06:203][595]LogMetaData: Removing '/Game/TopDownBP/Blueprints/UI_chushi.UI_chushi:GetPercent_0.K2Node_FunctionEntry_0' ref from Metadata '/Game/TopDownBP/Blueprints/ui.PackageMetaData'
+[2018.09.13-13.26.06:204][595]LogMetaData: Removing '/Game/TopDownBP/Blueprints/UI_chushi.SKEL_UI_chushi_C' ref from Metadata '/Game/TopDownBP/Blueprints/ui.PackageMetaData'
+[2018.09.13-13.26.06:268][595]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/UI_chushi" FILE="C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/UI_chushi.uasset" SILENT=true
+[2018.09.13-13.26.06:281][595]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/UI_chushi3B2984E34C9353BDE433E78F25FBF7E3.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/UI_chushi.uasset'
+[2018.09.13-13.26.06:642][595]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/ui" FILE="C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/ui.uasset" SILENT=true
+[2018.09.13-13.26.06:661][595]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/ui4D7E5CEA469F41AF77EAA495C0D8235E.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/ui.uasset'
+[2018.09.13-13.26.13:794][839]LogMetaData: Removing '/Game/TopDownBP/Blueprints/UI/UI_chushi.UI_chushi_C' ref from Metadata '/Game/TopDownBP/Blueprints/UI_chushi.PackageMetaData'
+[2018.09.13-13.26.13:794][839]LogMetaData: Removing '/Game/TopDownBP/Blueprints/UI/UI_chushi.SKEL_UI_chushi_C' ref from Metadata '/Game/TopDownBP/Blueprints/UI_chushi.PackageMetaData'
+[2018.09.13-13.26.13:794][839]LogMetaData: Removing '/Game/TopDownBP/Blueprints/UI/UI_chushi.UI_chushi:EventGraph.K2Node_Event_0' ref from Metadata '/Game/TopDownBP/Blueprints/UI_chushi.PackageMetaData'
+[2018.09.13-13.26.13:794][839]LogMetaData: Removing '/Game/TopDownBP/Blueprints/UI/UI_chushi.UI_chushi:EventGraph.K2Node_Event_1' ref from Metadata '/Game/TopDownBP/Blueprints/UI_chushi.PackageMetaData'
+[2018.09.13-13.26.13:794][839]LogMetaData: Removing '/Game/TopDownBP/Blueprints/UI/UI_chushi.UI_chushi:EventGraph.K2Node_Event_2' ref from Metadata '/Game/TopDownBP/Blueprints/UI_chushi.PackageMetaData'
+[2018.09.13-13.26.13:794][839]LogMetaData: Removing '/Game/TopDownBP/Blueprints/UI/UI_chushi.UI_chushi:GetPercent_0.K2Node_FunctionEntry_0' ref from Metadata '/Game/TopDownBP/Blueprints/UI_chushi.PackageMetaData'
+[2018.09.13-13.26.13:794][839]LogMetaData: Removing '/Game/TopDownBP/Blueprints/UI/UI_chushi.SKEL_UI_chushi_C:PreConstruct' ref from Metadata '/Game/TopDownBP/Blueprints/UI_chushi.PackageMetaData'
+[2018.09.13-13.26.13:794][839]LogMetaData: Removing '/Game/TopDownBP/Blueprints/UI/UI_chushi.SKEL_UI_chushi_C:Construct' ref from Metadata '/Game/TopDownBP/Blueprints/UI_chushi.PackageMetaData'
+[2018.09.13-13.26.13:794][839]LogMetaData: Removing '/Game/TopDownBP/Blueprints/UI/UI_chushi.SKEL_UI_chushi_C:Tick' ref from Metadata '/Game/TopDownBP/Blueprints/UI_chushi.PackageMetaData'
+[2018.09.13-13.26.13:794][839]LogMetaData: Removing '/Game/TopDownBP/Blueprints/UI/UI_chushi.SKEL_UI_chushi_C:ProgressBar_136' ref from Metadata '/Game/TopDownBP/Blueprints/UI_chushi.PackageMetaData'
+[2018.09.13-13.26.13:794][839]LogMetaData: Removing '/Game/TopDownBP/Blueprints/UI/UI_chushi.UI_chushi_C:ProgressBar_136' ref from Metadata '/Game/TopDownBP/Blueprints/UI_chushi.PackageMetaData'
+[2018.09.13-13.26.13:846][839]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/UI/UI_chushi" FILE="C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/UI/UI_chushi.uasset" SILENT=true
+[2018.09.13-13.26.13:858][839]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/UI_chushi73E913494D90D878FC03D695F8A77003.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/UI/UI_chushi.uasset'
+[2018.09.13-13.26.15:253][839]SourceControl: rm 'Content/TopDownBP/Blueprints/UI_chushi.uasset'
+[2018.09.13-13.26.15:470][839]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/ui" FILE="C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/ui.uasset" SILENT=true
+[2018.09.13-13.26.15:486][839]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/uiC11713AD44DDAB58EE587084A4B3DEA8.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/ui.uasset'
+[2018.09.13-13.26.37:268][ 10]LogMetaData: Removing '/Game/TopDownBP/Blueprints/AI/ai-bd.ai-bd:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/TopDownBP/Blueprints/ai-bd.PackageMetaData'
+[2018.09.13-13.26.37:268][ 10]LogMetaData: Removing '/Game/TopDownBP/Blueprints/AI/ai-bd.ai-bd_C' ref from Metadata '/Game/TopDownBP/Blueprints/ai-bd.PackageMetaData'
+[2018.09.13-13.26.37:268][ 10]LogMetaData: Removing '/Game/TopDownBP/Blueprints/AI/ai-bd.ai-bd:EventGraph.K2Node_Event_0' ref from Metadata '/Game/TopDownBP/Blueprints/ai-bd.PackageMetaData'
+[2018.09.13-13.26.37:268][ 10]LogMetaData: Removing '/Game/TopDownBP/Blueprints/AI/ai-bd.ai-bd:EventGraph.K2Node_Event_1' ref from Metadata '/Game/TopDownBP/Blueprints/ai-bd.PackageMetaData'
+[2018.09.13-13.26.37:268][ 10]LogMetaData: Removing '/Game/TopDownBP/Blueprints/AI/ai-bd.SKEL_ai-bd_C:ReceiveBeginPlay' ref from Metadata '/Game/TopDownBP/Blueprints/ai-bd.PackageMetaData'
+[2018.09.13-13.26.37:268][ 10]LogMetaData: Removing '/Game/TopDownBP/Blueprints/AI/ai-bd.SKEL_ai-bd_C:ReceiveTick' ref from Metadata '/Game/TopDownBP/Blueprints/ai-bd.PackageMetaData'
+[2018.09.13-13.26.37:268][ 10]LogMetaData: Removing '/Game/TopDownBP/Blueprints/AI/ai-bd.SKEL_ai-bd_C:UserConstructionScript' ref from Metadata '/Game/TopDownBP/Blueprints/ai-bd.PackageMetaData'
+[2018.09.13-13.26.37:268][ 10]LogMetaData: Removing '/Game/TopDownBP/Blueprints/AI/ai-bd.SKEL_ai-bd_C' ref from Metadata '/Game/TopDownBP/Blueprints/ai-bd.PackageMetaData'
+[2018.09.13-13.26.37:268][ 10]LogMetaData: Removing '/Game/TopDownBP/Blueprints/AI/ai-bd.ai-bd_C:ReceiveBeginPlay' ref from Metadata '/Game/TopDownBP/Blueprints/ai-bd.PackageMetaData'
+[2018.09.13-13.26.37:268][ 10]LogMetaData: Removing '/Game/TopDownBP/Blueprints/AI/ai-bd.ai-bd_C:UserConstructionScript' ref from Metadata '/Game/TopDownBP/Blueprints/ai-bd.PackageMetaData'
+[2018.09.13-13.26.37:282][ 10]LogMetaData: Removing '/Game/TopDownBP/Blueprints/AI/behavetree.behavetree:Behavior Tree.BehaviorTreeGraphNode_Root_0' ref from Metadata '/Game/TopDownBP/Blueprints/behavetree.PackageMetaData'
+[2018.09.13-13.26.37:305][ 10]LogMetaData: Removing '/Game/TopDownBP/Blueprints/AI/BP_monster.BP_monster_C' ref from Metadata '/Game/TopDownBP/Blueprints/BP_monster.PackageMetaData'
+[2018.09.13-13.26.37:305][ 10]LogMetaData: Removing '/Game/TopDownBP/Blueprints/AI/BP_monster.SKEL_BP_monster_C' ref from Metadata '/Game/TopDownBP/Blueprints/BP_monster.PackageMetaData'
+[2018.09.13-13.26.37:305][ 10]LogMetaData: Removing '/Game/TopDownBP/Blueprints/AI/BP_monster.BP_monster:EventGraph.K2Node_Event_0' ref from Metadata '/Game/TopDownBP/Blueprints/BP_monster.PackageMetaData'
+[2018.09.13-13.26.37:305][ 10]LogMetaData: Removing '/Game/TopDownBP/Blueprints/AI/BP_monster.BP_monster:EventGraph.K2Node_Event_1' ref from Metadata '/Game/TopDownBP/Blueprints/BP_monster.PackageMetaData'
+[2018.09.13-13.26.37:305][ 10]LogMetaData: Removing '/Game/TopDownBP/Blueprints/AI/BP_monster.BP_monster:EventGraph.K2Node_Event_2' ref from Metadata '/Game/TopDownBP/Blueprints/BP_monster.PackageMetaData'
+[2018.09.13-13.26.37:305][ 10]LogMetaData: Removing '/Game/TopDownBP/Blueprints/AI/BP_monster.BP_monster:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/TopDownBP/Blueprints/BP_monster.PackageMetaData'
+[2018.09.13-13.26.37:305][ 10]LogMetaData: Removing '/Game/TopDownBP/Blueprints/AI/BP_monster.BP_monster:culculate HP.K2Node_FunctionEntry_0' ref from Metadata '/Game/TopDownBP/Blueprints/BP_monster.PackageMetaData'
+[2018.09.13-13.26.37:305][ 10]LogMetaData: Removing '/Game/TopDownBP/Blueprints/AI/BP_monster.BP_monster:death.K2Node_FunctionEntry_0' ref from Metadata '/Game/TopDownBP/Blueprints/BP_monster.PackageMetaData'
+[2018.09.13-13.26.37:305][ 10]LogMetaData: Removing '/Game/TopDownBP/Blueprints/AI/BP_monster.SKEL_BP_monster_C:ReceiveBeginPlay' ref from Metadata '/Game/TopDownBP/Blueprints/BP_monster.PackageMetaData'
+[2018.09.13-13.26.37:305][ 10]LogMetaData: Removing '/Game/TopDownBP/Blueprints/AI/BP_monster.SKEL_BP_monster_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/TopDownBP/Blueprints/BP_monster.PackageMetaData'
+[2018.09.13-13.26.37:305][ 10]LogMetaData: Removing '/Game/TopDownBP/Blueprints/AI/BP_monster.SKEL_BP_monster_C:ReceiveTick' ref from Metadata '/Game/TopDownBP/Blueprints/BP_monster.PackageMetaData'
+[2018.09.13-13.26.37:305][ 10]LogMetaData: Removing '/Game/TopDownBP/Blueprints/AI/BP_monster.SKEL_BP_monster_C:ReceiveAnyDamage' ref from Metadata '/Game/TopDownBP/Blueprints/BP_monster.PackageMetaData'
+[2018.09.13-13.26.37:305][ 10]LogMetaData: Removing '/Game/TopDownBP/Blueprints/AI/BP_monster.SKEL_BP_monster_C:NewVar_0' ref from Metadata '/Game/TopDownBP/Blueprints/BP_monster.PackageMetaData'
+[2018.09.13-13.26.37:305][ 10]LogMetaData: Removing '/Game/TopDownBP/Blueprints/AI/BP_monster.SKEL_BP_monster_C:hp' ref from Metadata '/Game/TopDownBP/Blueprints/BP_monster.PackageMetaData'
+[2018.09.13-13.26.37:305][ 10]LogMetaData: Removing '/Game/TopDownBP/Blueprints/AI/BP_monster.SKEL_BP_monster_C:UserConstructionScript' ref from Metadata '/Game/TopDownBP/Blueprints/BP_monster.PackageMetaData'
+[2018.09.13-13.26.37:305][ 10]LogMetaData: Removing '/Game/TopDownBP/Blueprints/AI/BP_monster.SKEL_BP_monster_C:culculate HP' ref from Metadata '/Game/TopDownBP/Blueprints/BP_monster.PackageMetaData'
+[2018.09.13-13.26.37:305][ 10]LogMetaData: Removing '/Game/TopDownBP/Blueprints/AI/BP_monster.BP_monster_C:NewVar_0' ref from Metadata '/Game/TopDownBP/Blueprints/BP_monster.PackageMetaData'
+[2018.09.13-13.26.37:305][ 10]LogMetaData: Removing '/Game/TopDownBP/Blueprints/AI/BP_monster.BP_monster_C:hp' ref from Metadata '/Game/TopDownBP/Blueprints/BP_monster.PackageMetaData'
+[2018.09.13-13.26.37:305][ 10]LogMetaData: Removing '/Game/TopDownBP/Blueprints/AI/BP_monster.BP_monster_C:ReceiveAnyDamage' ref from Metadata '/Game/TopDownBP/Blueprints/BP_monster.PackageMetaData'
+[2018.09.13-13.26.37:305][ 10]LogMetaData: Removing '/Game/TopDownBP/Blueprints/AI/BP_monster.BP_monster_C:ReceiveTick' ref from Metadata '/Game/TopDownBP/Blueprints/BP_monster.PackageMetaData'
+[2018.09.13-13.26.37:305][ 10]LogMetaData: Removing '/Game/TopDownBP/Blueprints/AI/BP_monster.BP_monster_C:UserConstructionScript' ref from Metadata '/Game/TopDownBP/Blueprints/BP_monster.PackageMetaData'
+[2018.09.13-13.26.37:305][ 10]LogMetaData: Removing '/Game/TopDownBP/Blueprints/AI/BP_monster.BP_monster_C:culculate HP' ref from Metadata '/Game/TopDownBP/Blueprints/BP_monster.PackageMetaData'
+[2018.09.13-13.26.37:364][ 10]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/AI/ai-bd" FILE="C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/AI/ai-bd.uasset" SILENT=true
+[2018.09.13-13.26.37:378][ 10]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/ai-bdB5628DC1491F531937D12AA65F905CE5.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/AI/ai-bd.uasset'
+[2018.09.13-13.26.37:737][ 10]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/ai-bd" FILE="C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/ai-bd.uasset" SILENT=true
+[2018.09.13-13.26.37:754][ 10]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/ai-bdF96D1C5E49DA4FA9360F8391DBF91F37.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/ai-bd.uasset'
+[2018.09.13-13.26.37:769][ 10]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/AI/behavetree" FILE="C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/AI/behavetree.uasset" SILENT=true
+[2018.09.13-13.26.37:784][ 10]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/behavetreeB3F7C6B54A65297255E5938BC461B442.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/AI/behavetree.uasset'
+[2018.09.13-13.26.38:139][ 10]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/behavetree" FILE="C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/behavetree.uasset" SILENT=true
+[2018.09.13-13.26.38:157][ 10]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/behavetreeD21F2DB342E3E124C338359B138D1A29.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/behavetree.uasset'
+[2018.09.13-13.26.38:171][ 10]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/AI/blackbord" FILE="C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/AI/blackbord.uasset" SILENT=true
+[2018.09.13-13.26.38:178][ 10]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/blackbord271569594D1D40A8EA8F2DA87259AFA9.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/AI/blackbord.uasset'
+[2018.09.13-13.26.38:511][ 10]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/blackbord" FILE="C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/blackbord.uasset" SILENT=true
+[2018.09.13-13.26.38:527][ 10]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/blackbord5A2DDC104EF627A3AA2AC49CEE2BED17.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/blackbord.uasset'
+[2018.09.13-13.26.38:562][ 10]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/AI/BP_monster" FILE="C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/AI/BP_monster.uasset" SILENT=true
+[2018.09.13-13.26.38:614][ 10]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/BP_monsterCBBB6AC6425426D2BD6BAEBB24A8B44A.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/AI/BP_monster.uasset'
+[2018.09.13-13.26.41:088][ 10]SourceControl: rm 'Content/TopDownBP/Blueprints/BP_monster.uasset'
+[2018.09.13-13.26.41:317][ 10]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/monster" FILE="C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/monster.uasset" SILENT=true
+[2018.09.13-13.26.41:331][ 10]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/monster9717660C40BE2A77AA07769A59C0B627.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/monster.uasset'
+[2018.09.13-13.26.41:359][ 10]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/BP_hero" FILE="C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/BP_hero.uasset" SILENT=true
+[2018.09.13-13.26.41:463][ 10]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/BP_hero780217484541A20224501581E1D22A9E.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/BP_hero.uasset'
+[2018.09.13-13.26.48:738][345]LogMetaData: Removing '/Game/TopDownBP/Blueprints/AI/task/wander.wander_C' ref from Metadata '/Game/TopDownBP/Blueprints/task/wander.PackageMetaData'
+[2018.09.13-13.26.48:738][345]LogMetaData: Removing '/Game/TopDownBP/Blueprints/AI/task/wander.SKEL_wander_C:ReceiveExecute' ref from Metadata '/Game/TopDownBP/Blueprints/task/wander.PackageMetaData'
+[2018.09.13-13.26.48:738][345]LogMetaData: Removing '/Game/TopDownBP/Blueprints/AI/task/wander.SKEL_wander_C:destation' ref from Metadata '/Game/TopDownBP/Blueprints/task/wander.PackageMetaData'
+[2018.09.13-13.26.48:738][345]LogMetaData: Removing '/Game/TopDownBP/Blueprints/AI/task/wander.SKEL_wander_C' ref from Metadata '/Game/TopDownBP/Blueprints/task/wander.PackageMetaData'
+[2018.09.13-13.26.48:738][345]LogMetaData: Removing '/Game/TopDownBP/Blueprints/AI/task/wander.wander_C:destation' ref from Metadata '/Game/TopDownBP/Blueprints/task/wander.PackageMetaData'
+[2018.09.13-13.26.48:738][345]LogMetaData: Removing '/Game/TopDownBP/Blueprints/AI/task/wander.wander_C:ReceiveExecute' ref from Metadata '/Game/TopDownBP/Blueprints/task/wander.PackageMetaData'
+[2018.09.13-13.26.48:751][345]LogMetaData: Removing '/Game/TopDownBP/Blueprints/AI/task/attack.attack_C' ref from Metadata '/Game/TopDownBP/Blueprints/task/attack.PackageMetaData'
+[2018.09.13-13.26.48:751][345]LogMetaData: Removing '/Game/TopDownBP/Blueprints/AI/task/attack.SKEL_attack_C' ref from Metadata '/Game/TopDownBP/Blueprints/task/attack.PackageMetaData'
+[2018.09.13-13.26.48:800][345]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/AI/task/wander" FILE="C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/AI/task/wander.uasset" SILENT=true
+[2018.09.13-13.26.48:817][345]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/wanderD01FAD4F4464533E5A5093BB13B0B206.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/AI/task/wander.uasset'
+[2018.09.13-13.26.49:164][345]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/task/wander" FILE="C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/task/wander.uasset" SILENT=true
+[2018.09.13-13.26.49:182][345]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/wander79071EA545039ED313EDCC9C4DA50F3E.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/task/wander.uasset'
+[2018.09.13-13.26.49:203][345]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/AI/task/attack" FILE="C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/AI/task/attack.uasset" SILENT=true
+[2018.09.13-13.26.49:212][345]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/attack88C36F5D410E81D73590188B2690309B.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/AI/task/attack.uasset'
+[2018.09.13-13.26.49:564][345]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/task/attack" FILE="C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/task/attack.uasset" SILENT=true
+[2018.09.13-13.26.49:580][345]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/attackF63D123040914470E3D6C39F0539088C.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/task/attack.uasset'
+[2018.09.13-13.27.03:807][983]LogSlate: Window 'Delete Assets' being destroyed
+[2018.09.13-13.27.29:869][529]LogAssetEditorManager: Opening Asset editor for Material /Game/TopDownBP/Blueprints/M_Cursor_Decal.M_Cursor_Decal
+[2018.09.13-13.27.29:877][529]LogMaterial: Display: Missing cached shader map for material M_Cursor_Decal, compiling. 
+[2018.09.13-13.27.30:349][529]LogMaterial: Display: Missing cached shader map for material M_Cursor_Decal, compiling. 
+[2018.09.13-13.27.30:380][529]LogShaderCompilers: Display: Shaders left to compile 32
+[2018.09.13-13.27.30:392][529]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.09.13-13.27.30:392][529]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.09.13-13.27.30:392][529]LogShaderCompilers: Display: Shaders left to compile 29
+[2018.09.13-13.27.31:220][570]LogShaderCompilers: Display: Shaders left to compile 28
+[2018.09.13-13.27.31:236][571]LogShaderCompilers: Display: Shaders left to compile 27
+[2018.09.13-13.27.31:236][571]LogShaderCompilers: Display: Shaders left to compile 26
+[2018.09.13-13.27.31:236][571]LogShaderCompilers: Display: Shaders left to compile 25
+[2018.09.13-13.27.31:405][581]LogShaderCompilers: Display: Shaders left to compile 24
+[2018.09.13-13.27.31:455][584]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.09.13-13.27.31:505][587]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.09.13-13.27.31:537][589]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.09.13-13.27.31:924][612]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.09.13-13.27.31:962][614]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.09.13-13.27.32:022][618]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.09.13-13.27.32:424][642]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.09.13-13.27.32:490][646]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.09.13-13.27.32:556][650]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.09.13-13.27.32:791][664]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.09.13-13.27.32:908][671]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.09.13-13.27.32:990][676]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.09.13-13.27.33:094][682]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.09.13-13.27.33:292][694]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.09.13-13.27.33:560][710]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.09.13-13.27.33:662][716]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.09.13-13.27.33:717][719]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.09.13-13.27.33:951][733]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.09.13-13.27.34:190][747]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.09.13-13.27.34:287][753]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.09.13-13.27.34:370][758]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.09.13-13.27.34:573][769]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.09.13-13.27.34:840][786]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.09.13-13.27.42:900][161]LogMetaData: Removing '/Game/TopDownBP/Blueprints/wupin/demage.demage:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/TopDownBP/Blueprints/demage.PackageMetaData'
+[2018.09.13-13.27.42:900][161]LogMetaData: Removing '/Game/TopDownBP/Blueprints/wupin/demage.demage_C' ref from Metadata '/Game/TopDownBP/Blueprints/demage.PackageMetaData'
+[2018.09.13-13.27.42:901][161]LogMetaData: Removing '/Game/TopDownBP/Blueprints/wupin/demage.demage:EventGraph.K2Node_Event_0' ref from Metadata '/Game/TopDownBP/Blueprints/demage.PackageMetaData'
+[2018.09.13-13.27.42:901][161]LogMetaData: Removing '/Game/TopDownBP/Blueprints/wupin/demage.demage:EventGraph.K2Node_Event_1' ref from Metadata '/Game/TopDownBP/Blueprints/demage.PackageMetaData'
+[2018.09.13-13.27.42:901][161]LogMetaData: Removing '/Game/TopDownBP/Blueprints/wupin/demage.demage:EventGraph.K2Node_Event_2' ref from Metadata '/Game/TopDownBP/Blueprints/demage.PackageMetaData'
+[2018.09.13-13.27.42:901][161]LogMetaData: Removing '/Game/TopDownBP/Blueprints/wupin/demage.SKEL_demage_C:ReceiveBeginPlay' ref from Metadata '/Game/TopDownBP/Blueprints/demage.PackageMetaData'
+[2018.09.13-13.27.42:901][161]LogMetaData: Removing '/Game/TopDownBP/Blueprints/wupin/demage.SKEL_demage_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/TopDownBP/Blueprints/demage.PackageMetaData'
+[2018.09.13-13.27.42:901][161]LogMetaData: Removing '/Game/TopDownBP/Blueprints/wupin/demage.SKEL_demage_C:ReceiveTick' ref from Metadata '/Game/TopDownBP/Blueprints/demage.PackageMetaData'
+[2018.09.13-13.27.42:901][161]LogMetaData: Removing '/Game/TopDownBP/Blueprints/wupin/demage.SKEL_demage_C:BndEvt__Cube_K2Node_ComponentBoundEvent_2_ComponentHitSignature__DelegateSignature' ref from Metadata '/Game/TopDownBP/Blueprints/demage.PackageMetaData'
+[2018.09.13-13.27.42:901][161]LogMetaData: Removing '/Game/TopDownBP/Blueprints/wupin/demage.SKEL_demage_C:DefaultSceneRoot' ref from Metadata '/Game/TopDownBP/Blueprints/demage.PackageMetaData'
+[2018.09.13-13.27.42:901][161]LogMetaData: Removing '/Game/TopDownBP/Blueprints/wupin/demage.SKEL_demage_C:Cube' ref from Metadata '/Game/TopDownBP/Blueprints/demage.PackageMetaData'
+[2018.09.13-13.27.42:901][161]LogMetaData: Removing '/Game/TopDownBP/Blueprints/wupin/demage.SKEL_demage_C:UserConstructionScript' ref from Metadata '/Game/TopDownBP/Blueprints/demage.PackageMetaData'
+[2018.09.13-13.27.42:901][161]LogMetaData: Removing '/Game/TopDownBP/Blueprints/wupin/demage.SKEL_demage_C' ref from Metadata '/Game/TopDownBP/Blueprints/demage.PackageMetaData'
+[2018.09.13-13.27.42:901][161]LogMetaData: Removing '/Game/TopDownBP/Blueprints/wupin/demage.demage_C:DefaultSceneRoot' ref from Metadata '/Game/TopDownBP/Blueprints/demage.PackageMetaData'
+[2018.09.13-13.27.42:901][161]LogMetaData: Removing '/Game/TopDownBP/Blueprints/wupin/demage.demage_C:Cube' ref from Metadata '/Game/TopDownBP/Blueprints/demage.PackageMetaData'
+[2018.09.13-13.27.42:901][161]LogMetaData: Removing '/Game/TopDownBP/Blueprints/wupin/demage.demage_C:UserConstructionScript' ref from Metadata '/Game/TopDownBP/Blueprints/demage.PackageMetaData'
+[2018.09.13-13.27.42:917][161]LogMetaData: Removing '/Game/TopDownBP/Blueprints/wupin/hp.hp:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/TopDownBP/Blueprints/hp.PackageMetaData'
+[2018.09.13-13.27.42:917][161]LogMetaData: Removing '/Game/TopDownBP/Blueprints/wupin/hp.hp_C' ref from Metadata '/Game/TopDownBP/Blueprints/hp.PackageMetaData'
+[2018.09.13-13.27.42:917][161]LogMetaData: Removing '/Game/TopDownBP/Blueprints/wupin/hp.hp:EventGraph.K2Node_Event_0' ref from Metadata '/Game/TopDownBP/Blueprints/hp.PackageMetaData'
+[2018.09.13-13.27.42:917][161]LogMetaData: Removing '/Game/TopDownBP/Blueprints/wupin/hp.hp:EventGraph.K2Node_Event_1' ref from Metadata '/Game/TopDownBP/Blueprints/hp.PackageMetaData'
+[2018.09.13-13.27.42:917][161]LogMetaData: Removing '/Game/TopDownBP/Blueprints/wupin/hp.hp:EventGraph.K2Node_Event_2' ref from Metadata '/Game/TopDownBP/Blueprints/hp.PackageMetaData'
+[2018.09.13-13.27.42:917][161]LogMetaData: Removing '/Game/TopDownBP/Blueprints/wupin/hp.SKEL_hp_C:ReceiveBeginPlay' ref from Metadata '/Game/TopDownBP/Blueprints/hp.PackageMetaData'
+[2018.09.13-13.27.42:917][161]LogMetaData: Removing '/Game/TopDownBP/Blueprints/wupin/hp.SKEL_hp_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/TopDownBP/Blueprints/hp.PackageMetaData'
+[2018.09.13-13.27.42:917][161]LogMetaData: Removing '/Game/TopDownBP/Blueprints/wupin/hp.SKEL_hp_C:ReceiveTick' ref from Metadata '/Game/TopDownBP/Blueprints/hp.PackageMetaData'
+[2018.09.13-13.27.42:917][161]LogMetaData: Removing '/Game/TopDownBP/Blueprints/wupin/hp.SKEL_hp_C:BndEvt__Cube_K2Node_ComponentBoundEvent_2_ComponentHitSignature__DelegateSignature' ref from Metadata '/Game/TopDownBP/Blueprints/hp.PackageMetaData'
+[2018.09.13-13.27.42:917][161]LogMetaData: Removing '/Game/TopDownBP/Blueprints/wupin/hp.SKEL_hp_C:DefaultSceneRoot' ref from Metadata '/Game/TopDownBP/Blueprints/hp.PackageMetaData'
+[2018.09.13-13.27.42:917][161]LogMetaData: Removing '/Game/TopDownBP/Blueprints/wupin/hp.SKEL_hp_C:Cube' ref from Metadata '/Game/TopDownBP/Blueprints/hp.PackageMetaData'
+[2018.09.13-13.27.42:917][161]LogMetaData: Removing '/Game/TopDownBP/Blueprints/wupin/hp.SKEL_hp_C:UserConstructionScript' ref from Metadata '/Game/TopDownBP/Blueprints/hp.PackageMetaData'
+[2018.09.13-13.27.42:917][161]LogMetaData: Removing '/Game/TopDownBP/Blueprints/wupin/hp.SKEL_hp_C' ref from Metadata '/Game/TopDownBP/Blueprints/hp.PackageMetaData'
+[2018.09.13-13.27.42:917][161]LogMetaData: Removing '/Game/TopDownBP/Blueprints/wupin/hp.hp_C:DefaultSceneRoot' ref from Metadata '/Game/TopDownBP/Blueprints/hp.PackageMetaData'
+[2018.09.13-13.27.42:917][161]LogMetaData: Removing '/Game/TopDownBP/Blueprints/wupin/hp.hp_C:Cube' ref from Metadata '/Game/TopDownBP/Blueprints/hp.PackageMetaData'
+[2018.09.13-13.27.42:917][161]LogMetaData: Removing '/Game/TopDownBP/Blueprints/wupin/hp.hp_C:UserConstructionScript' ref from Metadata '/Game/TopDownBP/Blueprints/hp.PackageMetaData'
+[2018.09.13-13.27.42:933][161]LogMetaData: Removing '/Game/TopDownBP/Blueprints/wupin/killAIbox.killAIbox:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/TopDownBP/Blueprints/killAIbox.PackageMetaData'
+[2018.09.13-13.27.42:933][161]LogMetaData: Removing '/Game/TopDownBP/Blueprints/wupin/killAIbox.killAIbox_C' ref from Metadata '/Game/TopDownBP/Blueprints/killAIbox.PackageMetaData'
+[2018.09.13-13.27.42:933][161]LogMetaData: Removing '/Game/TopDownBP/Blueprints/wupin/killAIbox.killAIbox:EventGraph.K2Node_Event_0' ref from Metadata '/Game/TopDownBP/Blueprints/killAIbox.PackageMetaData'
+[2018.09.13-13.27.42:933][161]LogMetaData: Removing '/Game/TopDownBP/Blueprints/wupin/killAIbox.killAIbox:EventGraph.K2Node_Event_1' ref from Metadata '/Game/TopDownBP/Blueprints/killAIbox.PackageMetaData'
+[2018.09.13-13.27.42:933][161]LogMetaData: Removing '/Game/TopDownBP/Blueprints/wupin/killAIbox.killAIbox:EventGraph.K2Node_Event_2' ref from Metadata '/Game/TopDownBP/Blueprints/killAIbox.PackageMetaData'
+[2018.09.13-13.27.42:933][161]LogMetaData: Removing '/Game/TopDownBP/Blueprints/wupin/killAIbox.SKEL_killAIbox_C:ReceiveBeginPlay' ref from Metadata '/Game/TopDownBP/Blueprints/killAIbox.PackageMetaData'
+[2018.09.13-13.27.42:933][161]LogMetaData: Removing '/Game/TopDownBP/Blueprints/wupin/killAIbox.SKEL_killAIbox_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/TopDownBP/Blueprints/killAIbox.PackageMetaData'
+[2018.09.13-13.27.42:933][161]LogMetaData: Removing '/Game/TopDownBP/Blueprints/wupin/killAIbox.SKEL_killAIbox_C:ReceiveTick' ref from Metadata '/Game/TopDownBP/Blueprints/killAIbox.PackageMetaData'
+[2018.09.13-13.27.42:933][161]LogMetaData: Removing '/Game/TopDownBP/Blueprints/wupin/killAIbox.SKEL_killAIbox_C:BndEvt__Cube_K2Node_ComponentBoundEvent_1_ComponentHitSignature__DelegateSignature' ref from Metadata '/Game/TopDownBP/Blueprints/killAIbox.PackageMetaData'
+[2018.09.13-13.27.42:933][161]LogMetaData: Removing '/Game/TopDownBP/Blueprints/wupin/killAIbox.SKEL_killAIbox_C:DefaultSceneRoot' ref from Metadata '/Game/TopDownBP/Blueprints/killAIbox.PackageMetaData'
+[2018.09.13-13.27.42:933][161]LogMetaData: Removing '/Game/TopDownBP/Blueprints/wupin/killAIbox.SKEL_killAIbox_C:Cube' ref from Metadata '/Game/TopDownBP/Blueprints/killAIbox.PackageMetaData'
+[2018.09.13-13.27.42:933][161]LogMetaData: Removing '/Game/TopDownBP/Blueprints/wupin/killAIbox.SKEL_killAIbox_C:Box' ref from Metadata '/Game/TopDownBP/Blueprints/killAIbox.PackageMetaData'
+[2018.09.13-13.27.42:933][161]LogMetaData: Removing '/Game/TopDownBP/Blueprints/wupin/killAIbox.SKEL_killAIbox_C:UserConstructionScript' ref from Metadata '/Game/TopDownBP/Blueprints/killAIbox.PackageMetaData'
+[2018.09.13-13.27.42:933][161]LogMetaData: Removing '/Game/TopDownBP/Blueprints/wupin/killAIbox.SKEL_killAIbox_C' ref from Metadata '/Game/TopDownBP/Blueprints/killAIbox.PackageMetaData'
+[2018.09.13-13.27.42:933][161]LogMetaData: Removing '/Game/TopDownBP/Blueprints/wupin/killAIbox.killAIbox_C:DefaultSceneRoot' ref from Metadata '/Game/TopDownBP/Blueprints/killAIbox.PackageMetaData'
+[2018.09.13-13.27.42:933][161]LogMetaData: Removing '/Game/TopDownBP/Blueprints/wupin/killAIbox.killAIbox_C:Cube' ref from Metadata '/Game/TopDownBP/Blueprints/killAIbox.PackageMetaData'
+[2018.09.13-13.27.42:933][161]LogMetaData: Removing '/Game/TopDownBP/Blueprints/wupin/killAIbox.killAIbox_C:Box' ref from Metadata '/Game/TopDownBP/Blueprints/killAIbox.PackageMetaData'
+[2018.09.13-13.27.42:933][161]LogMetaData: Removing '/Game/TopDownBP/Blueprints/wupin/killAIbox.killAIbox_C:UserConstructionScript' ref from Metadata '/Game/TopDownBP/Blueprints/killAIbox.PackageMetaData'
+[2018.09.13-13.27.43:003][161]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/wupin/demage" FILE="C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/wupin/demage.uasset" SILENT=true
+[2018.09.13-13.27.43:031][161]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/demageD90E50964B254AEFC16058B7AB74E9B1.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/wupin/demage.uasset'
+[2018.09.13-13.27.43:389][161]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/demage" FILE="C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/demage.uasset" SILENT=true
+[2018.09.13-13.27.43:407][161]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/demage4AB0A8804F964FA79D73B883F345040D.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/demage.uasset'
+[2018.09.13-13.27.43:432][161]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/wupin/hp" FILE="C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/wupin/hp.uasset" SILENT=true
+[2018.09.13-13.27.43:459][161]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/hpA1CBB1554A09F9EF924CD6A2BAFC3B4B.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/wupin/hp.uasset'
+[2018.09.13-13.27.43:818][161]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/hp" FILE="C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/hp.uasset" SILENT=true
+[2018.09.13-13.27.43:835][161]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/hp4B4C1A3C4D817F0CD7D3BDA26F70A641.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/hp.uasset'
+[2018.09.13-13.27.43:868][161]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/wupin/killAIbox" FILE="C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/wupin/killAIbox.uasset" SILENT=true
+[2018.09.13-13.27.43:897][161]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/killAIbox0B521A0646099A99D4537093425299E9.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/wupin/killAIbox.uasset'
+[2018.09.13-13.27.44:255][161]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/killAIbox" FILE="C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/killAIbox.uasset" SILENT=true
+[2018.09.13-13.27.44:271][161]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/killAIboxFA1B70AB483B40EB1C437DB7CE0318CD.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/killAIbox.uasset'
+[2018.09.13-13.27.45:886][192]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.09.13-13.27.46:934][251]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.13-13.27.47:017][256]LogTemp: Repeating last play command: 选中的视口
+[2018.09.13-13.27.47:030][256]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.13-13.27.47:030][256]BlueprintLog: New page: 运行前自动重新编译
+[2018.09.13-13.27.47:032][256]LogPlayLevel: [PlayLevel] Compiling ai-bd before play...
+[2018.09.13-13.27.47:060][256]LogPlayLevel: [PlayLevel] Compiling BP_hero before play...
+[2018.09.13-13.27.47:291][256]LogPlayLevel: [PlayLevel] Compiling TopDownController before play...
+[2018.09.13-13.27.47:314][256]LogPlayLevel: [PlayLevel] Compiling TopDownExampleMap before play...
+[2018.09.13-13.27.47:482][256]LogPlayLevel: PlayLevel: Blueprint regeneration took 451 ms (4 blueprints)
+[2018.09.13-13.27.47:497][256]PIE: New page: PIE会话: TopDownExampleMap (2018年9月14日 上午5:27:47)
+[2018.09.13-13.27.47:497][256]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2018.09.13-13.27.47:516][256]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019010s)
+[2018.09.13-13.27.47:518][256]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.09.13-13.27.47:518][256]LogPlayLevel: PIE: World Init took: (0.001216s)
+[2018.09.13-13.27.47:518][256]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.020441s)
+[2018.09.13-13.27.47:608][256]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.13-13.27.47:687][256]LogInit: FAudioDevice initialized.
+[2018.09.13-13.27.47:736][256]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.13-13.27.47:747][256]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2018.09.13-21.27.47
+[2018.09.13-13.27.47:752][256]LogWorld: Bringing up level for play took: 0.014163
+[2018.09.13-13.27.47:774][256]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 10 classes and 0 folders.
+[2018.09.13-13.27.47:779][256]PIE: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap的‘在编辑器中播放’的起始时间0.772
+[2018.09.13-13.27.47:779][256]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.13-13.27.48:944][324]LogBlueprintUserMessages: [monster2_5] monster death
+[2018.09.13-13.27.50:110][394]LogCharacterMovement: monster5_14 is stuck and failed to move! Velocity: X=-1.07 Y=-34.12 Z=0.00 Location: X=-107.61 Y=-100.30 Z=275.20 Normal: X=-0.00 Y=-1.00 Z=-0.00 PenetrationDepth:3.150 Actor:TopDownCharacter Component:rw BoneName:None (0 other events since notify)
+[2018.09.13-13.27.51:560][481]LogBlueprintUserMessages: [monster2_5] monster death
+[2018.09.13-13.27.51:560][481]LogBlueprintUserMessages: [TopDownCharacter] 1
+[2018.09.13-13.27.51:943][504]LogBlueprintUserMessages: [monster2_5] monster death
+[2018.09.13-13.27.51:943][504]LogBlueprintUserMessages: [TopDownCharacter] 2
+[2018.09.13-13.27.51:993][507]LogCharacterMovement: monster_2 is stuck and failed to move! Velocity: X=17.56 Y=66.75 Z=0.00 Location: X=-176.43 Y=-260.12 Z=275.05 Normal: X=0.06 Y=-0.81 Z=-0.59 PenetrationDepth:0.000 Actor:TopDownCharacter Component:rw BoneName:None (0 other events since notify)
+[2018.09.13-13.27.52:593][543]LogBlueprintUserMessages: [TopDownCharacter] 3
+[2018.09.13-13.27.52:993][567]LogBlueprintUserMessages: [monster3_8] monster death
+[2018.09.13-13.27.54:026][629]LogBlueprintUserMessages: [monster8] monster death
+[2018.09.13-13.27.54:594][663]LogBlueprintUserMessages: [TopDownCharacter] 连击中断
+[2018.09.13-13.27.55:276][704]LogBlueprintUserMessages: [monster8] monster death
+[2018.09.13-13.27.55:277][704]LogBlueprintUserMessages: [TopDownCharacter] 1
+[2018.09.13-13.27.57:278][824]LogBlueprintUserMessages: [TopDownCharacter] 连击中断
+[2018.09.13-13.27.57:311][826]LogCharacterMovement: monster5_14 is stuck and failed to move! Velocity: X=-203.29 Y=166.46 Z=0.00 Location: X=-341.80 Y=-211.20 Z=274.89 Normal: X=0.90 Y=0.13 Z=-0.42 PenetrationDepth:0.000 Actor:TopDownCharacter Component:rw BoneName:None (16 other events since notify)
+[2018.09.13-13.27.59:327][947]LogBlueprintUserMessages: [monster_2] monster death
+[2018.09.13-13.27.59:943][984]LogBlueprintUserMessages: [TopDownCharacter] 1
+[2018.09.13-13.28.01:245][ 62]LogBlueprintUserMessages: [TopDownCharacter] 2
+[2018.09.13-13.28.03:247][182]LogBlueprintUserMessages: [TopDownCharacter] 连击中断
+[2018.09.13-13.28.03:661][207]LogBlueprintUserMessages: [TopDownCharacter] 1
+[2018.09.13-13.28.04:966][285]LogBlueprintUserMessages: [TopDownCharacter] 2
+[2018.09.13-13.28.06:963][405]LogBlueprintUserMessages: [TopDownCharacter] 连击中断
+[2018.09.13-13.28.07:344][428]LogBlueprintUserMessages: [TopDownCharacter] 70.0
+[2018.09.13-13.28.09:978][586]LogBlueprintUserMessages: [TopDownCharacter] 60.0
+[2018.09.13-13.28.11:730][691]LogBlueprintUserMessages: [TopDownCharacter] 1
+[2018.09.13-13.28.12:394][731]LogBlueprintUserMessages: [TopDownCharacter] 2
+[2018.09.13-13.28.14:396][851]LogBlueprintUserMessages: [TopDownCharacter] 连击中断
+[2018.09.13-13.28.15:230][901]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.13-13.28.15:230][901]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.13-13.28.15:269][901]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.13-13.28.15:269][901]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.13-13.28.15:303][901]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.13-13.28.15:338][903]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2018.09.13-13.28.15:555][916]Cmd: SELECT NONE
+[2018.09.13-13.28.18:122][ 70]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.13-13.29.06:547][395]LogSlate: Window '选择父类' being destroyed
+[2018.09.13-13.29.44:139][525]LogMetaData: Removing '/Game/TopDownBP/Blueprints/wupin/BP_demage.BP_demage_C' ref from Metadata '/Game/TopDownBP/Blueprints/wupin/demage.PackageMetaData'
+[2018.09.13-13.29.44:139][525]LogMetaData: Removing '/Game/TopDownBP/Blueprints/wupin/BP_demage.SKEL_BP_demage_C' ref from Metadata '/Game/TopDownBP/Blueprints/wupin/demage.PackageMetaData'
+[2018.09.13-13.29.44:139][525]LogMetaData: Removing '/Game/TopDownBP/Blueprints/wupin/BP_demage.BP_demage:EventGraph.K2Node_Event_0' ref from Metadata '/Game/TopDownBP/Blueprints/wupin/demage.PackageMetaData'
+[2018.09.13-13.29.44:139][525]LogMetaData: Removing '/Game/TopDownBP/Blueprints/wupin/BP_demage.BP_demage:EventGraph.K2Node_Event_1' ref from Metadata '/Game/TopDownBP/Blueprints/wupin/demage.PackageMetaData'
+[2018.09.13-13.29.44:139][525]LogMetaData: Removing '/Game/TopDownBP/Blueprints/wupin/BP_demage.BP_demage:EventGraph.K2Node_Event_2' ref from Metadata '/Game/TopDownBP/Blueprints/wupin/demage.PackageMetaData'
+[2018.09.13-13.29.44:140][525]LogMetaData: Removing '/Game/TopDownBP/Blueprints/wupin/BP_demage.BP_demage:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/TopDownBP/Blueprints/wupin/demage.PackageMetaData'
+[2018.09.13-13.29.44:220][525]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/wupin/BP_demage" FILE="C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/wupin/BP_demage.uasset" SILENT=true
+[2018.09.13-13.29.44:250][525]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/BP_demageB3ACD2A349E13AF60655DCB4CB9C33D4.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/wupin/BP_demage.uasset'
+[2018.09.13-13.29.45:690][525]SourceControl: rm 'Content/TopDownBP/Blueprints/wupin/demage.uasset'
+[2018.09.13-13.29.45:928][525]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/demage" FILE="C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/demage.uasset" SILENT=true
+[2018.09.13-13.29.45:945][525]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/demage39DA417342E22FB9B7A7AC91466D5A5E.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/demage.uasset'
+[2018.09.13-13.29.56:944][ 78]LogMetaData: Removing '/Game/TopDownBP/Blueprints/wupin/BP_hp.BP_hp_C' ref from Metadata '/Game/TopDownBP/Blueprints/wupin/hp.PackageMetaData'
+[2018.09.13-13.29.56:944][ 78]LogMetaData: Removing '/Game/TopDownBP/Blueprints/wupin/BP_hp.SKEL_BP_hp_C' ref from Metadata '/Game/TopDownBP/Blueprints/wupin/hp.PackageMetaData'
+[2018.09.13-13.29.56:944][ 78]LogMetaData: Removing '/Game/TopDownBP/Blueprints/wupin/BP_hp.BP_hp:EventGraph.K2Node_Event_0' ref from Metadata '/Game/TopDownBP/Blueprints/wupin/hp.PackageMetaData'
+[2018.09.13-13.29.56:944][ 78]LogMetaData: Removing '/Game/TopDownBP/Blueprints/wupin/BP_hp.BP_hp:EventGraph.K2Node_Event_1' ref from Metadata '/Game/TopDownBP/Blueprints/wupin/hp.PackageMetaData'
+[2018.09.13-13.29.56:945][ 78]LogMetaData: Removing '/Game/TopDownBP/Blueprints/wupin/BP_hp.BP_hp:EventGraph.K2Node_Event_2' ref from Metadata '/Game/TopDownBP/Blueprints/wupin/hp.PackageMetaData'
+[2018.09.13-13.29.56:945][ 78]LogMetaData: Removing '/Game/TopDownBP/Blueprints/wupin/BP_hp.BP_hp:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/TopDownBP/Blueprints/wupin/hp.PackageMetaData'
+[2018.09.13-13.29.57:028][ 78]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/wupin/BP_hp" FILE="C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/wupin/BP_hp.uasset" SILENT=true
+[2018.09.13-13.29.57:057][ 78]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/BP_hp302281F04547163D1AABFEB015D53E7F.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/wupin/BP_hp.uasset'
+[2018.09.13-13.29.58:526][ 78]SourceControl: rm 'Content/TopDownBP/Blueprints/wupin/hp.uasset'
+[2018.09.13-13.29.58:738][ 78]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/hp" FILE="C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/hp.uasset" SILENT=true
+[2018.09.13-13.29.58:754][ 78]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/hp6B5665084B409DB7D179F6B8F226939F.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/hp.uasset'
+[2018.09.13-13.30.13:738][867]LogMetaData: Removing '/Game/TopDownBP/Blueprints/wupin/BP_killAIbox.BP_killAIbox_C' ref from Metadata '/Game/TopDownBP/Blueprints/wupin/killAIbox.PackageMetaData'
+[2018.09.13-13.30.13:738][867]LogMetaData: Removing '/Game/TopDownBP/Blueprints/wupin/BP_killAIbox.SKEL_BP_killAIbox_C' ref from Metadata '/Game/TopDownBP/Blueprints/wupin/killAIbox.PackageMetaData'
+[2018.09.13-13.30.13:738][867]LogMetaData: Removing '/Game/TopDownBP/Blueprints/wupin/BP_killAIbox.BP_killAIbox:EventGraph.K2Node_Event_0' ref from Metadata '/Game/TopDownBP/Blueprints/wupin/killAIbox.PackageMetaData'
+[2018.09.13-13.30.13:738][867]LogMetaData: Removing '/Game/TopDownBP/Blueprints/wupin/BP_killAIbox.BP_killAIbox:EventGraph.K2Node_Event_1' ref from Metadata '/Game/TopDownBP/Blueprints/wupin/killAIbox.PackageMetaData'
+[2018.09.13-13.30.13:738][867]LogMetaData: Removing '/Game/TopDownBP/Blueprints/wupin/BP_killAIbox.BP_killAIbox:EventGraph.K2Node_Event_2' ref from Metadata '/Game/TopDownBP/Blueprints/wupin/killAIbox.PackageMetaData'
+[2018.09.13-13.30.13:738][867]LogMetaData: Removing '/Game/TopDownBP/Blueprints/wupin/BP_killAIbox.BP_killAIbox:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/TopDownBP/Blueprints/wupin/killAIbox.PackageMetaData'
+[2018.09.13-13.30.13:811][867]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/wupin/BP_killAIbox" FILE="C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/wupin/BP_killAIbox.uasset" SILENT=true
+[2018.09.13-13.30.13:839][867]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/BP_killAIboxB65341764E847DA991112EA1437BF789.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/wupin/BP_killAIbox.uasset'
+[2018.09.13-13.30.15:381][867]SourceControl: rm 'Content/TopDownBP/Blueprints/wupin/killAIbox.uasset'
+[2018.09.13-13.30.15:612][867]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/killAIbox" FILE="C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/killAIbox.uasset" SILENT=true
+[2018.09.13-13.30.15:629][867]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/killAIboxECD35AD340235840B8C9BDA93F06D3EE.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/killAIbox.uasset'
+[2018.09.13-13.30.19:132][ 73]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/wupin/BP_jiasu.BP_jiasu
+[2018.09.13-13.30.46:279][670]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.13-13.30.49:601][866]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.13-13.30.57:014][306]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.13-13.31.31:043][851]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/StarterContent/Shapes/Shape_Cylinder.Shape_Cylinder
+[2018.09.13-13.31.34:140][  5]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/StarterContent/Shapes/Shape_Cylinder.Shape_Cylinder
+[2018.09.13-13.31.55:455][245]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.13-13.32.01:141][466]LogSlate: Window '另存资源为' being destroyed
+[2018.09.13-13.32.23:529][772]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.13-13.32.29:707][129]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.13-13.32.36:948][551]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.13-13.32.37:015][555]BlueprintLog: New page: 编译BP_jiasu
+[2018.09.13-13.32.46:432][105]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.13-13.32.58:525][818]LogSlate: Took 0.002538 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.09.13-13.35.12:439][601]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.13-13.35.15:482][758]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/TopDownExampleMap_Auto136C3A56B4C7C8DB8784C2188BD42E1E6.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/Autosaves/Game/TopDownBP/Maps/TopDownExampleMap_Auto1.umap'
+[2018.09.13-13.35.15:492][758]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.343
+[2018.09.13-13.35.15:492][758]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.343
+[2018.09.13-13.35.15:498][758]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Blueprints/TopDownGameMode] ([1] browsable assets)...
+[2018.09.13-13.35.15:498][758]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/TopDownGameMode]
+[2018.09.13-13.35.15:522][758]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/TopDownGameMode_Auto1CE464D4C4676ABCF722CD1B790CE7484.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/Autosaves/Game/TopDownBP/Blueprints/TopDownGameMode_Auto1.uasset'
+[2018.09.13-13.35.15:528][758]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Blueprints/TopDownController] ([1] browsable assets)...
+[2018.09.13-13.35.15:528][758]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/TopDownController]
+[2018.09.13-13.35.15:576][758]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/TopDownController_Auto10B3B0035485797FB15B101AC20B7B023.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/Autosaves/Game/TopDownBP/Blueprints/TopDownController_Auto1.uasset'
+[2018.09.13-13.35.15:582][758]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Blueprints/AI/ai-bd] ([1] browsable assets)...
+[2018.09.13-13.35.15:582][758]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/AI/ai-bd]
+[2018.09.13-13.35.15:606][758]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/ai-bd_Auto1459252444F7668C3C30E64BA8F1C61E4.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/Autosaves/Game/TopDownBP/Blueprints/AI/ai-bd_Auto1.uasset'
+[2018.09.13-13.35.15:612][758]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownBP/Blueprints/wupin/BP_jiasu] ([1] browsable assets)...
+[2018.09.13-13.35.15:625][758]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TopDownBP/Blueprints/wupin/BP_jiasu.BP_jiasu]
+[2018.09.13-13.35.15:625][758]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/wupin/BP_jiasu]
+[2018.09.13-13.35.15:650][758]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/BP_jiasu_Auto1F67EE0EF4C1081B90672A786AB0089B3.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/Autosaves/Game/TopDownBP/Blueprints/wupin/BP_jiasu_Auto1.uasset'
+[2018.09.13-13.35.15:654][758]LogFileHelpers: Auto-saving content packages took 0.159
+[2018.09.13-13.35.16:193][790]BlueprintLog: New page: 编译BP_jiasu
+[2018.09.13-13.35.20:024][  6]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.13-13.36.04:475][641]BlueprintLog: New page: 编译BP_jiasu
+[2018.09.13-13.36.05:406][686]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.13-13.36.14:901][246]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.13-13.38.16:458][455]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/TopDownBP/Blueprints/UI/BP_Epressget.BP_Epressget
+[2018.09.13-13.40.08:825][ 69]BlueprintLog: New page: 编译BP_Epressget
+[2018.09.13-13.44.12:607][476]BlueprintLog: New page: 编译BP_Epressget
+[2018.09.13-13.44.36:858][884]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.09.13-13.45.41:177][386]LogSlate: Window '删除变量' being destroyed
+[2018.09.13-13.45.52:177][958]LogSlate: Window '删除变量' being destroyed
+[2018.09.13-13.46.00:689][467]BlueprintLog: New page: 编译BP_jiasu
+[2018.09.13-13.46.07:654][733]LogSlate: Window '删除变量' being destroyed
+[2018.09.13-13.46.12:403][ 16]BlueprintLog: New page: 编译BP_Epressget
+[2018.09.13-13.46.17:483][ 93]LogSlate: Window '删除变量' being destroyed
+[2018.09.13-13.46.45:502][766]BlueprintLog: New page: 编译BP_Epressget
+[2018.09.13-13.47.08:954][126]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.09.13-13.47.28:503][287]BlueprintLog: New page: 编译BP_Epressget
+[2018.09.13-13.47.32:199][504]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.09.13-13.48.47:013][799]BlueprintLog: New page: 编译BP_jiasu
+[2018.09.13-13.49.02:448][704]LogEditorViewport: Clicking on Actor (LMB): BP_jiasu_C (BP_jiasu)
+[2018.09.13-13.49.14:205][391]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.13-13.49.14:844][394]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/TopDownExampleMapB384BBF74CC670D559C4D79E50908568.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2018.09.13-13.49.15:092][394]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Maps/TopDownExampleMap_BuiltData" FILE="C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Maps/TopDownExampleMap_BuiltData.uasset" SILENT=true
+[2018.09.13-13.49.15:310][394]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/TopDownExampleMap_BuiltDataDAEDCEEF43808975A395A086AC804C05.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Maps/TopDownExampleMap_BuiltData.uasset'
+[2018.09.13-13.51.56:447][996]BlueprintLog: New page: 编译BP_jiasu
+[2018.09.13-13.51.58:511][106]LogTemp: Repeating last play command: 选中的视口
+[2018.09.13-13.51.58:544][106]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.13-13.51.58:544][106]BlueprintLog: New page: 运行前自动重新编译
+[2018.09.13-13.51.58:545][106]LogPlayLevel: [PlayLevel] Compiling ai-bd before play...
+[2018.09.13-13.51.58:559][106]LogPlayLevel: [PlayLevel] Compiling TopDownController before play...
+[2018.09.13-13.51.58:614][106]LogPlayLevel: PlayLevel: Blueprint regeneration took 71 ms (2 blueprints)
+[2018.09.13-13.51.58:614][106]PIE: New page: PIE会话: TopDownExampleMap (2018年9月14日 上午5:51:58)
+[2018.09.13-13.51.58:614][106]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2018.09.13-13.51.58:635][106]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020166s)
+[2018.09.13-13.51.58:636][106]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.09.13-13.51.58:637][106]LogPlayLevel: PIE: World Init took: (0.001838s)
+[2018.09.13-13.51.58:637][106]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.022230s)
+[2018.09.13-13.51.58:728][106]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.13-13.51.58:800][106]LogInit: FAudioDevice initialized.
+[2018.09.13-13.51.58:832][106]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.13-13.51.58:841][106]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2018.09.13-21.51.58
+[2018.09.13-13.51.58:843][106]LogWorld: Bringing up level for play took: 0.008706
+[2018.09.13-13.51.58:857][106]PIE: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap的‘在编辑器中播放’的起始时间-0.149
+[2018.09.13-13.51.58:857][106]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.13-13.52.00:594][209]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.09.13-13.52.00:594][209]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.09.13-13.52.04:730][457]LogBlueprintUserMessages: [monster2_5] monster death
+[2018.09.13-13.52.04:928][469]LogBlueprintUserMessages: [monster3_8] monster death
+[2018.09.13-13.52.11:414][858]LogBlueprintUserMessages: [monster8] monster death
+[2018.09.13-13.52.12:450][920]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.13-13.52.12:451][920]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.13-13.52.12:508][920]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.13-13.52.12:508][920]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.13-13.52.12:544][920]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.13-13.52.12:561][921]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2018.09.13-13.52.13:497][977]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.09.13-13.52.14:096][  9]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.13-13.52.26:642][752]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.13-13.54.25:186][748]BlueprintLog: New page: 编译BP_hero
+[2018.09.13-13.55.00:403][805]BlueprintLog: New page: 编译BP_Epressget
+[2018.09.13-13.55.53:380][945]BlueprintLog: New page: 编译BP_jiasu
+[2018.09.13-13.56.39:520][686]BlueprintLog: New page: 编译BP_jiasu
+[2018.09.13-13.57.00:020][898]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/TopDownController.TopDownController
+[2018.09.13-13.58.08:097][884]BlueprintLog: New page: 编译BP_hero
+[2018.09.13-13.58.18:676][427]BlueprintLog: New page: 编译BP_hero
+[2018.09.13-13.59.14:763][709]BlueprintLog: New page: 编译BP_jiasu
+[2018.09.13-13.59.35:207][908]BlueprintLog: New page: 编译BP_hero
+[2018.09.13-14.02.01:938][443]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/TopDownExampleMap_Auto2EB6C985B485DC3F744E580B9CE43167B.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/Autosaves/Game/TopDownBP/Maps/TopDownExampleMap_Auto2.umap'
+[2018.09.13-14.02.01:951][443]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.371
+[2018.09.13-14.02.01:951][443]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.371
+[2018.09.13-14.02.01:956][443]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownBP/Blueprints/BP_hero] ([1] browsable assets)...
+[2018.09.13-14.02.01:977][443]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TopDownBP/Blueprints/BP_hero.BP_hero]
+[2018.09.13-14.02.01:977][443]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/BP_hero]
+[2018.09.13-14.02.02:081][443]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/BP_hero_Auto2C7FCADAD4CB802CE59FF0CB487DAA504.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/Autosaves/Game/TopDownBP/Blueprints/BP_hero_Auto2.uasset'
+[2018.09.13-14.02.02:088][443]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Blueprints/TopDownController] ([1] browsable assets)...
+[2018.09.13-14.02.02:089][443]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/TopDownController]
+[2018.09.13-14.02.02:151][443]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/TopDownController_Auto2524DDC9F404E24EE7C24E3B28B2748A4.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/Autosaves/Game/TopDownBP/Blueprints/TopDownController_Auto2.uasset'
+[2018.09.13-14.02.02:167][443]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Blueprints/AI/ai-bd] ([1] browsable assets)...
+[2018.09.13-14.02.02:167][443]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/AI/ai-bd]
+[2018.09.13-14.02.02:207][443]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/ai-bd_Auto28644F9834B24B4AD4EC0E6B209112383.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/Autosaves/Game/TopDownBP/Blueprints/AI/ai-bd_Auto2.uasset'
+[2018.09.13-14.02.02:214][443]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownBP/Blueprints/wupin/BP_jiasu] ([1] browsable assets)...
+[2018.09.13-14.02.02:232][443]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TopDownBP/Blueprints/wupin/BP_jiasu.BP_jiasu]
+[2018.09.13-14.02.02:232][443]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/wupin/BP_jiasu]
+[2018.09.13-14.02.02:277][443]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/BP_jiasu_Auto263B63BDA47987C86410B50BB0933F115.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/Autosaves/Game/TopDownBP/Blueprints/wupin/BP_jiasu_Auto2.uasset'
+[2018.09.13-14.02.02:284][443]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Blueprints/UI/BP_Epressget] ([1] browsable assets)...
+[2018.09.13-14.02.02:284][443]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/UI/BP_Epressget]
+[2018.09.13-14.02.02:302][443]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/BP_Epressget_Auto25082C7B54EB63C808227A1975CBEE8D5.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/Autosaves/Game/TopDownBP/Blueprints/UI/BP_Epressget_Auto2.uasset'
+[2018.09.13-14.02.02:308][443]LogFileHelpers: Auto-saving content packages took 0.355
+[2018.09.13-14.02.30:905][151]BlueprintLog: New page: 编译BP_jiasu
+[2018.09.13-14.03.46:527][638]BlueprintLog: New page: 编译BP_jiasu
+[2018.09.13-14.04.44:109][  7]BlueprintLog: New page: 编译BP_hero
+[2018.09.13-14.05.25:266][431]BlueprintLog: New page: 编译BP_jiasu
+[2018.09.13-14.08.12:030][236]LogAssetEditorManager: Opening Asset editor for UserDefinedStruct /Game/TopDownBP/Blueprints/JG_wupin.JG_wupin
+[2018.09.13-14.09.26:643][659]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/JG_wupin" FILE="C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/JG_wupin.uasset" SILENT=true
+[2018.09.13-14.09.26:650][659]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/JG_wupinED9FD2A54935B9D934F4F2894C0CADF3.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/JG_wupin.uasset'
+[2018.09.13-14.23.16:553][744]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: 'Engine/Tutorial/Installation/InstallingVisualStudioTutorial' is not a standard unreal filename or a long path name. Reason: 路径不可以'/'开头
+[2018.09.13-14.23.16:553][744]LogLinker: Warning: 无法寻找到文件'Engine/Tutorial/Installation/InstallingVisualStudioTutorial'
+[2018.09.13-14.23.16:553][744]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: 'Engine/Tutorial/Installation/InstallingVisualStudioTutorial' is not a standard unreal filename or a long path name. Reason: 路径不可以'/'开头
+[2018.09.13-14.23.16:554][744]LogLinker: Warning: 无法寻找到文件'Engine/Tutorial/Installation/InstallingVisualStudioTutorial'
+[2018.09.13-14.23.16:554][744]LogUObjectGlobals: Warning: 寻找对象'Blueprint Engine/Tutorial/Installation/InstallingVisualStudioTutorial.InstallingVisualStudioTutorial'失败
+[2018.09.13-14.24.39:781][688]LogEditorTransaction: Undo Delete current selection
+[2018.09.13-14.25.02:263][ 14]LogEditorTransaction: Undo Delete current selection
+[2018.09.13-14.26.06:559][855]LogEditorTransaction: Undo Delete current selection
+[2018.09.13-14.26.07:244][892]LogEditorTransaction: Undo Delete current selection
+[2018.09.13-14.28.35:814][678]BlueprintLog: New page: 编译BP_hero
+[2018.09.13-14.29.42:282][564]BlueprintLog: New page: 编译BP_hero
+[2018.09.13-14.30.15:783][414]LogMetaData: Removing '/Game/TopDownBP/Blueprints/wupin/BP_jibenwupin.BP_jibenwupin:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/TopDownBP/Blueprints/wupin/BP_jiasu.PackageMetaData'
+[2018.09.13-14.30.15:783][414]LogMetaData: Removing '/Game/TopDownBP/Blueprints/wupin/BP_jibenwupin.SKEL_BP_jibenwupin_C' ref from Metadata '/Game/TopDownBP/Blueprints/wupin/BP_jiasu.PackageMetaData'
+[2018.09.13-14.30.15:783][414]LogMetaData: Removing '/Game/TopDownBP/Blueprints/wupin/BP_jibenwupin.BP_jibenwupin_C' ref from Metadata '/Game/TopDownBP/Blueprints/wupin/BP_jiasu.PackageMetaData'
+[2018.09.13-14.30.15:783][414]LogMetaData: Removing '/Game/TopDownBP/Blueprints/wupin/BP_jibenwupin.BP_jibenwupin:EventGraph.K2Node_Event_0' ref from Metadata '/Game/TopDownBP/Blueprints/wupin/BP_jiasu.PackageMetaData'
+[2018.09.13-14.30.15:784][414]LogMetaData: Removing '/Game/TopDownBP/Blueprints/wupin/BP_jibenwupin.BP_jibenwupin:EventGraph.K2Node_Event_1' ref from Metadata '/Game/TopDownBP/Blueprints/wupin/BP_jiasu.PackageMetaData'
+[2018.09.13-14.30.15:784][414]LogMetaData: Removing '/Game/TopDownBP/Blueprints/wupin/BP_jibenwupin.BP_jibenwupin:EventGraph.K2Node_Event_2' ref from Metadata '/Game/TopDownBP/Blueprints/wupin/BP_jiasu.PackageMetaData'
+[2018.09.13-14.30.15:882][414]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/wupin/BP_jibenwupin" FILE="C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/wupin/BP_jibenwupin.uasset" SILENT=true
+[2018.09.13-14.30.15:926][414]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/BP_jibenwupin5FF7848349F19A3DE7697B9AD4273378.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/wupin/BP_jibenwupin.uasset'
+[2018.09.13-14.30.16:289][414]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/wupin/BP_jiasu" FILE="C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/wupin/BP_jiasu.uasset" SILENT=true
+[2018.09.13-14.30.16:294][414]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/BP_jiasuFF5DCF654D3AA76A9883DCBF66131EDA.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/wupin/BP_jiasu.uasset'
+[2018.09.13-14.30.23:612][802]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.13-14.30.38:680][700]BlueprintLog: New page: 编译BP_hero
+[2018.09.13-14.31.40:382][337]BlueprintLog: New page: 编译BP_hero
+[2018.09.13-14.33.24:118][471]BlueprintLog: New page: 编译TopDownController
+[2018.09.13-14.33.41:057][460]BlueprintLog: New page: 编译BP_Epressget
+[2018.09.13-14.34.39:303][554]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/TopDownExampleMap_Auto3EB6F8344412881B6020B8296A3931CD9.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/Autosaves/Game/TopDownBP/Maps/TopDownExampleMap_Auto3.umap'
+[2018.09.13-14.34.39:311][554]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.458
+[2018.09.13-14.34.39:311][554]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.458
+[2018.09.13-14.34.39:322][554]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownBP/Blueprints/BP_hero] ([1] browsable assets)...
+[2018.09.13-14.34.39:345][554]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TopDownBP/Blueprints/BP_hero.BP_hero]
+[2018.09.13-14.34.39:345][554]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/BP_hero]
+[2018.09.13-14.34.39:543][554]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/BP_hero_Auto3DF7AA5944AAF3CAB09DCDE87BF438046.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/Autosaves/Game/TopDownBP/Blueprints/BP_hero_Auto3.uasset'
+[2018.09.13-14.34.39:554][554]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Blueprints/TopDownGameMode] ([1] browsable assets)...
+[2018.09.13-14.34.39:554][554]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/TopDownGameMode]
+[2018.09.13-14.34.39:580][554]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/TopDownGameMode_Auto315AAE3C6406742E66BD48AAF1363BE9F.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/Autosaves/Game/TopDownBP/Blueprints/TopDownGameMode_Auto3.uasset'
+[2018.09.13-14.34.39:591][554]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Blueprints/TopDownController] ([1] browsable assets)...
+[2018.09.13-14.34.39:591][554]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/TopDownController]
+[2018.09.13-14.34.39:657][554]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/TopDownController_Auto3D1303852413E0814EA174F80F110626F.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/Autosaves/Game/TopDownBP/Blueprints/TopDownController_Auto3.uasset'
+[2018.09.13-14.34.39:665][554]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Blueprints/AI/ai-bd] ([1] browsable assets)...
+[2018.09.13-14.34.39:665][554]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/AI/ai-bd]
+[2018.09.13-14.34.39:704][554]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/ai-bd_Auto3860193294F97C1798863BFBC517A2E01.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/Autosaves/Game/TopDownBP/Blueprints/AI/ai-bd_Auto3.uasset'
+[2018.09.13-14.34.39:712][554]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Blueprints/UI/BP_Epressget] ([1] browsable assets)...
+[2018.09.13-14.34.39:712][554]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/UI/BP_Epressget]
+[2018.09.13-14.34.39:745][554]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/BP_Epressget_Auto395278D7B479013D57A3459BA98A316C5.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/Autosaves/Game/TopDownBP/Blueprints/UI/BP_Epressget_Auto3.uasset'
+[2018.09.13-14.34.39:754][554]LogFileHelpers: Auto-saving content packages took 0.439
+[2018.09.13-14.35.09:557][826]LogTemp: Repeating last play command: 选中的视口
+[2018.09.13-14.35.09:600][826]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.13-14.35.09:600][826]BlueprintLog: New page: 运行前自动重新编译
+[2018.09.13-14.35.09:601][826]LogPlayLevel: [PlayLevel] Compiling ai-bd before play...
+[2018.09.13-14.35.09:635][826]LogPlayLevel: PlayLevel: Blueprint regeneration took 35 ms (1 blueprints)
+[2018.09.13-14.35.09:636][826]PIE: New page: PIE会话: TopDownExampleMap (2018年9月14日 上午6:35:09)
+[2018.09.13-14.35.09:636][826]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2018.09.13-14.35.09:656][826]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020270s)
+[2018.09.13-14.35.09:657][826]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.09.13-14.35.09:657][826]LogPlayLevel: PIE: World Init took: (0.000881s)
+[2018.09.13-14.35.09:657][826]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.021333s)
+[2018.09.13-14.35.09:752][826]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.13-14.35.09:834][826]LogInit: FAudioDevice initialized.
+[2018.09.13-14.35.09:873][826]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.13-14.35.09:881][826]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2018.09.13-22.35.09
+[2018.09.13-14.35.09:884][826]LogWorld: Bringing up level for play took: 0.009250
+[2018.09.13-14.35.09:899][826]PIE: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap的‘在编辑器中播放’的起始时间0.892
+[2018.09.13-14.35.09:899][826]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.13-14.35.11:059][894]LogBlueprintUserMessages: [monster2_5] monster death
+[2018.09.13-14.35.15:145][139]LogCharacterMovement: monster7 is stuck and failed to move! Velocity: X=-299.48 Y=-17.69 Z=0.00 Location: X=651.68 Y=124.66 Z=275.22 Normal: X=0.66 Y=0.75 Z=0.00 PenetrationDepth:9.976 Actor:TopDownCharacter Component:rw BoneName:None (0 other events since notify)
+[2018.09.13-14.35.19:346][391]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.13-14.35.19:347][391]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.13-14.35.19:392][391]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.13-14.35.19:392][391]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.13-14.35.19:433][391]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.13-14.35.19:452][392]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2018.09.13-14.35.19:971][422]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.09.13-14.35.20:734][464]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.13-14.35.28:111][903]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: 'Engine/Tutorial/Installation/InstallingVisualStudioTutorial' is not a standard unreal filename or a long path name. Reason: 路径不可以'/'开头
+[2018.09.13-14.35.28:111][903]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: 'Engine/Tutorial/Installation/InstallingVisualStudioTutorial' is not a standard unreal filename or a long path name. Reason: 路径不可以'/'开头
+[2018.09.13-14.37.48:250][235]BlueprintLog: New page: 编译BP_hero
+[2018.09.13-14.37.51:330][392]LogTemp: Repeating last play command: 选中的视口
+[2018.09.13-14.37.51:365][392]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.13-14.37.51:366][392]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.13-14.37.51:366][392]PIE: New page: PIE会话: TopDownExampleMap (2018年9月14日 上午6:37:51)
+[2018.09.13-14.37.51:366][392]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2018.09.13-14.37.51:387][392]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021192s)
+[2018.09.13-14.37.51:388][392]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.09.13-14.37.51:389][392]LogPlayLevel: PIE: World Init took: (0.001676s)
+[2018.09.13-14.37.51:389][392]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.023161s)
+[2018.09.13-14.37.51:489][392]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.13-14.37.51:567][392]LogInit: FAudioDevice initialized.
+[2018.09.13-14.37.51:603][392]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.13-14.37.51:610][392]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2018.09.13-22.37.51
+[2018.09.13-14.37.51:612][392]LogWorld: Bringing up level for play took: 0.007721
+[2018.09.13-14.37.51:626][392]PIE: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap的‘在编辑器中播放’的起始时间0.619
+[2018.09.13-14.37.51:626][392]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.13-14.38.00:396][917]LogBlueprintUserMessages: [monster5_14] monster death
+[2018.09.13-14.38.01:969][  9]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.13-14.38.01:969][  9]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.13-14.38.02:015][  9]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.13-14.38.02:015][  9]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.13-14.38.02:056][  9]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.13-14.38.02:075][ 10]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2018.09.13-14.38.03:595][101]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.13-14.38.25:743][424]LogUObjectArray: Warning: Other object in slot
+[2018.09.13-14.38.26:970][424]LogStats: FPlatformStackWalk::StackWalkAndDump -  1.226 s
+[2018.09.13-14.38.26:970][424]LogOutputDevice: Error: === Handled ensure: ===
+[2018.09.13-14.38.26:970][424]LogOutputDevice: Error: 
+[2018.09.13-14.38.26:970][424]LogOutputDevice: Error: Ensure condition failed: false [File:D:\Build\++UE4\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 1142]
+[2018.09.13-14.38.26:970][424]LogOutputDevice: Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
+[2018.09.13-14.38.26:970][424]LogOutputDevice: Error: Stack: 
+[2018.09.13-14.38.26:970][424]LogOutputDevice: Error: [Callstack] 0x00007ff97cc671e6 UE4Editor-Core.dll!UnknownFunction []
+[2018.09.13-14.38.26:970][424]LogOutputDevice: Error: [Callstack] 0x00007ff97c9a0c82 UE4Editor-Core.dll!UnknownFunction []
+[2018.09.13-14.38.26:970][424]LogOutputDevice: Error: [Callstack] 0x00007ff97c9bb346 UE4Editor-Core.dll!UnknownFunction []
+[2018.09.13-14.38.26:970][424]LogOutputDevice: Error: [Callstack] 0x00007ff96bfb11db UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.09.13-14.38.26:970][424]LogOutputDevice: Error: [Callstack] 0x00007ff96bfc060e UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.09.13-14.38.26:970][424]LogOutputDevice: Error: [Callstack] 0x00007ff96a83da3a UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2018.09.13-14.38.26:970][424]LogOutputDevice: Error: [Callstack] 0x00007ff96981ec2a UE4Editor-GraphEditor.dll!UnknownFunction []
+[2018.09.13-14.38.26:970][424]LogOutputDevice: Error: [Callstack] 0x00007ff9697df337 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2018.09.13-14.38.26:970][424]LogOutputDevice: Error: [Callstack] 0x00007ff96ce98204 UE4Editor-Slate.dll!UnknownFunction []
+[2018.09.13-14.38.26:970][424]LogOutputDevice: Error: [Callstack] 0x00007ff96d0de933 UE4Editor-Slate.dll!UnknownFunction []
+[2018.09.13-14.38.26:970][424]LogOutputDevice: Error: [Callstack] 0x00007ff96cef281a UE4Editor-Slate.dll!UnknownFunction []
+[2018.09.13-14.38.26:970][424]LogOutputDevice: Error: [Callstack] 0x00007ff96cec8190 UE4Editor-Slate.dll!UnknownFunction []
+[2018.09.13-14.38.26:970][424]LogOutputDevice: Error: [Callstack] 0x00007ff96cebb073 UE4Editor-Slate.dll!UnknownFunction []
+[2018.09.13-14.38.26:970][424]LogOutputDevice: Error: [Callstack] 0x00007ff98bb2d007 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.09.13-14.38.26:970][424]LogOutputDevice: Error: [Callstack] 0x00007ff98bb20270 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.09.13-14.38.26:970][424]LogOutputDevice: Error: [Callstack] 0x00007ff98bb2f4c5 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.09.13-14.38.26:970][424]LogOutputDevice: Error: [Callstack] 0x00007ff98bb1c209 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.09.13-14.38.26:970][424]LogOutputDevice: Error: [Callstack] 0x00007ff9bc3c6cc1 USER32.dll!UnknownFunction []
+[2018.09.13-14.38.26:970][424]LogOutputDevice: Error: [Callstack] 0x00007ff9bc3c6693 USER32.dll!UnknownFunction []
+[2018.09.13-14.38.26:970][424]LogOutputDevice: Error: [Callstack] 0x00007ff98bb30646 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.09.13-14.38.26:971][424]LogOutputDevice: Error: [Callstack] 0x00007ff7bff954e5 UE4Editor.exe!UnknownFunction []
+[2018.09.13-14.38.26:971][424]LogOutputDevice: Error: [Callstack] 0x00007ff7bffa5b3c UE4Editor.exe!UnknownFunction []
+[2018.09.13-14.38.26:971][424]LogOutputDevice: Error: [Callstack] 0x00007ff7bffa5bba UE4Editor.exe!UnknownFunction []
+[2018.09.13-14.38.26:971][424]LogOutputDevice: Error: [Callstack] 0x00007ff7bffb3dac UE4Editor.exe!UnknownFunction []
+[2018.09.13-14.38.26:971][424]LogOutputDevice: Error: [Callstack] 0x00007ff7bffb5aaa UE4Editor.exe!UnknownFunction []
+[2018.09.13-14.38.26:971][424]LogOutputDevice: Error: [Callstack] 0x00007ff9be073034 KERNEL32.DLL!UnknownFunction []
+[2018.09.13-14.38.26:971][424]LogOutputDevice: Error: [Callstack] 0x00007ff9be5c1431 ntdll.dll!UnknownFunction []
+[2018.09.13-14.38.26:971][424]LogOutputDevice: Error: 
+[2018.09.13-14.38.26:973][424]LogStats:                SubmitErrorReport -  0.000 s
