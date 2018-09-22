@@ -1,0 +1,1337 @@
+﻿Log file open, 09/22/18 14:00:06
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: 我的项目2
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.318181
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +8:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin UE4EditorCustomize
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.357s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz, GPU: Intel(R) HD Graphics 530
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: D:/Program Files/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.002s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.09.22-06.00.07:146][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.22-06.00.07:146][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.09.22-06.00.07:161][  0]LogHAL: Display: Platform has ~ 16 GB [17058086912 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.09.22-06.00.07:161][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.09.22-06.00.07:161][  0]LogInit: Going up to parent DeviceProfile []
+[2018.09.22-06.00.07:161][  0]LogInit: Computer: DESKTOP-47DQBJE
+[2018.09.22-06.00.07:161][  0]LogInit: User: 86230
+[2018.09.22-06.00.07:161][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.09.22-06.00.07:161][  0]LogInit: High frequency timer resolution =2.531253 MHz
+[2018.09.22-06.00.07:162][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.09.22-06.00.07:162][  0]LogMemory: Platform Memory Stats for Windows
+[2018.09.22-06.00.07:162][  0]LogMemory: Process Physical Memory: 102.07 MB used, 102.07 MB peak
+[2018.09.22-06.00.07:162][  0]LogMemory: Process Virtual Memory: 90.51 MB used, 90.51 MB peak
+[2018.09.22-06.00.07:162][  0]LogMemory: Physical Memory: 5378.69 MB used,  10889.17 MB free, 16267.86 MB total
+[2018.09.22-06.00.07:162][  0]LogMemory: Virtual Memory: 4644.55 MB used,  10889.17 MB free, 134217728.00 MB total
+[2018.09.22-06.00.07:205][  0]LogInit: Using OS detected language (zh-CN).
+[2018.09.22-06.00.07:205][  0]LogInit: Using OS detected locale (zh-CN).
+[2018.09.22-06.00.07:655][  0]LogStreaming: Display: Took  0.450s to InitEngineTextLocalization.
+[2018.09.22-06.00.07:656][  0]LogInit: Setting process to per monitor DPI aware
+[2018.09.22-06.00.07:718][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.09.22-06.00.07:718][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.09.22-06.00.08:109][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.09.22-06.00.08:109][  0]LogD3D11RHI: D3D11 adapters:
+[2018.09.22-06.00.08:216][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060' (Feature Level 11_0)
+[2018.09.22-06.00.08:216][  0]LogD3D11RHI:       6052/0/8133 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.09.22-06.00.08:232][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2018.09.22-06.00.08:232][  0]LogD3D11RHI:       128/0/8133 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.09.22-06.00.08:235][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.09.22-06.00.08:235][  0]LogD3D11RHI:       0/0/8133 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.09.22-06.00.08:235][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.09.22-06.00.08:278][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.09.22-06.00.08:278][  0]LogD3D11RHI:     GPU DeviceId: 0x1c20 (for the marketing name, search the web for "GPU Device Id")
+[2018.09.22-06.00.08:278][  0]LogWindows: EnumDisplayDevices:
+[2018.09.22-06.00.08:279][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2018.09.22-06.00.08:281][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.09.22-06.00.08:282][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.09.22-06.00.08:285][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2018.09.22-06.00.08:287][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2018.09.22-06.00.08:289][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2018.09.22-06.00.08:291][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2018.09.22-06.00.08:293][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2018.09.22-06.00.08:293][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060
+[2018.09.22-06.00.08:293][  0]LogD3D11RHI:   Driver Version: 391.35 (internal:23.21.13.9135, unified:391.35)
+[2018.09.22-06.00.08:293][  0]LogD3D11RHI:      Driver Date: 3-23-2018
+[2018.09.22-06.00.08:293][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2018.09.22-06.00.08:346][  0]LogD3D11RHI: Async texture creation enabled
+[2018.09.22-06.00.08:374][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.09.22-06.00.08:376][  0]LogShaderCompilers: Guid format shader working directory is -1 characters bigger than the processId version (C:/Users/86230/Documents/Unreal Projects/我的项目2/Intermediate/Shaders/WorkingDirectory/16584/).
+[2018.09.22-06.00.08:377][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/86230/AppData/Local/Temp/UnrealShaderWorkingDir/FF97630342837B05FD8113945CD765BD/'.
+[2018.09.22-06.00.08:922][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.09.22-06.00.08:938][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.09.22-06.00.08:956][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.09.22-06.00.08:973][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.09.22-06.00.08:990][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.09.22-06.00.09:005][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.09.22-06.00.09:022][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.09.22-06.00.09:038][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.09.22-06.00.09:046][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.09.22-06.00.09:142][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.22-06.00.09:142][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.22-06.00.09:142][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.22-06.00.09:142][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.22-06.00.09:142][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.22-06.00.09:142][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.22-06.00.09:142][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.22-06.00.09:142][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.22-06.00.09:142][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.22-06.00.09:142][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.22-06.00.09:142][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.22-06.00.09:142][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.22-06.00.09:142][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.22-06.00.09:142][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.22-06.00.09:142][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.22-06.00.09:142][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.22-06.00.09:142][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.22-06.00.09:142][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.22-06.00.09:144][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.09.22-06.00.09:209][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.09.22-06.00.09:209][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.09.22-06.00.09:238][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.09.22-06.00.09:238][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.09.22-06.00.09:255][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.09.22-06.00.09:270][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.09.22-06.00.09:285][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.09.22-06.00.09:301][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.09.22-06.00.09:312][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.09.22-06.00.09:313][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.09.22-06.00.09:390][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.09.22-06.00.09:390][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.09.22-06.00.09:390][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.09.22-06.00.10:191][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.09.22-06.00.10:266][  0]LogDerivedDataCache: Loaded boot cache 0.07s 87MB C:/Users/86230/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.09.22-06.00.10:266][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/86230/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.09.22-06.00.10:266][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/86230/Documents/Unreal Projects/我的项目2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.09.22-06.00.10:266][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.09.22-06.00.10:266][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/86230/Documents/Unreal Projects/我的项目2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.09.22-06.00.10:266][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.09.22-06.00.10:281][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.09.22-06.00.10:296][  0]LogDerivedDataCache: Using Local data cache path C:/Users/86230/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.09.22-06.00.10:296][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.09.22-06.00.10:296][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.09.22-06.00.10:316][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.09.22-06.00.10:318][  0]LogSlate: Using FreeType 2.6.0
+[2018.09.22-06.00.10:318][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.09.22-06.00.10:406][  0]LogAssetRegistry: FAssetRegistry took 0.0273 seconds to start up
+[2018.09.22-06.00.10:814][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.22-06.00.10:980][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.09.22-06.00.10:985][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.09.22-06.00.10:986][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.09.22-06.00.10:986][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.09.22-06.00.10:986][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.09.22-06.00.11:007][  0]LogNetVersion: 我的项目2 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1753104541)
+[2018.09.22-06.00.11:932][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 4 prioritized culture(s) in 0.436426 seconds
+[2018.09.22-06.00.11:940][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.09.22-06.00.11:940][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2018.09.22-06.00.11:940][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.09.22-06.00.12:981][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.09.22-06.00.12:994][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.09.22-06.00.13:203][  0]SourceControl: 源码管理已禁用
+[2018.09.22-06.00.14:614][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.09.22-06.00.14:847][  0]LogOcInput: OculusInput pre-init called
+[2018.09.22-06.00.14:920][  0]LogEngine: Initializing Engine...
+[2018.09.22-06.00.14:921][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.09.22-06.00.14:923][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.09.22-06.00.14:923][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.22-06.00.14:923][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.09.22-06.00.14:923][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.09.22-06.00.15:161][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.09.22-06.00.15:176][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.09.22-06.00.15:267][  0]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.22-06.00.15:367][  0]LogInit: FAudioDevice initialized.
+[2018.09.22-06.00.15:367][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.09.22-06.00.15:465][  0]LogDerivedDataCache: Saved boot cache 0.10s 87MB C:/Users/86230/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.09.22-06.00.15:481][  0]LogInit: Texture streaming: Enabled
+[2018.09.22-06.00.15:509][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.09.22-06.00.15:531][  0]LogInit: Transaction tracking system initialized
+[2018.09.22-06.00.15:561][  0]BlueprintLog: New page: 编辑器加载
+[2018.09.22-06.00.15:672][  0]LocalizationService: 本地化服务已禁用
+[2018.09.22-06.00.15:972][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.09.22-06.00.15:972][  0]LogCook: Display: Mobile HDR setting 1
+[2018.09.22-06.00.15:972][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.09.22-06.00.15:972][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.09.22-06.00.15:972][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.22-06.00.15:972][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.09.22-06.00.15:972][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.09.22-06.00.16:132][  0]LogFileCache: Scanning file cache for directory 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/' took 0.02s
+[2018.09.22-06.00.16:132][  0]Cmd: MAP LOAD FILE="C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.09.22-06.00.16:133][  0]LightingResults: New page: 光照构建
+[2018.09.22-06.00.16:137][  0]MapCheck: New page: 地图检测
+[2018.09.22-06.00.16:137][  0]LightingResults: New page: 光照构建
+[2018.09.22-06.00.17:395][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.09.22-06.00.17:433][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.09.22-06.00.17:467][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.09.22-06.00.17:569][  0]MapCheck: 地图检测完成：0个错误，0 个警告，用时101.793毫秒完成。
+[2018.09.22-06.00.17:569][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 1.437
+[2018.09.22-06.00.17:696][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.22-06.00.17:709][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.22-06.00.17:720][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.22-06.00.17:731][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.22-06.00.17:854][  0]LogCollectionManager: Loaded 0 collections in 0.003009 seconds
+[2018.09.22-06.00.17:905][  0]LogFileCache: Scanning file cache for directory 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/Collections/' took 0.01s
+[2018.09.22-06.00.17:905][  0]LogFileCache: Scanning file cache for directory 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/Developers/86230/Collections/' took 0.01s
+[2018.09.22-06.00.17:905][  0]LogFileCache: Scanning file cache for directory 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/Collections/' took 0.01s
+[2018.09.22-06.00.17:906][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.09.22-06.00.17:919][  0]LogContentBrowser: Native class hierarchy populated in 0.0130 seconds. Added 2574 classes and 608 folders.
+[2018.09.22-06.00.17:927][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.09.22-06.00.17:995][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.09.22-06.00.18:002][  0]LogSlate: Took 0.000232 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.09.22-06.00.18:005][  0]LogSlate: Took 0.002615 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2018.09.22-06.00.18:009][  0]LogSlate: Took 0.000353 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.09.22-06.00.18:014][  0]LogSlate: Took 0.000487 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.09.22-06.00.18:122][  0]LogRenderer: Reallocating scene render targets to support 964x444 Format 10 NumSamples 1 (Frame:1).
+[2018.09.22-06.00.18:357][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.09.22-06.00.18:357][  0]LogLoad: (Engine Initialization) Total time: 13.74 seconds
+[2018.09.22-06.00.18:357][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.09.22-06.00.18:376][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.09.22-06.00.18:404][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.09.22-06.00.18:463][  1]LogAssetRegistry: Asset discovery search completed in 8.0797 seconds
+[2018.09.22-06.00.18:466][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.09.22-06.00.18:467][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000072 seconds (updated 0 objects)
+[2018.09.22-06.00.19:405][ 52]LogSlate: Took 0.000206 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.09.22-06.00.22:041][210]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.22-06.00.22:134][214]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/TopDownBP/Blueprints/UI/bag/UI_scollBag.UI_scollBag
+[2018.09.22-06.00.22:686][214]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
+[2018.09.22-06.00.23:601][214]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/TopDownBP/Blueprints/UI/bag/UI_gezi.UI_gezi
+[2018.09.22-06.00.24:047][214]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/TopDownBP/Blueprints/UI/UI_WipinInBeibao.UI_WipinInBeibao
+[2018.09.22-06.00.24:463][214]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/TopDownBP/Blueprints/UI/bag/UI_beijingezi.UI_beijingezi
+[2018.09.22-06.00.24:866][214]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/TopDownController.TopDownController
+[2018.09.22-06.00.25:283][214]LogAssetEditorManager: Opening Asset editor for UserDefinedStruct /Game/TopDownBP/Blueprints/JG_wupin.JG_wupin
+[2018.09.22-06.00.25:366][214]LogAssetEditorManager: Opening Asset editor for UserDefinedEnum /Game/TopDownBP/Blueprints/UI/bag/ItemType.ItemType
+[2018.09.22-06.00.25:449][214]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/TopDownBP/Blueprints/UI/UI_xiangxixinxi.UI_xiangxixinxi
+[2018.09.22-06.00.25:872][214]LogSlate: Took 0.000347 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.09.22-06.00.34:977][746]LogSlate: Window 'UI_gezi' being destroyed
+[2018.09.22-06.00.41:667][138]LogRenderer: Reallocating scene render targets to support 1204x552 Format 10 NumSamples 1 (Frame:6).
+[2018.09.22-06.00.43:514][232]LogSlate: Took 0.000636 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.09.22-06.00.47:074][437]LogSlate: Window 'UI_xiangxixinxi' being destroyed
+[2018.09.22-06.00.49:865][604]LogTemp: Repeating last play command: 新建编辑器窗口（在编辑器中运行）
+[2018.09.22-06.00.49:899][604]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.00.49:899][604]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.22-06.00.49:913][604]PIE: New page: PIE会话: TopDownExampleMap (2018年9月22日 下午10:00:49)
+[2018.09.22-06.00.49:913][604]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2018.09.22-06.00.49:941][604]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027923s)
+[2018.09.22-06.00.49:942][604]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.09.22-06.00.49:942][604]LogPlayLevel: PIE: World Init took: (0.001089s)
+[2018.09.22-06.00.49:942][604]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.029283s)
+[2018.09.22-06.00.50:052][604]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.22-06.00.50:133][604]LogInit: FAudioDevice initialized.
+[2018.09.22-06.00.50:146][604]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.22-06.00.50:250][604]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.22-06.00.50:259][604]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2018.09.22-14.00.50
+[2018.09.22-06.00.50:262][604]LogWorld: Bringing up level for play took: 0.011478
+[2018.09.22-06.00.50:283][604]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 10 classes and 0 folders.
+[2018.09.22-06.00.50:287][604]PIE: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap的‘在编辑器中播放’的起始时间0.112
+[2018.09.22-06.00.50:287][604]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.00.50:318][604]LogRenderer: Reallocating scene render targets to support 1204x576 Format 10 NumSamples 1 (Frame:1).
+[2018.09.22-06.00.51:724][684]LogBlueprintUserMessages: [monster2_5] monster death
+[2018.09.22-06.00.58:427][ 86]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.00.58:428][ 86]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.22-06.00.58:445][ 86]LogSlate: Window '我的项目2 游戏预览 Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.22-06.00.58:484][ 86]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.22-06.00.58:485][ 86]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.00.58:550][ 87]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2018.09.22-06.01.07:744][619]LogTemp: Repeating last play command: 新建编辑器窗口（在编辑器中运行）
+[2018.09.22-06.01.07:788][619]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.01.07:789][619]BlueprintLog: New page: 运行前自动重新编译
+[2018.09.22-06.01.07:841][619]LogPlayLevel: [PlayLevel] Compiling UI_scollBag before play...
+[2018.09.22-06.01.08:071][619]LogPlayLevel: PlayLevel: Blueprint regeneration took 282 ms (1 blueprints)
+[2018.09.22-06.01.08:071][619]PIE: New page: PIE会话: TopDownExampleMap (2018年9月22日 下午10:01:08)
+[2018.09.22-06.01.08:071][619]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2018.09.22-06.01.08:091][619]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019849s)
+[2018.09.22-06.01.08:092][619]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.09.22-06.01.08:092][619]LogPlayLevel: PIE: World Init took: (0.000926s)
+[2018.09.22-06.01.08:092][619]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.020966s)
+[2018.09.22-06.01.08:196][619]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.22-06.01.08:280][619]LogInit: FAudioDevice initialized.
+[2018.09.22-06.01.08:295][619]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.22-06.01.08:378][619]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.22-06.01.08:390][619]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2018.09.22-14.01.08
+[2018.09.22-06.01.08:392][619]LogWorld: Bringing up level for play took: 0.013196
+[2018.09.22-06.01.08:407][619]PIE: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap的‘在编辑器中播放’的起始时间0.232
+[2018.09.22-06.01.08:408][619]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.01.13:625][919]LogBlueprintUserMessages: [monster2_5] monster death
+[2018.09.22-06.01.24:416][565]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.01.24:416][565]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.22-06.01.24:435][565]LogSlate: Window '我的项目2 游戏预览 Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.22-06.01.24:473][565]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.22-06.01.24:473][565]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.01.24:537][566]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2018.09.22-06.01.48:609][989]LogTemp: Repeating last play command: 新建编辑器窗口（在编辑器中运行）
+[2018.09.22-06.01.48:641][989]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.01.48:642][989]BlueprintLog: New page: 运行前自动重新编译
+[2018.09.22-06.01.48:668][989]LogPlayLevel: [PlayLevel] Compiling UI_scollBag before play...
+[2018.09.22-06.01.48:903][989]LogPlayLevel: PlayLevel: Blueprint regeneration took 261 ms (1 blueprints)
+[2018.09.22-06.01.48:903][989]PIE: New page: PIE会话: TopDownExampleMap (2018年9月22日 下午10:01:48)
+[2018.09.22-06.01.48:903][989]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2018.09.22-06.01.48:924][989]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020422s)
+[2018.09.22-06.01.48:925][989]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.09.22-06.01.48:925][989]LogPlayLevel: PIE: World Init took: (0.001655s)
+[2018.09.22-06.01.48:926][989]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.022396s)
+[2018.09.22-06.01.49:027][989]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.22-06.01.49:110][989]LogInit: FAudioDevice initialized.
+[2018.09.22-06.01.49:124][989]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.22-06.01.49:208][989]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.22-06.01.49:220][989]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2018.09.22-14.01.49
+[2018.09.22-06.01.49:223][989]LogWorld: Bringing up level for play took: 0.012882
+[2018.09.22-06.01.49:239][989]PIE: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap的‘在编辑器中播放’的起始时间1.064
+[2018.09.22-06.01.49:239][989]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.01.54:004][261]LogBlueprintUserMessages: [monster6] monster death
+[2018.09.22-06.01.55:674][361]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.01.55:675][361]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.22-06.01.55:694][361]LogSlate: Window '我的项目2 游戏预览 Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.22-06.01.55:732][361]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.22-06.01.55:733][361]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.01.55:797][362]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2018.09.22-06.03.52:763][409]LogSlate: Took 0.000512 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.09.22-06.05.11:261][  5]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/TopDownBP/Blueprints/UI/UI_beibao.UI_beibao
+[2018.09.22-06.07.49:006][293]BlueprintLog: New page: 编译UI_gezi
+[2018.09.22-06.07.49:020][293]LogBlueprint: Warning: [Compiler UI_gezi] 变量 FatherUI 被标记为'Expose on Spawn（生成时公开）'，但没有标记为 'Editable（可编辑）'；请将其设为'Editable'
+[2018.09.22-06.07.49:042][293]LogBlueprint: Warning: [Compiler UI_gezi] 变量 FatherUI 被标记为'Expose on Spawn（生成时公开）'，但没有标记为 'Editable（可编辑）'；请将其设为'Editable'
+[2018.09.22-06.07.49:299][293]LogBlueprint: Warning: [Compiler UI_gezi] [0464.68]UI_gezi 编译成功，但出现了 2 个警告[292 毫秒内]（/Game/TopDownBP/Blueprints/UI/bag/UI_gezi.UI_gezi）
+[2018.09.22-06.07.59:223][881]BlueprintLog: New page: 编译UI_gezi
+[2018.09.22-06.09.21:595][729]LogClass: Warning: Type mismatch in wupin of SKEL_UI_gezi_C - Previous (StructProperty) Current(ObjectProperty) for package:  FObjectReader
+[2018.09.22-06.09.22:412][775]BlueprintLog: New page: 编译UI_gezi
+[2018.09.22-06.09.22:458][775]LogClass: Warning: Type mismatch in wupin of UI_gezi_C - Previous (StructProperty) Current(ObjectProperty) for package:  FObjectReader
+[2018.09.22-06.09.33:562][414]BlueprintLog: New page: 编译UI_gezi
+[2018.09.22-06.10.50:563][935]BlueprintLog: New page: 编译UI_scollBag
+[2018.09.22-06.11.18:258][200]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.057
+[2018.09.22-06.11.18:270][200]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Blueprints/UI/bag/UI_scollBag] ([1] browsable assets)...
+[2018.09.22-06.11.18:270][200]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/UI/bag/UI_scollBag]
+[2018.09.22-06.11.18:454][200]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/UI_scollBag_Auto1F1BCAE2E4BD70E077B8EBD8BAFE9DD60.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/Autosaves/Game/TopDownBP/Blueprints/UI/bag/UI_scollBag_Auto1.uasset'
+[2018.09.22-06.11.18:469][200]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Blueprints/UI/bag/UI_gezi] ([1] browsable assets)...
+[2018.09.22-06.11.18:469][200]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/UI/bag/UI_gezi]
+[2018.09.22-06.11.18:586][200]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/UI_gezi_Auto1D6389DC54FF82486810D998B99B0576B.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/Autosaves/Game/TopDownBP/Blueprints/UI/bag/UI_gezi_Auto1.uasset'
+[2018.09.22-06.11.18:596][200]LogFileHelpers: Auto-saving content packages took 0.332
+[2018.09.22-06.15.51:820][630]BlueprintLog: New page: 编译UI_scollBag
+[2018.09.22-06.15.55:043][803]LogTemp: Repeating last play command: 新建编辑器窗口（在编辑器中运行）
+[2018.09.22-06.15.55:083][803]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.15.55:083][803]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.22-06.15.55:083][803]PIE: New page: PIE会话: TopDownExampleMap (2018年9月22日 下午10:15:55)
+[2018.09.22-06.15.55:083][803]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2018.09.22-06.15.55:106][803]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022732s)
+[2018.09.22-06.15.55:107][803]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.09.22-06.15.55:108][803]LogPlayLevel: PIE: World Init took: (0.001261s)
+[2018.09.22-06.15.55:108][803]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.024240s)
+[2018.09.22-06.15.55:218][803]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.22-06.15.55:303][803]LogInit: FAudioDevice initialized.
+[2018.09.22-06.15.55:317][803]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.22-06.15.55:411][803]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.22-06.15.55:423][803]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2018.09.22-14.15.55
+[2018.09.22-06.15.55:425][803]LogWorld: Bringing up level for play took: 0.012429
+[2018.09.22-06.15.55:443][803]PIE: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap的‘在编辑器中播放’的起始时间1.268
+[2018.09.22-06.15.55:443][803]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.15.56:595][868]LogCharacterMovement: monster_2 is stuck and failed to move! Velocity: X=230.86 Y=191.58 Z=0.00 Location: X=-704.15 Y=12.77 Z=275.19 Normal: X=0.21 Y=0.98 Z=-0.00 PenetrationDepth:21.389 Actor:TopDownCharacter Component:rw BoneName:None (0 other events since notify)
+[2018.09.22-06.16.00:418][ 97]LogBlueprintUserMessages: [monster4_11] monster death
+[2018.09.22-06.16.04:053][315]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.16.04:053][315]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.22-06.16.04:071][315]LogSlate: Window '我的项目2 游戏预览 Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.22-06.16.04:112][315]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.22-06.16.04:112][315]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.16.04:191][316]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2018.09.22-06.16.05:116][370]LogTemp: Repeating last play command: 新建编辑器窗口（在编辑器中运行）
+[2018.09.22-06.16.05:154][370]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.16.05:154][370]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.22-06.16.05:154][370]PIE: New page: PIE会话: TopDownExampleMap (2018年9月22日 下午10:16:05)
+[2018.09.22-06.16.05:154][370]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2018.09.22-06.16.05:173][370]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018311s)
+[2018.09.22-06.16.05:173][370]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.09.22-06.16.05:174][370]LogPlayLevel: PIE: World Init took: (0.000990s)
+[2018.09.22-06.16.05:174][370]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.019549s)
+[2018.09.22-06.16.05:278][370]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.22-06.16.05:359][370]LogInit: FAudioDevice initialized.
+[2018.09.22-06.16.05:373][370]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.22-06.16.05:466][370]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.22-06.16.05:478][370]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2018.09.22-14.16.05
+[2018.09.22-06.16.05:480][370]LogWorld: Bringing up level for play took: 0.014044
+[2018.09.22-06.16.05:498][370]PIE: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap的‘在编辑器中播放’的起始时间1.323
+[2018.09.22-06.16.05:498][370]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.16.07:892][509]LogBlueprintUserMessages: [monster6] monster death
+[2018.09.22-06.16.08:495][545]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.16.08:495][545]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.22-06.16.08:513][545]LogSlate: Window '我的项目2 游戏预览 Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.22-06.16.08:551][545]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.22-06.16.08:551][545]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.16.08:624][546]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2018.09.22-06.17.39:225][ 65]BlueprintLog: New page: 编译UI_scollBag
+[2018.09.22-06.17.40:507][127]LogTemp: Repeating last play command: 新建编辑器窗口（在编辑器中运行）
+[2018.09.22-06.17.40:548][127]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.17.40:548][127]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.22-06.17.40:548][127]PIE: New page: PIE会话: TopDownExampleMap (2018年9月22日 下午10:17:40)
+[2018.09.22-06.17.40:548][127]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2018.09.22-06.17.40:569][127]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021332s)
+[2018.09.22-06.17.40:570][127]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.09.22-06.17.40:570][127]LogPlayLevel: PIE: World Init took: (0.001055s)
+[2018.09.22-06.17.40:570][127]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.022537s)
+[2018.09.22-06.17.40:682][127]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.22-06.17.40:766][127]LogInit: FAudioDevice initialized.
+[2018.09.22-06.17.40:780][127]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.22-06.17.40:906][127]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.22-06.17.40:920][127]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2018.09.22-14.17.40
+[2018.09.22-06.17.40:922][127]LogWorld: Bringing up level for play took: 0.014825
+[2018.09.22-06.17.40:939][127]PIE: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap的‘在编辑器中播放’的起始时间0.764
+[2018.09.22-06.17.40:940][127]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.17.41:604][162]LogBlueprintUserMessages: [monster2_5] monster death
+[2018.09.22-06.17.42:557][219]LogCharacterMovement: monster_2 is stuck and failed to move! Velocity: X=91.10 Y=285.83 Z=0.00 Location: X=-714.65 Y=12.61 Z=275.19 Normal: X=0.21 Y=0.98 Z=-0.00 PenetrationDepth:24.558 Actor:TopDownCharacter Component:rw BoneName:None (0 other events since notify)
+[2018.09.22-06.17.48:293][563]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.17.48:294][563]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.22-06.17.48:311][563]LogSlate: Window '我的项目2 游戏预览 Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.22-06.17.48:350][563]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.22-06.17.48:350][563]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.17.48:418][564]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2018.09.22-06.18.06:459][634]LogTemp: Repeating last play command: 新建编辑器窗口（在编辑器中运行）
+[2018.09.22-06.18.06:498][634]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.18.06:498][634]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.22-06.18.06:498][634]PIE: New page: PIE会话: TopDownExampleMap (2018年9月22日 下午10:18:06)
+[2018.09.22-06.18.06:498][634]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2018.09.22-06.18.06:517][634]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019296s)
+[2018.09.22-06.18.06:518][634]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.09.22-06.18.06:518][634]LogPlayLevel: PIE: World Init took: (0.001022s)
+[2018.09.22-06.18.06:519][634]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.020511s)
+[2018.09.22-06.18.06:624][634]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.22-06.18.06:707][634]LogInit: FAudioDevice initialized.
+[2018.09.22-06.18.06:722][634]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.22-06.18.06:859][634]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.22-06.18.06:868][634]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2018.09.22-14.18.06
+[2018.09.22-06.18.06:870][634]LogWorld: Bringing up level for play took: 0.010033
+[2018.09.22-06.18.06:889][634]PIE: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap的‘在编辑器中播放’的起始时间0.714
+[2018.09.22-06.18.06:889][634]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.18.07:539][669]LogBlueprintUserMessages: [monster2_5] monster death
+[2018.09.22-06.18.10:560][850]LogBlueprintUserMessages: [monster_2] monster death
+[2018.09.22-06.18.14:997][116]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.18.14:998][116]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.22-06.18.15:015][116]LogSlate: Window '我的项目2 游戏预览 Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.22-06.18.15:051][116]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.22-06.18.15:051][116]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.18.15:122][117]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2018.09.22-06.18.16:530][200]LogTemp: Repeating last play command: 新建编辑器窗口（在编辑器中运行）
+[2018.09.22-06.18.16:568][200]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.18.16:568][200]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.22-06.18.16:568][200]PIE: New page: PIE会话: TopDownExampleMap (2018年9月22日 下午10:18:16)
+[2018.09.22-06.18.16:568][200]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2018.09.22-06.18.16:586][200]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017412s)
+[2018.09.22-06.18.16:587][200]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.09.22-06.18.16:587][200]LogPlayLevel: PIE: World Init took: (0.001065s)
+[2018.09.22-06.18.16:587][200]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.018773s)
+[2018.09.22-06.18.16:693][200]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.22-06.18.16:777][200]LogInit: FAudioDevice initialized.
+[2018.09.22-06.18.16:790][200]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.22-06.18.16:878][200]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.22-06.18.16:889][200]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2018.09.22-14.18.16
+[2018.09.22-06.18.16:891][200]LogWorld: Bringing up level for play took: 0.012091
+[2018.09.22-06.18.16:910][200]PIE: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap的‘在编辑器中播放’的起始时间0.734
+[2018.09.22-06.18.16:910][200]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.18.21:012][439]LogCharacterMovement: monster_2 is stuck and failed to move! Velocity: X=231.79 Y=190.46 Z=0.00 Location: X=-707.18 Y=12.77 Z=275.19 Normal: X=0.21 Y=0.98 Z=-0.00 PenetrationDepth:22.870 Actor:TopDownCharacter Component:rw BoneName:None (0 other events since notify)
+[2018.09.22-06.18.22:747][543]LogBlueprintUserMessages: [BP_mana+2] 0
+[2018.09.22-06.18.22:747][543]LogBlueprintUserMessages: [BP_mana+2] 2
+[2018.09.22-06.18.22:747][543]LogBlueprintUserMessages: [BP_mana+2] 7
+[2018.09.22-06.18.22:747][543]LogBlueprintUserMessages: [BP_mana+2] mana+
+[2018.09.22-06.18.23:179][569]LogBlueprintUserMessages: [TopDownCharacter] 1
+[2018.09.22-06.18.23:545][591]LogBlueprintUserMessages: [BP_mana+_2] 0
+[2018.09.22-06.18.23:546][591]LogBlueprintUserMessages: [BP_mana+_2] mana+
+[2018.09.22-06.18.23:546][591]LogBlueprintUserMessages: [BP_mana+_2] 0
+[2018.09.22-06.18.23:546][591]LogBlueprintUserMessages: [BP_mana+_2] 14
+[2018.09.22-06.18.24:512][649]LogBlueprintUserMessages: [BP_mana+3] 0
+[2018.09.22-06.18.24:512][649]LogBlueprintUserMessages: [BP_mana+3] mana+
+[2018.09.22-06.18.24:512][649]LogBlueprintUserMessages: [BP_mana+3] 0
+[2018.09.22-06.18.24:512][649]LogBlueprintUserMessages: [BP_mana+3] 21
+[2018.09.22-06.18.24:697][660]LogBlueprintUserMessages: [monster2_5] monster death
+[2018.09.22-06.18.25:181][689]LogBlueprintUserMessages: [TopDownCharacter] 连击中断
+[2018.09.22-06.18.25:331][698]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.18.25:332][698]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.22-06.18.25:349][698]LogSlate: Window '我的项目2 游戏预览 Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.22-06.18.25:392][698]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.22-06.18.25:392][698]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.18.25:455][699]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2018.09.22-06.18.55:428][485]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/BP_hero.BP_hero
+[2018.09.22-06.20.25:827][819]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/TopDownBP/Blueprints/UI/UI_chushi.UI_chushi
+[2018.09.22-06.20.46:738][ 37]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/TopDownBP/Blueprints/UI/UI_MouseIn.UI_MouseIn
+[2018.09.22-06.20.54:359][341]LogSlate: Window 'Delete Assets' being destroyed
+[2018.09.22-06.20.55:794][341]SourceControl: rm 'Content/TopDownBP/Blueprints/UI/UI_MouseIn.uasset'
+[2018.09.22-06.21.14:543][447]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/wupin/BP_jibenwupin.BP_jibenwupin
+[2018.09.22-06.24.54:292][406]BlueprintLog: New page: 编译BP_jibenwupin
+[2018.09.22-06.24.54:415][406]LogBlueprint: Error: [Compiler BP_jibenwupin] 没有找到和  Scoll BAG 相关的属性
+[2018.09.22-06.24.54:688][406]LogBlueprint: Warning: [Compiler BP_jibenwupin] [1490.07]编译 BP_jibenwupin 失败。1 项重大问题；0 个警告[396 毫秒内]（/Game/TopDownBP/Blueprints/wupin/BP_jibenwupin.BP_jibenwupin）
+[2018.09.22-06.25.10:396][334]BlueprintLog: New page: 编译TopDownController
+[2018.09.22-06.25.17:110][711]BlueprintLog: New page: 编译BP_jibenwupin
+[2018.09.22-06.25.19:581][832]LogTemp: Repeating last play command: 新建编辑器窗口（在编辑器中运行）
+[2018.09.22-06.25.19:646][832]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.25.19:646][832]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.22-06.25.19:647][832]PIE: New page: PIE会话: TopDownExampleMap (2018年9月22日 下午10:25:19)
+[2018.09.22-06.25.19:647][832]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2018.09.22-06.25.19:671][832]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024140s)
+[2018.09.22-06.25.19:673][832]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.09.22-06.25.19:673][832]LogPlayLevel: PIE: World Init took: (0.001808s)
+[2018.09.22-06.25.19:673][832]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.026320s)
+[2018.09.22-06.25.19:791][832]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.22-06.25.19:881][832]LogInit: FAudioDevice initialized.
+[2018.09.22-06.25.19:897][832]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.22-06.25.19:997][832]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.22-06.25.20:008][832]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2018.09.22-14.25.20
+[2018.09.22-06.25.20:011][832]LogWorld: Bringing up level for play took: 0.012318
+[2018.09.22-06.25.20:031][832]PIE: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap的‘在编辑器中播放’的起始时间-0.144
+[2018.09.22-06.25.20:031][832]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.25.21:056][888]LogBlueprintUserMessages: [monster2_5] monster death
+[2018.09.22-06.25.23:277][ 21]LogBlueprintUserMessages: [monster6] monster death
+[2018.09.22-06.25.23:494][ 34]LogBlueprintUserMessages: [monster5_14] monster death
+[2018.09.22-06.25.23:877][ 57]LogBlueprintUserMessages: [BP_jibenwupin_5] 0
+[2018.09.22-06.25.23:877][ 57]LogBlueprintUserMessages: [BP_jibenwupin_5] 0
+[2018.09.22-06.25.23:877][ 57]LogBlueprintUserMessages: [BP_jibenwupin_5] 10
+[2018.09.22-06.25.23:877][ 57]LogBlueprintUserMessages: [BP_jibenwupin_5] 金锥子
+[2018.09.22-06.25.24:979][123]LogBlueprintUserMessages: [BP_mana+2] 1
+[2018.09.22-06.25.24:979][123]LogBlueprintUserMessages: [BP_mana+2] 2
+[2018.09.22-06.25.24:979][123]LogBlueprintUserMessages: [BP_mana+2] 7
+[2018.09.22-06.25.24:979][123]LogBlueprintUserMessages: [BP_mana+2] mana+
+[2018.09.22-06.25.25:499][154]LogBlueprintUserMessages: [BP_mana+3] 1
+[2018.09.22-06.25.25:499][154]LogBlueprintUserMessages: [BP_mana+3] mana+
+[2018.09.22-06.25.25:499][154]LogBlueprintUserMessages: [BP_mana+3] 0
+[2018.09.22-06.25.25:499][154]LogBlueprintUserMessages: [BP_mana+3] 14
+[2018.09.22-06.25.25:801][172]LogBlueprintUserMessages: [TopDownCharacter] 40.0
+[2018.09.22-06.25.26:534][216]LogBlueprintUserMessages: [BP_mana+4] 1
+[2018.09.22-06.25.26:534][216]LogBlueprintUserMessages: [BP_mana+4] mana+
+[2018.09.22-06.25.26:534][216]LogBlueprintUserMessages: [BP_mana+4] 0
+[2018.09.22-06.25.26:534][216]LogBlueprintUserMessages: [BP_mana+4] 21
+[2018.09.22-06.25.28:168][314]LogBlueprintUserMessages: [BP_mana+_2] 1
+[2018.09.22-06.25.28:168][314]LogBlueprintUserMessages: [BP_mana+_2] mana+
+[2018.09.22-06.25.28:168][314]LogBlueprintUserMessages: [BP_mana+_2] 0
+[2018.09.22-06.25.28:168][314]LogBlueprintUserMessages: [BP_mana+_2] 28
+[2018.09.22-06.25.30:855][475]LogBlueprintUserMessages: [BP_jibenwupin2_8] 0
+[2018.09.22-06.25.30:855][475]LogBlueprintUserMessages: [BP_jibenwupin2_8] 金锥子
+[2018.09.22-06.25.30:855][475]LogBlueprintUserMessages: [BP_jibenwupin2_8] 0
+[2018.09.22-06.25.30:855][475]LogBlueprintUserMessages: [BP_jibenwupin2_8] 20
+[2018.09.22-06.25.32:041][546]LogBlueprintUserMessages: [BP_HP+_2] 2
+[2018.09.22-06.25.32:041][546]LogBlueprintUserMessages: [BP_HP+_2] 1
+[2018.09.22-06.25.32:041][546]LogBlueprintUserMessages: [BP_HP+_2] 3
+[2018.09.22-06.25.32:041][546]LogBlueprintUserMessages: [BP_HP+_2] 加血药
+[2018.09.22-06.25.32:875][596]LogBlueprintUserMessages: [TopDownCharacter] 30.0
+[2018.09.22-06.25.33:292][621]LogBlueprintUserMessages: [BP_HP+2_5] 2
+[2018.09.22-06.25.33:292][621]LogBlueprintUserMessages: [BP_HP+2_5] 加血药
+[2018.09.22-06.25.33:292][621]LogBlueprintUserMessages: [BP_HP+2_5] 0
+[2018.09.22-06.25.33:292][621]LogBlueprintUserMessages: [BP_HP+2_5] 6
+[2018.09.22-06.25.33:727][647]LogBlueprintUserMessages: [BP_jiasu_2] 0
+[2018.09.22-06.25.33:727][647]LogBlueprintUserMessages: [BP_jiasu_2] 金锥子
+[2018.09.22-06.25.33:727][647]LogBlueprintUserMessages: [BP_jiasu_2] 0
+[2018.09.22-06.25.33:727][647]LogBlueprintUserMessages: [BP_jiasu_2] 30
+[2018.09.22-06.25.34:998][723]LogBlueprintUserMessages: [BP_HP+3_8] 2
+[2018.09.22-06.25.34:998][723]LogBlueprintUserMessages: [BP_HP+3_8] 加血药
+[2018.09.22-06.25.34:998][723]LogBlueprintUserMessages: [BP_HP+3_8] 0
+[2018.09.22-06.25.34:998][723]LogBlueprintUserMessages: [BP_HP+3_8] 9
+[2018.09.22-06.25.36:204][795]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.25.36:204][795]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.22-06.25.36:222][795]LogSlate: Window '我的项目2 游戏预览 Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.22-06.25.36:270][795]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.22-06.25.36:270][795]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.25.36:351][796]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2018.09.22-06.26.00:866][245]LogSlate: Window '取色器' being destroyed
+[2018.09.22-06.26.27:264][803]LogSlate: Window '取色器' being destroyed
+[2018.09.22-06.26.30:060][970]BlueprintLog: New page: 编译UI_gezi
+[2018.09.22-06.26.31:589][ 39]LogTemp: Repeating last play command: 新建编辑器窗口（在编辑器中运行）
+[2018.09.22-06.26.31:643][ 39]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.26.31:643][ 39]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.22-06.26.31:644][ 39]PIE: New page: PIE会话: TopDownExampleMap (2018年9月22日 下午10:26:31)
+[2018.09.22-06.26.31:644][ 39]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2018.09.22-06.26.31:664][ 39]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020685s)
+[2018.09.22-06.26.31:665][ 39]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.09.22-06.26.31:666][ 39]LogPlayLevel: PIE: World Init took: (0.001196s)
+[2018.09.22-06.26.31:666][ 39]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.022120s)
+[2018.09.22-06.26.31:776][ 39]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.22-06.26.31:859][ 39]LogInit: FAudioDevice initialized.
+[2018.09.22-06.26.31:874][ 39]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.22-06.26.31:970][ 39]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.22-06.26.31:981][ 39]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2018.09.22-14.26.31
+[2018.09.22-06.26.31:983][ 39]LogWorld: Bringing up level for play took: 0.011814
+[2018.09.22-06.26.32:001][ 39]PIE: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap的‘在编辑器中播放’的起始时间-0.175
+[2018.09.22-06.26.32:001][ 39]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.26.33:810][143]LogBlueprintUserMessages: [BP_jibenwupin_5] 0
+[2018.09.22-06.26.33:810][143]LogBlueprintUserMessages: [BP_jibenwupin_5] 0
+[2018.09.22-06.26.33:810][143]LogBlueprintUserMessages: [BP_jibenwupin_5] 10
+[2018.09.22-06.26.33:810][143]LogBlueprintUserMessages: [BP_jibenwupin_5] 金锥子
+[2018.09.22-06.26.35:917][269]LogBlueprintUserMessages: [BP_mana+3] 1
+[2018.09.22-06.26.35:917][269]LogBlueprintUserMessages: [BP_mana+3] 2
+[2018.09.22-06.26.35:917][269]LogBlueprintUserMessages: [BP_mana+3] 7
+[2018.09.22-06.26.35:917][269]LogBlueprintUserMessages: [BP_mana+3] mana+
+[2018.09.22-06.26.36:301][292]LogBlueprintUserMessages: [BP_mana+4] 1
+[2018.09.22-06.26.36:301][292]LogBlueprintUserMessages: [BP_mana+4] mana+
+[2018.09.22-06.26.36:301][292]LogBlueprintUserMessages: [BP_mana+4] 0
+[2018.09.22-06.26.36:301][292]LogBlueprintUserMessages: [BP_mana+4] 14
+[2018.09.22-06.26.37:019][335]LogBlueprintUserMessages: [BP_mana+2] 1
+[2018.09.22-06.26.37:019][335]LogBlueprintUserMessages: [BP_mana+2] mana+
+[2018.09.22-06.26.37:019][335]LogBlueprintUserMessages: [BP_mana+2] 0
+[2018.09.22-06.26.37:019][335]LogBlueprintUserMessages: [BP_mana+2] 21
+[2018.09.22-06.26.37:153][343]LogBlueprintUserMessages: [monster7] monster death
+[2018.09.22-06.26.37:387][357]LogBlueprintUserMessages: [BP_mana+_2] 1
+[2018.09.22-06.26.37:387][357]LogBlueprintUserMessages: [BP_mana+_2] mana+
+[2018.09.22-06.26.37:387][357]LogBlueprintUserMessages: [BP_mana+_2] 0
+[2018.09.22-06.26.37:387][357]LogBlueprintUserMessages: [BP_mana+_2] 28
+[2018.09.22-06.26.38:471][422]LogBlueprintUserMessages: [TopDownCharacter] 40.0
+[2018.09.22-06.26.39:305][472]LogBlueprintUserMessages: [BP_HP+_2] 2
+[2018.09.22-06.26.39:305][472]LogBlueprintUserMessages: [BP_HP+_2] 1
+[2018.09.22-06.26.39:305][472]LogBlueprintUserMessages: [BP_HP+_2] 3
+[2018.09.22-06.26.39:305][472]LogBlueprintUserMessages: [BP_HP+_2] 加血药
+[2018.09.22-06.26.39:540][486]LogBlueprintUserMessages: [TopDownCharacter] 30.0
+[2018.09.22-06.26.40:259][529]LogBlueprintUserMessages: [BP_HP+2_5] 2
+[2018.09.22-06.26.40:259][529]LogBlueprintUserMessages: [BP_HP+2_5] 加血药
+[2018.09.22-06.26.40:259][529]LogBlueprintUserMessages: [BP_HP+2_5] 0
+[2018.09.22-06.26.40:259][529]LogBlueprintUserMessages: [BP_HP+2_5] 6
+[2018.09.22-06.26.41:059][577]LogBlueprintUserMessages: [BP_HP+3_8] 2
+[2018.09.22-06.26.41:059][577]LogBlueprintUserMessages: [BP_HP+3_8] 加血药
+[2018.09.22-06.26.41:059][577]LogBlueprintUserMessages: [BP_HP+3_8] 0
+[2018.09.22-06.26.41:059][577]LogBlueprintUserMessages: [BP_HP+3_8] 9
+[2018.09.22-06.26.42:910][688]LogBlueprintUserMessages: [monster5_14] monster death
+[2018.09.22-06.26.58:503][623]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.26.58:504][623]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.22-06.26.58:520][623]LogSlate: Window '我的项目2 游戏预览 Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.22-06.26.58:567][623]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.22-06.26.58:568][623]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.26.58:645][624]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2018.09.22-06.27.10:285][319]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube10)
+[2018.09.22-06.27.11:841][408]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.22-06.27.11:905][412]LogTemp: Repeating last play command: 新建编辑器窗口（在编辑器中运行）
+[2018.09.22-06.27.11:950][412]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.27.11:950][412]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.22-06.27.11:951][412]PIE: New page: PIE会话: TopDownExampleMap (2018年9月22日 下午10:27:11)
+[2018.09.22-06.27.11:951][412]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2018.09.22-06.27.11:969][412]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018472s)
+[2018.09.22-06.27.11:970][412]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.09.22-06.27.11:971][412]LogPlayLevel: PIE: World Init took: (0.001187s)
+[2018.09.22-06.27.11:971][412]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.019870s)
+[2018.09.22-06.27.12:081][412]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.22-06.27.12:168][412]LogInit: FAudioDevice initialized.
+[2018.09.22-06.27.12:183][412]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.22-06.27.12:277][412]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.22-06.27.12:288][412]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2018.09.22-14.27.12
+[2018.09.22-06.27.12:292][412]LogWorld: Bringing up level for play took: 0.013570
+[2018.09.22-06.27.12:312][412]PIE: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap的‘在编辑器中播放’的起始时间0.137
+[2018.09.22-06.27.12:312][412]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.27.14:038][511]LogBlueprintUserMessages: [BP_mana+2] 0
+[2018.09.22-06.27.14:038][511]LogBlueprintUserMessages: [BP_mana+2] 2
+[2018.09.22-06.27.14:038][511]LogBlueprintUserMessages: [BP_mana+2] 7
+[2018.09.22-06.27.14:038][511]LogBlueprintUserMessages: [BP_mana+2] mana+
+[2018.09.22-06.27.14:505][539]LogBlueprintUserMessages: [BP_mana+_2] 0
+[2018.09.22-06.27.14:505][539]LogBlueprintUserMessages: [BP_mana+_2] mana+
+[2018.09.22-06.27.14:505][539]LogBlueprintUserMessages: [BP_mana+_2] 0
+[2018.09.22-06.27.14:505][539]LogBlueprintUserMessages: [BP_mana+_2] 14
+[2018.09.22-06.27.15:372][591]LogBlueprintUserMessages: [BP_jibenwupin_5] 1
+[2018.09.22-06.27.15:372][591]LogBlueprintUserMessages: [BP_jibenwupin_5] 0
+[2018.09.22-06.27.15:372][591]LogBlueprintUserMessages: [BP_jibenwupin_5] 10
+[2018.09.22-06.27.15:372][591]LogBlueprintUserMessages: [BP_jibenwupin_5] 金锥子
+[2018.09.22-06.27.15:755][614]LogBlueprintUserMessages: [BP_mana+3] 0
+[2018.09.22-06.27.15:755][614]LogBlueprintUserMessages: [BP_mana+3] mana+
+[2018.09.22-06.27.15:755][614]LogBlueprintUserMessages: [BP_mana+3] 0
+[2018.09.22-06.27.15:755][614]LogBlueprintUserMessages: [BP_mana+3] 21
+[2018.09.22-06.27.16:272][645]LogBlueprintUserMessages: [BP_mana+4] 0
+[2018.09.22-06.27.16:272][645]LogBlueprintUserMessages: [BP_mana+4] mana+
+[2018.09.22-06.27.16:272][645]LogBlueprintUserMessages: [BP_mana+4] 0
+[2018.09.22-06.27.16:272][645]LogBlueprintUserMessages: [BP_mana+4] 28
+[2018.09.22-06.27.20:462][896]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.27.20:463][896]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.22-06.27.20:481][896]LogSlate: Window '我的项目2 游戏预览 Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.22-06.27.20:526][896]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.22-06.27.20:527][896]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.27.20:601][897]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2018.09.22-06.27.43:621][156]LogSlate: Window '取色器' being destroyed
+[2018.09.22-06.27.45:734][282]BlueprintLog: New page: 编译UI_gezi
+[2018.09.22-06.27.47:183][346]LogTemp: Repeating last play command: 新建编辑器窗口（在编辑器中运行）
+[2018.09.22-06.27.47:225][346]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.27.47:225][346]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.22-06.27.47:225][346]PIE: New page: PIE会话: TopDownExampleMap (2018年9月22日 下午10:27:47)
+[2018.09.22-06.27.47:225][346]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2018.09.22-06.27.47:243][346]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017289s)
+[2018.09.22-06.27.47:243][346]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.09.22-06.27.47:244][346]LogPlayLevel: PIE: World Init took: (0.001020s)
+[2018.09.22-06.27.47:244][346]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.018517s)
+[2018.09.22-06.27.47:352][346]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.22-06.27.47:435][346]LogInit: FAudioDevice initialized.
+[2018.09.22-06.27.47:447][346]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.22-06.27.47:545][346]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.22-06.27.47:556][346]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2018.09.22-14.27.47
+[2018.09.22-06.27.47:559][346]LogWorld: Bringing up level for play took: 0.013589
+[2018.09.22-06.27.47:578][346]PIE: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap的‘在编辑器中播放’的起始时间-0.598
+[2018.09.22-06.27.47:578][346]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.27.48:241][379]LogBlueprintUserMessages: [monster2_5] monster death
+[2018.09.22-06.27.48:692][406]LogBlueprintUserMessages: [TopDownCharacter] 1
+[2018.09.22-06.27.48:859][416]LogBlueprintUserMessages: [BP_mana+_2] 0
+[2018.09.22-06.27.48:859][416]LogBlueprintUserMessages: [BP_mana+_2] 2
+[2018.09.22-06.27.48:859][416]LogBlueprintUserMessages: [BP_mana+_2] 7
+[2018.09.22-06.27.48:860][416]LogBlueprintUserMessages: [BP_mana+_2] mana+
+[2018.09.22-06.27.49:157][434]LogBlueprintUserMessages: [BP_mana+2] 0
+[2018.09.22-06.27.49:157][434]LogBlueprintUserMessages: [BP_mana+2] mana+
+[2018.09.22-06.27.49:157][434]LogBlueprintUserMessages: [BP_mana+2] 0
+[2018.09.22-06.27.49:157][434]LogBlueprintUserMessages: [BP_mana+2] 14
+[2018.09.22-06.27.49:724][468]LogBlueprintUserMessages: [TopDownCharacter] 2
+[2018.09.22-06.27.50:582][519]LogBlueprintUserMessages: [monster5_14] monster death
+[2018.09.22-06.27.51:732][588]LogBlueprintUserMessages: [TopDownCharacter] 连击中断
+[2018.09.22-06.27.52:651][643]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.27.52:652][643]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.22-06.27.52:669][643]LogSlate: Window '我的项目2 游戏预览 Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.22-06.27.52:721][643]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.22-06.27.52:721][643]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.27.52:794][644]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2018.09.22-06.28.17:802][583]LogSlate: Window '取色器' being destroyed
+[2018.09.22-06.28.25:383][637]LogSlate: Window '取色器' being destroyed
+[2018.09.22-06.28.27:823][689]LogSlate: Window '取色器' being destroyed
+[2018.09.22-06.28.32:953][854]LogSlate: Window '取色器' being destroyed
+[2018.09.22-06.28.40:478][117]LogSlate: Window '取色器' being destroyed
+[2018.09.22-06.28.42:907][181]LogSlate: Window '取色器' being destroyed
+[2018.09.22-06.28.51:561][245]LogSlate: Window '取色器' being destroyed
+[2018.09.22-06.28.55:377][320]LogSlate: Window '取色器' being destroyed
+[2018.09.22-06.29.00:790][430]LogSlate: Window '取色器' being destroyed
+[2018.09.22-06.29.06:987][598]LogSlate: Window '取色器' being destroyed
+[2018.09.22-06.29.11:115][750]LogSlate: Window '取色器' being destroyed
+[2018.09.22-06.29.12:510][833]BlueprintLog: New page: 编译UI_gezi
+[2018.09.22-06.29.13:752][887]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.09.22-06.29.15:559][992]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.22-06.29.15:925][ 14]LogTemp: Repeating last play command: 新建编辑器窗口（在编辑器中运行）
+[2018.09.22-06.29.15:964][ 14]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.29.15:964][ 14]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.22-06.29.15:964][ 14]PIE: New page: PIE会话: TopDownExampleMap (2018年9月22日 下午10:29:15)
+[2018.09.22-06.29.15:964][ 14]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2018.09.22-06.29.15:983][ 14]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018381s)
+[2018.09.22-06.29.15:984][ 14]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.09.22-06.29.15:984][ 14]LogPlayLevel: PIE: World Init took: (0.001471s)
+[2018.09.22-06.29.15:984][ 14]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.020078s)
+[2018.09.22-06.29.16:099][ 14]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.22-06.29.16:184][ 14]LogInit: FAudioDevice initialized.
+[2018.09.22-06.29.16:199][ 14]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.22-06.29.16:302][ 14]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.22-06.29.16:313][ 14]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2018.09.22-14.29.16
+[2018.09.22-06.29.16:316][ 14]LogWorld: Bringing up level for play took: 0.012810
+[2018.09.22-06.29.16:335][ 14]PIE: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap的‘在编辑器中播放’的起始时间0.16
+[2018.09.22-06.29.16:335][ 14]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.29.16:973][ 48]LogBlueprintUserMessages: [monster2_5] monster death
+[2018.09.22-06.29.17:722][ 93]LogBlueprintUserMessages: [BP_mana+_2] 0
+[2018.09.22-06.29.17:722][ 93]LogBlueprintUserMessages: [BP_mana+_2] 2
+[2018.09.22-06.29.17:722][ 93]LogBlueprintUserMessages: [BP_mana+_2] 7
+[2018.09.22-06.29.17:723][ 93]LogBlueprintUserMessages: [BP_mana+_2] mana+
+[2018.09.22-06.29.18:155][119]LogBlueprintUserMessages: [monster6] monster death
+[2018.09.22-06.29.21:814][338]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.29.21:814][338]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.22-06.29.21:832][338]LogSlate: Window '我的项目2 游戏预览 Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.22-06.29.21:882][338]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.22-06.29.21:882][338]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.29.21:955][339]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2018.09.22-06.30.14:669][460]BlueprintLog: New page: 编译UI_gezi
+[2018.09.22-06.30.16:115][517]LogTemp: Repeating last play command: 新建编辑器窗口（在编辑器中运行）
+[2018.09.22-06.30.16:170][517]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.30.16:170][517]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.22-06.30.16:170][517]PIE: New page: PIE会话: TopDownExampleMap (2018年9月22日 下午10:30:16)
+[2018.09.22-06.30.16:170][517]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2018.09.22-06.30.16:189][517]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020124s)
+[2018.09.22-06.30.16:191][517]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.09.22-06.30.16:191][517]LogPlayLevel: PIE: World Init took: (0.001506s)
+[2018.09.22-06.30.16:191][517]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.021879s)
+[2018.09.22-06.30.16:309][517]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.22-06.30.16:408][517]LogInit: FAudioDevice initialized.
+[2018.09.22-06.30.16:421][517]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.22-06.30.16:522][517]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.22-06.30.16:533][517]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2018.09.22-14.30.16
+[2018.09.22-06.30.16:535][517]LogWorld: Bringing up level for play took: 0.010914
+[2018.09.22-06.30.16:551][517]PIE: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap的‘在编辑器中播放’的起始时间0.377
+[2018.09.22-06.30.16:552][517]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.30.17:911][594]LogBlueprintUserMessages: [BP_mana+_2] 0
+[2018.09.22-06.30.17:911][594]LogBlueprintUserMessages: [BP_mana+_2] 2
+[2018.09.22-06.30.17:911][594]LogBlueprintUserMessages: [BP_mana+_2] 7
+[2018.09.22-06.30.17:911][594]LogBlueprintUserMessages: [BP_mana+_2] mana+
+[2018.09.22-06.30.24:967][ 17]LogBlueprintUserMessages: [monster3_8] monster death
+[2018.09.22-06.30.26:221][ 92]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.30.26:222][ 92]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.22-06.30.26:240][ 92]LogSlate: Window '我的项目2 游戏预览 Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.22-06.30.26:287][ 92]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.22-06.30.26:287][ 92]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.30.26:363][ 93]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2018.09.22-06.31.24:298][525]LogSlate: Window '取色器' being destroyed
+[2018.09.22-06.31.25:025][568]BlueprintLog: New page: 编译UI_gezi
+[2018.09.22-06.31.26:653][633]LogTemp: Repeating last play command: 新建编辑器窗口（在编辑器中运行）
+[2018.09.22-06.31.26:708][633]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.31.26:708][633]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.22-06.31.26:708][633]PIE: New page: PIE会话: TopDownExampleMap (2018年9月22日 下午10:31:26)
+[2018.09.22-06.31.26:708][633]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2018.09.22-06.31.26:727][633]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019030s)
+[2018.09.22-06.31.26:728][633]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.09.22-06.31.26:728][633]LogPlayLevel: PIE: World Init took: (0.000864s)
+[2018.09.22-06.31.26:728][633]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.020135s)
+[2018.09.22-06.31.26:857][633]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.22-06.31.26:950][633]LogInit: FAudioDevice initialized.
+[2018.09.22-06.31.26:965][633]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.22-06.31.27:065][633]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.22-06.31.27:079][633]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2018.09.22-14.31.27
+[2018.09.22-06.31.27:081][633]LogWorld: Bringing up level for play took: 0.015819
+[2018.09.22-06.31.27:101][633]PIE: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap的‘在编辑器中播放’的起始时间0.925
+[2018.09.22-06.31.27:101][633]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.31.28:316][701]LogBlueprintUserMessages: [BP_mana+_2] 0
+[2018.09.22-06.31.28:316][701]LogBlueprintUserMessages: [BP_mana+_2] 2
+[2018.09.22-06.31.28:316][701]LogBlueprintUserMessages: [BP_mana+_2] 7
+[2018.09.22-06.31.28:316][701]LogBlueprintUserMessages: [BP_mana+_2] mana+
+[2018.09.22-06.31.32:977][980]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.31.32:978][980]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.22-06.31.32:995][980]LogSlate: Window '我的项目2 游戏预览 Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.22-06.31.33:038][980]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.22-06.31.33:038][980]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.31.33:113][981]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2018.09.22-06.31.45:137][698]LogSlate: Window '取色器' being destroyed
+[2018.09.22-06.32.06:673][972]LogSlate: Window '取色器' being destroyed
+[2018.09.22-06.33.00:167][150]BlueprintLog: New page: 编译UI_gezi
+[2018.09.22-06.33.02:085][243]LogTemp: Repeating last play command: 新建编辑器窗口（在编辑器中运行）
+[2018.09.22-06.33.02:125][243]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.33.02:125][243]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.22-06.33.02:125][243]PIE: New page: PIE会话: TopDownExampleMap (2018年9月22日 下午10:33:02)
+[2018.09.22-06.33.02:126][243]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2018.09.22-06.33.02:143][243]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017714s)
+[2018.09.22-06.33.02:145][243]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.09.22-06.33.02:145][243]LogPlayLevel: PIE: World Init took: (0.001314s)
+[2018.09.22-06.33.02:145][243]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.019466s)
+[2018.09.22-06.33.02:266][243]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.22-06.33.02:350][243]LogInit: FAudioDevice initialized.
+[2018.09.22-06.33.02:364][243]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.22-06.33.02:489][243]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.22-06.33.02:503][243]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2018.09.22-14.33.02
+[2018.09.22-06.33.02:504][243]LogWorld: Bringing up level for play took: 0.014249
+[2018.09.22-06.33.02:521][243]PIE: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap的‘在编辑器中播放’的起始时间0.346
+[2018.09.22-06.33.02:521][243]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.33.03:641][306]LogCharacterMovement: monster_2 is stuck and failed to move! Velocity: X=12.51 Y=31.76 Z=0.00 Location: X=-730.50 Y=13.44 Z=275.19 Normal: X=0.36 Y=0.93 Z=-0.00 PenetrationDepth:31.909 Actor:TopDownCharacter Component:rw BoneName:None (0 other events since notify)
+[2018.09.22-06.33.03:873][320]LogBlueprintUserMessages: [TopDownCharacter] 1
+[2018.09.22-06.33.04:124][335]LogBlueprintUserMessages: [BP_mana+_2] 0
+[2018.09.22-06.33.04:124][335]LogBlueprintUserMessages: [BP_mana+_2] 2
+[2018.09.22-06.33.04:124][335]LogBlueprintUserMessages: [BP_mana+_2] 7
+[2018.09.22-06.33.04:124][335]LogBlueprintUserMessages: [BP_mana+_2] mana+
+[2018.09.22-06.33.04:424][353]LogBlueprintUserMessages: [TopDownCharacter] 2
+[2018.09.22-06.33.04:458][355]LogCharacterMovement: monster5_14 is stuck and failed to move! Velocity: X=-296.42 Y=-41.30 Z=0.00 Location: X=-684.83 Y=353.53 Z=275.18 Normal: X=0.24 Y=0.97 Z=-0.00 PenetrationDepth:7.430 Actor:TopDownCharacter Component:rw BoneName:None (0 other events since notify)
+[2018.09.22-06.33.04:490][357]LogBlueprintUserMessages: [BP_mana+2] 0
+[2018.09.22-06.33.04:490][357]LogBlueprintUserMessages: [BP_mana+2] mana+
+[2018.09.22-06.33.04:490][357]LogBlueprintUserMessages: [BP_mana+2] 0
+[2018.09.22-06.33.04:490][357]LogBlueprintUserMessages: [BP_mana+2] 14
+[2018.09.22-06.33.04:957][385]LogBlueprintUserMessages: [TopDownCharacter] 3
+[2018.09.22-06.33.06:967][505]LogBlueprintUserMessages: [TopDownCharacter] 连击中断
+[2018.09.22-06.33.08:049][570]LogBlueprintUserMessages: [monster8] monster death
+[2018.09.22-06.33.10:135][695]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.33.10:135][695]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.22-06.33.10:152][695]LogSlate: Window '我的项目2 游戏预览 Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.22-06.33.10:201][695]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.22-06.33.10:202][695]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.33.10:271][696]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2018.09.22-06.33.36:992][267]BlueprintLog: New page: 编译UI_gezi
+[2018.09.22-06.33.57:939][452]BlueprintLog: New page: 编译UI_gezi
+[2018.09.22-06.34.00:498][585]LogTemp: Repeating last play command: 新建编辑器窗口（在编辑器中运行）
+[2018.09.22-06.34.00:554][585]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.34.00:554][585]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.22-06.34.00:554][585]PIE: New page: PIE会话: TopDownExampleMap (2018年9月22日 下午10:34:00)
+[2018.09.22-06.34.00:555][585]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2018.09.22-06.34.00:574][585]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018855s)
+[2018.09.22-06.34.00:575][585]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.09.22-06.34.00:575][585]LogPlayLevel: PIE: World Init took: (0.001325s)
+[2018.09.22-06.34.00:575][585]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.020466s)
+[2018.09.22-06.34.00:685][585]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.22-06.34.00:769][585]LogInit: FAudioDevice initialized.
+[2018.09.22-06.34.00:783][585]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.22-06.34.00:872][585]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.22-06.34.00:881][585]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2018.09.22-14.34.00
+[2018.09.22-06.34.00:885][585]LogWorld: Bringing up level for play took: 0.012723
+[2018.09.22-06.34.00:904][585]PIE: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap的‘在编辑器中播放’的起始时间0.729
+[2018.09.22-06.34.00:904][585]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.34.01:560][620]LogBlueprintUserMessages: [monster3_8] monster death
+[2018.09.22-06.34.02:444][673]LogBlueprintUserMessages: [BP_mana+_2] 0
+[2018.09.22-06.34.02:444][673]LogBlueprintUserMessages: [BP_mana+_2] 2
+[2018.09.22-06.34.02:444][673]LogBlueprintUserMessages: [BP_mana+_2] 7
+[2018.09.22-06.34.02:444][673]LogBlueprintUserMessages: [BP_mana+_2] mana+
+[2018.09.22-06.34.02:777][693]LogBlueprintUserMessages: [BP_mana+2] 0
+[2018.09.22-06.34.02:777][693]LogBlueprintUserMessages: [BP_mana+2] mana+
+[2018.09.22-06.34.02:777][693]LogBlueprintUserMessages: [BP_mana+2] 0
+[2018.09.22-06.34.02:777][693]LogBlueprintUserMessages: [BP_mana+2] 14
+[2018.09.22-06.34.03:294][724]LogBlueprintUserMessages: [TopDownCharacter] 1
+[2018.09.22-06.34.05:301][844]LogBlueprintUserMessages: [TopDownCharacter] 连击中断
+[2018.09.22-06.34.10:634][164]LogBlueprintUserMessages: [monster8] monster death
+[2018.09.22-06.34.13:885][359]LogBlueprintUserMessages: [monster_2] monster death
+[2018.09.22-06.34.16:436][512]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.34.16:436][512]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.22-06.34.16:454][512]LogSlate: Window '我的项目2 游戏预览 Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.22-06.34.16:509][512]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.22-06.34.16:509][512]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.34.16:575][513]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2018.09.22-06.34.35:181][609]BlueprintLog: New page: 编译UI_gezi
+[2018.09.22-06.34.36:509][666]LogEditorViewport: Clicking on Actor (LMB): BP_killAIbox_C (killAIbox5)
+[2018.09.22-06.34.38:432][779]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube10)
+[2018.09.22-06.34.40:765][916]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.22-06.34.42:386][ 13]LogTemp: Repeating last play command: 新建编辑器窗口（在编辑器中运行）
+[2018.09.22-06.34.42:438][ 13]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.34.42:438][ 13]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.22-06.34.42:439][ 13]PIE: New page: PIE会话: TopDownExampleMap (2018年9月22日 下午10:34:42)
+[2018.09.22-06.34.42:439][ 13]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2018.09.22-06.34.42:457][ 13]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018521s)
+[2018.09.22-06.34.42:458][ 13]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.09.22-06.34.42:459][ 13]LogPlayLevel: PIE: World Init took: (0.001154s)
+[2018.09.22-06.34.42:459][ 13]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.019975s)
+[2018.09.22-06.34.42:571][ 13]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.22-06.34.42:654][ 13]LogInit: FAudioDevice initialized.
+[2018.09.22-06.34.42:669][ 13]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.22-06.34.42:761][ 13]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.22-06.34.42:771][ 13]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2018.09.22-14.34.42
+[2018.09.22-06.34.42:773][ 13]LogWorld: Bringing up level for play took: 0.010845
+[2018.09.22-06.34.42:792][ 13]PIE: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap的‘在编辑器中播放’的起始时间0.616
+[2018.09.22-06.34.42:792][ 13]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.34.43:439][ 47]LogBlueprintUserMessages: [monster2_5] monster death
+[2018.09.22-06.34.44:791][128]LogBlueprintUserMessages: [BP_mana+_2] 0
+[2018.09.22-06.34.44:791][128]LogBlueprintUserMessages: [BP_mana+_2] 2
+[2018.09.22-06.34.44:791][128]LogBlueprintUserMessages: [BP_mana+_2] 7
+[2018.09.22-06.34.44:791][128]LogBlueprintUserMessages: [BP_mana+_2] mana+
+[2018.09.22-06.34.44:957][138]LogBlueprintUserMessages: [BP_mana+2] 0
+[2018.09.22-06.34.44:957][138]LogBlueprintUserMessages: [BP_mana+2] mana+
+[2018.09.22-06.34.44:957][138]LogBlueprintUserMessages: [BP_mana+2] 0
+[2018.09.22-06.34.44:957][138]LogBlueprintUserMessages: [BP_mana+2] 14
+[2018.09.22-06.34.45:931][196]LogBlueprintUserMessages: [monster5_14] monster death
+[2018.09.22-06.34.48:108][326]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.34.48:108][326]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.22-06.34.48:126][326]LogSlate: Window '我的项目2 游戏预览 Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.22-06.34.48:176][326]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.22-06.34.48:176][326]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.34.48:246][327]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2018.09.22-06.35.14:260][872]BlueprintLog: New page: 编译UI_gezi
+[2018.09.22-06.35.18:143][ 81]LogTemp: Repeating last play command: 新建编辑器窗口（在编辑器中运行）
+[2018.09.22-06.35.18:183][ 81]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.35.18:183][ 81]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.22-06.35.18:183][ 81]PIE: New page: PIE会话: TopDownExampleMap (2018年9月22日 下午10:35:18)
+[2018.09.22-06.35.18:184][ 81]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2018.09.22-06.35.18:204][ 81]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019784s)
+[2018.09.22-06.35.18:205][ 81]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.09.22-06.35.18:205][ 81]LogPlayLevel: PIE: World Init took: (0.001303s)
+[2018.09.22-06.35.18:205][ 81]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.021337s)
+[2018.09.22-06.35.18:319][ 81]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.22-06.35.18:406][ 81]LogInit: FAudioDevice initialized.
+[2018.09.22-06.35.18:420][ 81]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.22-06.35.18:533][ 81]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.22-06.35.18:543][ 81]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2018.09.22-14.35.18
+[2018.09.22-06.35.18:545][ 81]LogWorld: Bringing up level for play took: 0.010753
+[2018.09.22-06.35.18:563][ 81]PIE: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap的‘在编辑器中播放’的起始时间0.389
+[2018.09.22-06.35.18:564][ 81]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.35.19:934][159]LogBlueprintUserMessages: [BP_mana+_2] 0
+[2018.09.22-06.35.19:934][159]LogBlueprintUserMessages: [BP_mana+_2] 2
+[2018.09.22-06.35.19:934][159]LogBlueprintUserMessages: [BP_mana+_2] 7
+[2018.09.22-06.35.19:934][159]LogBlueprintUserMessages: [BP_mana+_2] mana+
+[2018.09.22-06.35.20:082][168]LogBlueprintUserMessages: [monster2_5] monster death
+[2018.09.22-06.35.23:893][393]LogBlueprintUserMessages: [monster5_14] monster death
+[2018.09.22-06.35.25:962][517]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.22-06.35.27:334][599]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.35.27:335][599]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.22-06.35.27:353][599]LogSlate: Window '我的项目2 游戏预览 Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.22-06.35.27:403][599]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.22-06.35.27:403][599]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.35.27:466][600]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2018.09.22-06.35.58:669][ 49]LogSlate: Window '取色器' being destroyed
+[2018.09.22-06.36.04:006][206]LogSlate: Window '取色器' being destroyed
+[2018.09.22-06.36.04:536][207]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/TopDownExampleMap_Auto234644C4041BAB00168D345815C8D0A3E.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/Autosaves/Game/TopDownBP/Maps/TopDownExampleMap_Auto2.umap'
+[2018.09.22-06.36.04:546][207]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.449
+[2018.09.22-06.36.04:546][207]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.449
+[2018.09.22-06.36.04:551][207]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownBP/Blueprints/wupin/BP_jibenwupin] ([1] browsable assets)...
+[2018.09.22-06.36.04:591][207]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TopDownBP/Blueprints/wupin/BP_jibenwupin.BP_jibenwupin]
+[2018.09.22-06.36.04:591][207]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/wupin/BP_jibenwupin]
+[2018.09.22-06.36.04:722][207]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/BP_jibenwupin_Auto2DFF84AE34DB115E6EF5415A73A43208B.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/Autosaves/Game/TopDownBP/Blueprints/wupin/BP_jibenwupin_Auto2.uasset'
+[2018.09.22-06.36.04:731][207]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Blueprints/TopDownController] ([1] browsable assets)...
+[2018.09.22-06.36.04:731][207]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/TopDownController]
+[2018.09.22-06.36.04:832][207]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/TopDownController_Auto2B5D67B304DB650E8E634408C43A58DEE.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/Autosaves/Game/TopDownBP/Blueprints/TopDownController_Auto2.uasset'
+[2018.09.22-06.36.04:842][207]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Blueprints/UI/bag/UI_scollBag] ([1] browsable assets)...
+[2018.09.22-06.36.04:842][207]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/UI/bag/UI_scollBag]
+[2018.09.22-06.36.05:004][207]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/UI_scollBag_Auto2757FE0DC4A25DE57476C3D9DF70B4698.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/Autosaves/Game/TopDownBP/Blueprints/UI/bag/UI_scollBag_Auto2.uasset'
+[2018.09.22-06.36.05:018][207]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Blueprints/UI/bag/UI_gezi] ([1] browsable assets)...
+[2018.09.22-06.36.05:018][207]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/UI/bag/UI_gezi]
+[2018.09.22-06.36.05:112][207]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/UI_gezi_Auto29B8697EC493BE4FBF4B2AE9B66E503E6.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/Autosaves/Game/TopDownBP/Blueprints/UI/bag/UI_gezi_Auto2.uasset'
+[2018.09.22-06.36.05:119][207]LogFileHelpers: Auto-saving content packages took 0.572
+[2018.09.22-06.36.05:698][241]BlueprintLog: New page: 编译UI_gezi
+[2018.09.22-06.36.06:364][259]LogTemp: Repeating last play command: 新建编辑器窗口（在编辑器中运行）
+[2018.09.22-06.36.06:413][259]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.36.06:413][259]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.22-06.36.06:413][259]PIE: New page: PIE会话: TopDownExampleMap (2018年9月22日 下午10:36:06)
+[2018.09.22-06.36.06:414][259]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2018.09.22-06.36.06:434][259]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020358s)
+[2018.09.22-06.36.06:435][259]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.09.22-06.36.06:435][259]LogPlayLevel: PIE: World Init took: (0.001141s)
+[2018.09.22-06.36.06:435][259]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.021736s)
+[2018.09.22-06.36.06:560][259]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.22-06.36.06:652][259]LogInit: FAudioDevice initialized.
+[2018.09.22-06.36.06:666][259]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.22-06.36.06:755][259]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.22-06.36.06:767][259]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2018.09.22-14.36.06
+[2018.09.22-06.36.06:769][259]LogWorld: Bringing up level for play took: 0.013108
+[2018.09.22-06.36.06:789][259]PIE: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap的‘在编辑器中播放’的起始时间0.614
+[2018.09.22-06.36.06:790][259]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.36.08:641][366]LogBlueprintUserMessages: [monster6] monster death
+[2018.09.22-06.36.09:874][440]LogBlueprintUserMessages: [BP_mana+_2] 0
+[2018.09.22-06.36.09:874][440]LogBlueprintUserMessages: [BP_mana+_2] 2
+[2018.09.22-06.36.09:874][440]LogBlueprintUserMessages: [BP_mana+_2] 7
+[2018.09.22-06.36.09:874][440]LogBlueprintUserMessages: [BP_mana+_2] mana+
+[2018.09.22-06.36.11:581][542]LogBlueprintUserMessages: [monster4_11] monster death
+[2018.09.22-06.36.16:552][840]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.36.16:553][840]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.22-06.36.16:570][840]LogSlate: Window '我的项目2 游戏预览 Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.22-06.36.16:615][840]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.22-06.36.16:615][840]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.36.16:685][841]LogPlayLevel: Display: Destroying online subsystem :Context_42
+[2018.09.22-06.36.51:543][134]LogTemp: Repeating last play command: 新建编辑器窗口（在编辑器中运行）
+[2018.09.22-06.36.51:585][134]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.36.51:585][134]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.22-06.36.51:586][134]PIE: New page: PIE会话: TopDownExampleMap (2018年9月22日 下午10:36:51)
+[2018.09.22-06.36.51:586][134]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2018.09.22-06.36.51:605][134]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019308s)
+[2018.09.22-06.36.51:606][134]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.09.22-06.36.51:607][134]LogPlayLevel: PIE: World Init took: (0.001232s)
+[2018.09.22-06.36.51:607][134]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.020918s)
+[2018.09.22-06.36.51:718][134]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.22-06.36.51:803][134]LogInit: FAudioDevice initialized.
+[2018.09.22-06.36.51:817][134]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.22-06.36.51:936][134]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.22-06.36.51:948][134]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2018.09.22-14.36.51
+[2018.09.22-06.36.51:951][134]LogWorld: Bringing up level for play took: 0.014039
+[2018.09.22-06.36.51:972][134]PIE: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap的‘在编辑器中播放’的起始时间-0.203
+[2018.09.22-06.36.51:973][134]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.36.53:176][201]LogBlueprintUserMessages: [BP_mana+_2] 0
+[2018.09.22-06.36.53:176][201]LogBlueprintUserMessages: [BP_mana+_2] 2
+[2018.09.22-06.36.53:176][201]LogBlueprintUserMessages: [BP_mana+_2] 7
+[2018.09.22-06.36.53:176][201]LogBlueprintUserMessages: [BP_mana+_2] mana+
+[2018.09.22-06.37.02:156][738]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.37.02:157][738]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.22-06.37.02:174][738]LogSlate: Window '我的项目2 游戏预览 Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.22-06.37.02:221][738]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.22-06.37.02:222][738]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.37.02:295][739]LogPlayLevel: Display: Destroying online subsystem :Context_43
+[2018.09.22-06.43.06:610][105]BlueprintLog: New page: 编译UI_xiangxixinxi
+[2018.09.22-06.43.23:537][102]BlueprintLog: New page: 编译UI_xiangxixinxi
+[2018.09.22-06.43.23:964][121]BlueprintLog: New page: 编译UI_xiangxixinxi
+[2018.09.22-06.43.48:091][531]BlueprintLog: New page: 编译UI_gezi
+[2018.09.22-06.43.48:668][545]BlueprintLog: New page: 编译UI_gezi
+[2018.09.22-06.44.27:862][814]BlueprintLog: New page: 编译BP_jibenwupin
+[2018.09.22-06.44.29:028][855]BlueprintLog: New page: 编译BP_jibenwupin
+[2018.09.22-06.44.56:172][432]BlueprintLog: New page: 编译UI_scollBag
+[2018.09.22-06.45.48:125][469]BlueprintLog: New page: 编译BP_jibenwupin
+[2018.09.22-06.46.26:974][150]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/TopDownExampleMap_Auto3E273DFA7437758CCE66B52A581C9A408.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/Autosaves/Game/TopDownBP/Maps/TopDownExampleMap_Auto3.umap'
+[2018.09.22-06.46.26:987][150]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.594
+[2018.09.22-06.46.26:987][150]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.594
+[2018.09.22-06.46.26:996][150]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownBP/Blueprints/wupin/BP_jibenwupin] ([1] browsable assets)...
+[2018.09.22-06.46.27:019][150]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TopDownBP/Blueprints/wupin/BP_jibenwupin.BP_jibenwupin]
+[2018.09.22-06.46.27:019][150]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/wupin/BP_jibenwupin]
+[2018.09.22-06.46.27:175][150]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/BP_jibenwupin_Auto39B06401245807C5FEA2014ABAF188F2E.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/Autosaves/Game/TopDownBP/Blueprints/wupin/BP_jibenwupin_Auto3.uasset'
+[2018.09.22-06.46.27:184][150]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Blueprints/TopDownController] ([1] browsable assets)...
+[2018.09.22-06.46.27:184][150]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/TopDownController]
+[2018.09.22-06.46.27:319][150]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/TopDownController_Auto302520C8E489CFCD29EBB7DBED9F9E180.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/Autosaves/Game/TopDownBP/Blueprints/TopDownController_Auto3.uasset'
+[2018.09.22-06.46.27:334][150]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Blueprints/UI/bag/UI_scollBag] ([1] browsable assets)...
+[2018.09.22-06.46.27:334][150]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/UI/bag/UI_scollBag]
+[2018.09.22-06.46.27:517][150]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/UI_scollBag_Auto3D1D06D4C42A2EF1A1F20F0AC0933C618.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/Autosaves/Game/TopDownBP/Blueprints/UI/bag/UI_scollBag_Auto3.uasset'
+[2018.09.22-06.46.27:530][150]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Blueprints/UI/bag/UI_gezi] ([1] browsable assets)...
+[2018.09.22-06.46.27:530][150]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/UI/bag/UI_gezi]
+[2018.09.22-06.46.27:640][150]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/UI_gezi_Auto3DB986E29494F29F82E2E318383D4A8B9.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/Autosaves/Game/TopDownBP/Blueprints/UI/bag/UI_gezi_Auto3.uasset'
+[2018.09.22-06.46.27:651][150]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Blueprints/UI/UI_xiangxixinxi] ([1] browsable assets)...
+[2018.09.22-06.46.27:651][150]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/UI/UI_xiangxixinxi]
+[2018.09.22-06.46.27:720][150]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/UI_xiangxixinxi_Auto37EB43AA542FB6B73B6EC0DBEBE2D1FDB.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/Autosaves/Game/TopDownBP/Blueprints/UI/UI_xiangxixinxi_Auto3.uasset'
+[2018.09.22-06.46.27:731][150]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownBP/Blueprints/wupin/BP_HP+] ([1] browsable assets)...
+[2018.09.22-06.46.27:751][150]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TopDownBP/Blueprints/wupin/BP_HP+.BP_HP+]
+[2018.09.22-06.46.27:751][150]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/wupin/BP_HP+]
+[2018.09.22-06.46.27:823][150]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/BP_HP+_Auto3E9F18D4143A43D6D918F3686ACE8C91A.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/Autosaves/Game/TopDownBP/Blueprints/wupin/BP_HP+_Auto3.uasset'
+[2018.09.22-06.46.27:845][150]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownBP/Blueprints/wupin/BP_mana+] ([1] browsable assets)...
+[2018.09.22-06.46.27:865][150]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TopDownBP/Blueprints/wupin/BP_mana+.BP_mana+]
+[2018.09.22-06.46.27:865][150]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/wupin/BP_mana+]
+[2018.09.22-06.46.27:932][150]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/BP_mana+_Auto33F0933F343C877FE217A36B1DCEEA038.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/Autosaves/Game/TopDownBP/Blueprints/wupin/BP_mana+_Auto3.uasset'
+[2018.09.22-06.46.27:939][150]LogFileHelpers: Auto-saving content packages took 0.950
+[2018.09.22-06.46.43:126][ 48]BlueprintLog: New page: 编译BP_jibenwupin
+[2018.09.22-06.47.55:960][250]BlueprintLog: New page: 编译UI_scollBag
+[2018.09.22-06.48.25:062][874]LogSlate: Window '删除变量' being destroyed
+[2018.09.22-06.48.53:637][431]BlueprintLog: New page: 编译UI_scollBag
+[2018.09.22-06.49.35:866][730]BlueprintLog: New page: 编译UI_scollBag
+[2018.09.22-06.49.38:016][843]LogTemp: Repeating last play command: 新建编辑器窗口（在编辑器中运行）
+[2018.09.22-06.49.38:063][843]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.49.38:063][843]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.22-06.49.38:063][843]PIE: New page: PIE会话: TopDownExampleMap (2018年9月22日 下午10:49:38)
+[2018.09.22-06.49.38:063][843]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2018.09.22-06.49.38:088][843]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024809s)
+[2018.09.22-06.49.38:089][843]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.09.22-06.49.38:090][843]LogPlayLevel: PIE: World Init took: (0.001596s)
+[2018.09.22-06.49.38:090][843]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.026592s)
+[2018.09.22-06.49.38:204][843]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.22-06.49.38:286][843]LogInit: FAudioDevice initialized.
+[2018.09.22-06.49.38:301][843]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.22-06.49.38:396][843]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.22-06.49.38:409][843]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2018.09.22-14.49.38
+[2018.09.22-06.49.38:411][843]LogWorld: Bringing up level for play took: 0.013984
+[2018.09.22-06.49.38:430][843]PIE: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap的‘在编辑器中播放’的起始时间0.254
+[2018.09.22-06.49.38:430][843]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.49.43:118][119]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.49.43:119][119]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.22-06.49.43:137][119]LogSlate: Window '我的项目2 游戏预览 Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.22-06.49.43:193][119]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.22-06.49.43:193][119]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-06.49.43:263][120]LogPlayLevel: Display: Destroying online subsystem :Context_49
+[2018.09.22-06.49.49:555][490]BlueprintLog: New page: 编译UI_scollBag
+[2018.09.22-06.51.29:744][288]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/JG_wupin" FILE="C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/JG_wupin.uasset" SILENT=true
+[2018.09.22-06.51.29:802][288]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/JG_wupinDF58223549410E4B21B633A4486B88AD.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/JG_wupin.uasset'
+[2018.09.22-06.51.50:515][484]BlueprintLog: New page: 编译BP_jibenwupin
+[2018.09.22-06.52.21:333][278]BlueprintLog: New page: 编译BP_jibenwupin
+[2018.09.22-06.53.41:931][895]LogSlate: Window '修改变量类型' being destroyed
+[2018.09.22-06.53.46:390][145]LogSlate: Window '在蓝图中寻找' being destroyed
+[2018.09.22-06.53.46:398][145]LogSlate: Window '在蓝图中寻找' being destroyed
+[2018.09.22-06.55.20:478][688]BlueprintLog: New page: 编译UI_scollBag
+[2018.09.22-06.57.35:349][628]BlueprintLog: New page: 编译UI_scollBag
+[2018.09.22-06.57.43:130][ 64]BlueprintLog: New page: 编译BP_jibenwupin
+[2018.09.22-06.58.34:967][106]BlueprintLog: New page: 编译UI_scollBag
+[2018.09.22-06.59.16:799][546]BlueprintLog: New page: 编译BP_hero
+[2018.09.22-07.02.16:686][997]BlueprintLog: New page: 编译BP_jibenwupin
+[2018.09.22-07.02.47:126][775]BlueprintLog: New page: 编译BP_hero
+[2018.09.22-07.04.27:802][651]BlueprintLog: New page: 编译BP_jibenwupin
+[2018.09.22-07.05.49:532][460]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.09.22-07.05.49:835][460]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (中文 - QQ拼音输入法).
+[2018.09.22-07.17.36:103][133]BlueprintLog: New page: 编译BP_jibenwupin
+[2018.09.22-07.17.36:237][133]LogBlueprint: Error: [Compiler BP_jibenwupin] ' In Text '引脚的当前值是无效的：'In Text'必须连接一个输入("by ref"参数需要一个有效的输入以进行操作)。
+[2018.09.22-07.17.36:579][133]LogBlueprint: Warning: [Compiler BP_jibenwupin] [4651.96]编译 BP_jibenwupin 失败。1 项重大问题；0 个警告[475 毫秒内]（/Game/TopDownBP/Blueprints/wupin/BP_jibenwupin.BP_jibenwupin）
+[2018.09.22-07.18.40:299][875]LogEditorTransaction: Undo 删除当前选项
+[2018.09.22-07.18.41:324][922]LogEditorTransaction: Undo 移动节点
+[2018.09.22-07.18.45:140][118]LogEditorTransaction: Undo 移动节点
+[2018.09.22-07.18.46:080][156]LogEditorTransaction: Undo 移动节点
+[2018.09.22-07.18.46:946][194]LogEditorTransaction: Undo 移动节点
+[2018.09.22-07.19.44:050][394]BlueprintLog: New page: 编译BP_jibenwupin
+[2018.09.22-07.19.44:182][394]LogBlueprint: Error: [Compiler BP_jibenwupin] ' In Text '引脚的当前值是无效的：'In Text'必须连接一个输入("by ref"参数需要一个有效的输入以进行操作)。
+[2018.09.22-07.19.44:501][394]LogBlueprint: Warning: [Compiler BP_jibenwupin] [4779.88]编译 BP_jibenwupin 失败。1 项重大问题；0 个警告[451 毫秒内]（/Game/TopDownBP/Blueprints/wupin/BP_jibenwupin.BP_jibenwupin）
+[2018.09.22-07.22.37:767][326]BlueprintLog: New page: 编译BP_jibenwupin
+[2018.09.22-07.22.51:544][ 59]BlueprintLog: New page: 编译BP_jibenwupin
+[2018.09.22-07.23.03:786][718]BlueprintLog: New page: 编译BP_hero
+[2018.09.22-07.23.25:780][273]LogTemp: Repeating last play command: 新建编辑器窗口（在编辑器中运行）
+[2018.09.22-07.23.25:838][273]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-07.23.25:839][273]BlueprintLog: New page: 运行前自动重新编译
+[2018.09.22-07.23.25:873][273]LogPlayLevel: [PlayLevel] Compiling UI_gezi before play...
+[2018.09.22-07.23.26:190][273]LogPlayLevel: [PlayLevel] Compiling UI_beibao before play...
+[2018.09.22-07.23.26:455][273]LogPlayLevel: [PlayLevel] Compiling UI_Drop before play...
+[2018.09.22-07.23.26:479][273]LogPlayLevel: [PlayLevel]   Compiling UI_WipinInBeibao as a dependent...
+[2018.09.22-07.23.26:751][273]LogPlayLevel: PlayLevel: Blueprint regeneration took 911 ms (4 blueprints)
+[2018.09.22-07.23.26:751][273]PIE: New page: PIE会话: TopDownExampleMap (2018年9月22日 下午11:23:26)
+[2018.09.22-07.23.26:751][273]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2018.09.22-07.23.26:778][273]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026528s)
+[2018.09.22-07.23.26:779][273]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.09.22-07.23.26:780][273]LogPlayLevel: PIE: World Init took: (0.001628s)
+[2018.09.22-07.23.26:780][273]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.028460s)
+[2018.09.22-07.23.26:912][273]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.22-07.23.27:008][273]LogInit: FAudioDevice initialized.
+[2018.09.22-07.23.27:029][273]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.22-07.23.27:218][273]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.22-07.23.27:229][273]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2018.09.22-15.23.27
+[2018.09.22-07.23.27:231][273]LogWorld: Bringing up level for play took: 0.012554
+[2018.09.22-07.23.27:249][273]PIE: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap的‘在编辑器中播放’的起始时间1.074
+[2018.09.22-07.23.27:249][273]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-07.23.29:521][402]LogBlueprintUserMessages: [BP_mana+_2] 0
+[2018.09.22-07.23.29:521][402]LogBlueprintUserMessages: [BP_mana+_2] 2
+[2018.09.22-07.23.29:521][402]LogBlueprintUserMessages: [BP_mana+_2] 7
+[2018.09.22-07.23.29:521][402]LogBlueprintUserMessages: [BP_mana+_2] mana+
+[2018.09.22-07.23.29:521][402]LogBlueprintUserMessages: [BP_mana+_2] 3.5
+[2018.09.22-07.23.30:008][431]LogBlueprintUserMessages: [BP_mana+2] 0
+[2018.09.22-07.23.30:008][431]LogBlueprintUserMessages: [BP_mana+2] mana+
+[2018.09.22-07.23.30:008][431]LogBlueprintUserMessages: [BP_mana+2] 2
+[2018.09.22-07.23.30:008][431]LogBlueprintUserMessages: [BP_mana+2] 14
+[2018.09.22-07.23.30:008][431]LogBlueprintUserMessages: [BP_mana+2] 28.0
+[2018.09.22-07.23.30:259][446]LogBlueprintUserMessages: [monster4_11] monster death
+[2018.09.22-07.23.31:480][519]LogBlueprintUserMessages: [monster2_5] monster death
+[2018.09.22-07.23.32:785][597]LogBlueprintUserMessages: [monster8] monster death
+[2018.09.22-07.23.33:789][657]LogBlueprintUserMessages: [BP_HP+_2] 1
+[2018.09.22-07.23.33:790][657]LogBlueprintUserMessages: [BP_HP+_2] 1
+[2018.09.22-07.23.33:790][657]LogBlueprintUserMessages: [BP_HP+_2] -16
+[2018.09.22-07.23.33:790][657]LogBlueprintUserMessages: [BP_HP+_2] 加血药
+[2018.09.22-07.23.36:139][798]LogBlueprintUserMessages: [BP_HP+2_5] 1
+[2018.09.22-07.23.36:139][798]LogBlueprintUserMessages: [BP_HP+2_5] 加血药
+[2018.09.22-07.23.36:139][798]LogBlueprintUserMessages: [BP_HP+2_5] 0
+[2018.09.22-07.23.36:139][798]LogBlueprintUserMessages: [BP_HP+2_5] -16
+[2018.09.22-07.23.37:243][864]LogBlueprintUserMessages: [BP_HP+2_5] 1
+[2018.09.22-07.23.37:244][864]LogBlueprintUserMessages: [BP_HP+2_5] 加血药
+[2018.09.22-07.23.37:244][864]LogBlueprintUserMessages: [BP_HP+2_5] 0
+[2018.09.22-07.23.37:244][864]LogBlueprintUserMessages: [BP_HP+2_5] -16
+[2018.09.22-07.23.37:811][898]LogBlueprintUserMessages: [BP_HP+2_5] 1
+[2018.09.22-07.23.37:811][898]LogBlueprintUserMessages: [BP_HP+2_5] 加血药
+[2018.09.22-07.23.37:811][898]LogBlueprintUserMessages: [BP_HP+2_5] 0
+[2018.09.22-07.23.37:811][898]LogBlueprintUserMessages: [BP_HP+2_5] -16
+[2018.09.22-07.23.38:195][921]LogBlueprintUserMessages: [BP_HP+2_5] 1
+[2018.09.22-07.23.38:195][921]LogBlueprintUserMessages: [BP_HP+2_5] 加血药
+[2018.09.22-07.23.38:195][921]LogBlueprintUserMessages: [BP_HP+2_5] 0
+[2018.09.22-07.23.38:195][921]LogBlueprintUserMessages: [BP_HP+2_5] -16
+[2018.09.22-07.23.38:529][941]LogBlueprintUserMessages: [BP_HP+2_5] 1
+[2018.09.22-07.23.38:529][941]LogBlueprintUserMessages: [BP_HP+2_5] 加血药
+[2018.09.22-07.23.38:529][941]LogBlueprintUserMessages: [BP_HP+2_5] 0
+[2018.09.22-07.23.38:529][941]LogBlueprintUserMessages: [BP_HP+2_5] -16
+[2018.09.22-07.23.38:729][953]LogBlueprintUserMessages: [BP_HP+2_5] 1
+[2018.09.22-07.23.38:729][953]LogBlueprintUserMessages: [BP_HP+2_5] 加血药
+[2018.09.22-07.23.38:729][953]LogBlueprintUserMessages: [BP_HP+2_5] 0
+[2018.09.22-07.23.38:729][953]LogBlueprintUserMessages: [BP_HP+2_5] -16
+[2018.09.22-07.23.42:409][173]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-07.23.42:409][173]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.22-07.23.42:427][173]LogSlate: Window '我的项目2 游戏预览 Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.22-07.23.42:486][173]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.22-07.23.42:487][173]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.22-07.23.42:569][174]LogPlayLevel: Display: Destroying online subsystem :Context_50
+[2018.09.22-07.23.58:461][ 89]LogUObjectArray: Warning: Other object in slot
+[2018.09.22-07.23.59:815][ 89]LogStats: FPlatformStackWalk::StackWalkAndDump -  1.354 s
+[2018.09.22-07.23.59:815][ 89]LogOutputDevice: Error: === Handled ensure: ===
+[2018.09.22-07.23.59:815][ 89]LogOutputDevice: Error: 
+[2018.09.22-07.23.59:815][ 89]LogOutputDevice: Error: Ensure condition failed: false [File:D:\Build\++UE4\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 1142]
+[2018.09.22-07.23.59:815][ 89]LogOutputDevice: Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
+[2018.09.22-07.23.59:816][ 89]LogOutputDevice: Error: Stack: 
+[2018.09.22-07.23.59:816][ 89]LogOutputDevice: Error: [Callstack] 0x00007ff9735b71f6 UE4Editor-Core.dll!UnknownFunction []
+[2018.09.22-07.23.59:816][ 89]LogOutputDevice: Error: [Callstack] 0x00007ff9732f0c92 UE4Editor-Core.dll!UnknownFunction []
+[2018.09.22-07.23.59:816][ 89]LogOutputDevice: Error: [Callstack] 0x00007ff97330b356 UE4Editor-Core.dll!UnknownFunction []
+[2018.09.22-07.23.59:816][ 89]LogOutputDevice: Error: [Callstack] 0x00007ff96ed811db UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.09.22-07.23.59:816][ 89]LogOutputDevice: Error: [Callstack] 0x00007ff96ed9060e UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.09.22-07.23.59:816][ 89]LogOutputDevice: Error: [Callstack] 0x00007ff96c61da7a UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2018.09.22-07.23.59:816][ 89]LogOutputDevice: Error: [Callstack] 0x00007ff96930ec2a UE4Editor-GraphEditor.dll!UnknownFunction []
+[2018.09.22-07.23.59:816][ 89]LogOutputDevice: Error: [Callstack] 0x00007ff9692cf337 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2018.09.22-07.23.59:816][ 89]LogOutputDevice: Error: [Callstack] 0x00007ff96ffc8204 UE4Editor-Slate.dll!UnknownFunction []
+[2018.09.22-07.23.59:816][ 89]LogOutputDevice: Error: [Callstack] 0x00007ff97020e933 UE4Editor-Slate.dll!UnknownFunction []
+[2018.09.22-07.23.59:816][ 89]LogOutputDevice: Error: [Callstack] 0x00007ff97002281a UE4Editor-Slate.dll!UnknownFunction []
+[2018.09.22-07.23.59:816][ 89]LogOutputDevice: Error: [Callstack] 0x00007ff96fff8190 UE4Editor-Slate.dll!UnknownFunction []
+[2018.09.22-07.23.59:816][ 89]LogOutputDevice: Error: [Callstack] 0x00007ff96ffeb073 UE4Editor-Slate.dll!UnknownFunction []
+[2018.09.22-07.23.59:816][ 89]LogOutputDevice: Error: [Callstack] 0x00007ff9ade1d007 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.09.22-07.23.59:816][ 89]LogOutputDevice: Error: [Callstack] 0x00007ff9ade10270 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.09.22-07.23.59:816][ 89]LogOutputDevice: Error: [Callstack] 0x00007ff9ade1f4c5 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.09.22-07.23.59:816][ 89]LogOutputDevice: Error: [Callstack] 0x00007ff9ade0c209 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.09.22-07.23.59:816][ 89]LogOutputDevice: Error: [Callstack] 0x00007ff9c9ad6cc1 USER32.dll!UnknownFunction []
+[2018.09.22-07.23.59:816][ 89]LogOutputDevice: Error: [Callstack] 0x00007ff9c9ad6693 USER32.dll!UnknownFunction []
+[2018.09.22-07.23.59:816][ 89]LogOutputDevice: Error: [Callstack] 0x00007ff9ade20646 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.09.22-07.23.59:816][ 89]LogOutputDevice: Error: [Callstack] 0x00007ff77f8254e5 UE4Editor.exe!UnknownFunction []
+[2018.09.22-07.23.59:816][ 89]LogOutputDevice: Error: [Callstack] 0x00007ff77f835b3c UE4Editor.exe!UnknownFunction []
+[2018.09.22-07.23.59:816][ 89]LogOutputDevice: Error: [Callstack] 0x00007ff77f835bba UE4Editor.exe!UnknownFunction []
+[2018.09.22-07.23.59:816][ 89]LogOutputDevice: Error: [Callstack] 0x00007ff77f843dac UE4Editor.exe!UnknownFunction []
+[2018.09.22-07.23.59:816][ 89]LogOutputDevice: Error: [Callstack] 0x00007ff77f845aaa UE4Editor.exe!UnknownFunction []
+[2018.09.22-07.23.59:816][ 89]LogOutputDevice: Error: [Callstack] 0x00007ff9cab33034 KERNEL32.DLL!UnknownFunction []
+[2018.09.22-07.23.59:816][ 89]LogOutputDevice: Error: [Callstack] 0x00007ff9cc691461 ntdll.dll!UnknownFunction []
+[2018.09.22-07.23.59:816][ 89]LogOutputDevice: Error: 
+[2018.09.22-07.23.59:824][ 89]LogStats:                SubmitErrorReport -  0.000 s
