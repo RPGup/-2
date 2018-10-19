@@ -1,0 +1,1508 @@
+﻿Log file open, 09/23/18 17:17:23
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: 我的项目2
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.973412
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +8:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin UE4EditorCustomize
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.362s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz, GPU: Intel(R) HD Graphics 530
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: D:/Program Files/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.003s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.09.23-09.17.24:255][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.23-09.17.24:256][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.09.23-09.17.24:275][  0]LogHAL: Display: Platform has ~ 16 GB [17058086912 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.09.23-09.17.24:275][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.09.23-09.17.24:276][  0]LogInit: Going up to parent DeviceProfile []
+[2018.09.23-09.17.24:278][  0]LogInit: Computer: DESKTOP-47DQBJE
+[2018.09.23-09.17.24:278][  0]LogInit: User: 86230
+[2018.09.23-09.17.24:278][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.09.23-09.17.24:278][  0]LogInit: High frequency timer resolution =2.531253 MHz
+[2018.09.23-09.17.24:278][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.09.23-09.17.24:278][  0]LogMemory: Platform Memory Stats for Windows
+[2018.09.23-09.17.24:278][  0]LogMemory: Process Physical Memory: 102.31 MB used, 102.31 MB peak
+[2018.09.23-09.17.24:278][  0]LogMemory: Process Virtual Memory: 98.01 MB used, 98.01 MB peak
+[2018.09.23-09.17.24:278][  0]LogMemory: Physical Memory: 4582.37 MB used,  11685.49 MB free, 16267.86 MB total
+[2018.09.23-09.17.24:278][  0]LogMemory: Virtual Memory: 4652.12 MB used,  11685.49 MB free, 134217728.00 MB total
+[2018.09.23-09.17.24:443][  0]LogInit: Using OS detected language (zh-CN).
+[2018.09.23-09.17.24:443][  0]LogInit: Using OS detected locale (zh-CN).
+[2018.09.23-09.17.24:923][  0]LogStreaming: Display: Took  0.478s to InitEngineTextLocalization.
+[2018.09.23-09.17.24:924][  0]LogInit: Setting process to per monitor DPI aware
+[2018.09.23-09.17.25:024][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.09.23-09.17.25:024][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.09.23-09.17.25:617][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.09.23-09.17.25:617][  0]LogD3D11RHI: D3D11 adapters:
+[2018.09.23-09.17.25:720][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060' (Feature Level 11_0)
+[2018.09.23-09.17.25:720][  0]LogD3D11RHI:       6052/0/8133 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.09.23-09.17.25:736][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2018.09.23-09.17.25:736][  0]LogD3D11RHI:       128/0/8133 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.09.23-09.17.25:739][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.09.23-09.17.25:739][  0]LogD3D11RHI:       0/0/8133 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.09.23-09.17.25:739][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.09.23-09.17.25:792][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.09.23-09.17.25:792][  0]LogD3D11RHI:     GPU DeviceId: 0x1c20 (for the marketing name, search the web for "GPU Device Id")
+[2018.09.23-09.17.25:793][  0]LogWindows: EnumDisplayDevices:
+[2018.09.23-09.17.25:793][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2018.09.23-09.17.25:795][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.09.23-09.17.25:796][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.09.23-09.17.25:798][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2018.09.23-09.17.25:800][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2018.09.23-09.17.25:802][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2018.09.23-09.17.25:803][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2018.09.23-09.17.25:805][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2018.09.23-09.17.25:805][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060
+[2018.09.23-09.17.25:806][  0]LogD3D11RHI:   Driver Version: 391.35 (internal:23.21.13.9135, unified:391.35)
+[2018.09.23-09.17.25:806][  0]LogD3D11RHI:      Driver Date: 3-23-2018
+[2018.09.23-09.17.25:806][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2018.09.23-09.17.25:856][  0]LogD3D11RHI: Async texture creation enabled
+[2018.09.23-09.17.25:902][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.09.23-09.17.25:908][  0]LogShaderCompilers: Guid format shader working directory is -1 characters bigger than the processId version (C:/Users/86230/Documents/Unreal Projects/我的项目2/Intermediate/Shaders/WorkingDirectory/11204/).
+[2018.09.23-09.17.25:908][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/86230/AppData/Local/Temp/UnrealShaderWorkingDir/508BDC6B43A09432D04ED2A7A9D6D640/'.
+[2018.09.23-09.17.27:178][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.09.23-09.17.27:195][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.09.23-09.17.27:211][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.09.23-09.17.27:228][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.09.23-09.17.27:246][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.09.23-09.17.27:267][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.09.23-09.17.27:288][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.09.23-09.17.27:306][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.09.23-09.17.27:316][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.09.23-09.17.27:421][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.23-09.17.27:421][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.23-09.17.27:421][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.23-09.17.27:421][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.23-09.17.27:421][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.23-09.17.27:421][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.23-09.17.27:421][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.23-09.17.27:421][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.23-09.17.27:421][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.23-09.17.27:421][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.23-09.17.27:421][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.23-09.17.27:422][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.23-09.17.27:422][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.23-09.17.27:422][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.23-09.17.27:422][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.23-09.17.27:422][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.23-09.17.27:422][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.23-09.17.27:422][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.23-09.17.27:428][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.09.23-09.17.27:503][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.09.23-09.17.27:503][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.09.23-09.17.27:536][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.09.23-09.17.27:536][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.09.23-09.17.27:558][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.09.23-09.17.27:576][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.09.23-09.17.27:595][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.09.23-09.17.27:614][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.09.23-09.17.27:627][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.09.23-09.17.27:627][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.09.23-09.17.27:787][  0]LogXGEController: Cleaning working directory: C:/Users/86230/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.09.23-09.17.27:788][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.09.23-09.17.27:788][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.09.23-09.17.27:788][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.09.23-09.17.28:874][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.09.23-09.17.29:271][  0]LogDerivedDataCache: Loaded boot cache 0.40s 87MB C:/Users/86230/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.09.23-09.17.29:272][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/86230/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.09.23-09.17.29:272][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/86230/Documents/Unreal Projects/我的项目2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.09.23-09.17.29:272][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.09.23-09.17.29:273][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/86230/Documents/Unreal Projects/我的项目2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.09.23-09.17.29:273][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.09.23-09.17.29:295][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.09.23-09.17.29:311][  0]LogDerivedDataCache: Using Local data cache path C:/Users/86230/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.09.23-09.17.29:311][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.09.23-09.17.29:311][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.09.23-09.17.29:336][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.09.23-09.17.29:344][  0]LogSlate: Using FreeType 2.6.0
+[2018.09.23-09.17.29:349][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.09.23-09.17.29:520][  0]LogAssetRegistry: FAssetRegistry took 0.0306 seconds to start up
+[2018.09.23-09.17.30:022][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.23-09.17.30:322][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.09.23-09.17.30:348][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.09.23-09.17.30:349][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.09.23-09.17.30:350][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.09.23-09.17.30:350][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.09.23-09.17.30:395][  0]LogNetVersion: 我的项目2 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1753104541)
+[2018.09.23-09.17.31:786][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 4 prioritized culture(s) in 0.499686 seconds
+[2018.09.23-09.17.31:795][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.09.23-09.17.31:795][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2018.09.23-09.17.31:795][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.09.23-09.17.34:140][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.09.23-09.17.34:158][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.09.23-09.17.34:466][  0]SourceControl: 源码管理已禁用
+[2018.09.23-09.17.36:054][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.09.23-09.17.36:351][  0]LogOcInput: OculusInput pre-init called
+[2018.09.23-09.17.36:470][  0]LogEngine: Initializing Engine...
+[2018.09.23-09.17.36:475][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.09.23-09.17.36:479][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.09.23-09.17.36:479][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.23-09.17.36:479][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.09.23-09.17.36:479][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.09.23-09.17.36:799][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.09.23-09.17.36:854][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.09.23-09.17.36:952][  0]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.23-09.17.37:242][  0]LogInit: FAudioDevice initialized.
+[2018.09.23-09.17.37:242][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.09.23-09.17.37:358][  0]LogDerivedDataCache: Saved boot cache 0.12s 87MB C:/Users/86230/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.09.23-09.17.37:358][  0]LogInit: Texture streaming: Enabled
+[2018.09.23-09.17.37:404][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.09.23-09.17.37:519][  0]LogInit: Transaction tracking system initialized
+[2018.09.23-09.17.37:596][  0]BlueprintLog: New page: 编辑器加载
+[2018.09.23-09.17.37:873][  0]LocalizationService: 本地化服务已禁用
+[2018.09.23-09.17.38:360][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.09.23-09.17.38:361][  0]LogCook: Display: Mobile HDR setting 1
+[2018.09.23-09.17.38:361][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.09.23-09.17.38:361][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.09.23-09.17.38:361][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.23-09.17.38:362][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.09.23-09.17.38:362][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.09.23-09.17.38:695][  0]LogFileCache: Scanning file cache for directory 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/' took 0.02s
+[2018.09.23-09.17.38:695][  0]Cmd: MAP LOAD FILE="C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.09.23-09.17.38:696][  0]LightingResults: New page: 光照构建
+[2018.09.23-09.17.38:709][  0]MapCheck: New page: 地图检测
+[2018.09.23-09.17.38:709][  0]LightingResults: New page: 光照构建
+[2018.09.23-09.17.40:701][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.09.23-09.17.40:779][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.09.23-09.17.40:818][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.09.23-09.17.40:933][  0]MapCheck: 地图检测完成：0个错误，0 个警告，用时115.269毫秒完成。
+[2018.09.23-09.17.40:933][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 2.240
+[2018.09.23-09.17.41:305][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.23-09.17.41:314][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.23-09.17.41:328][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.23-09.17.41:337][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.23-09.17.41:615][  0]LogCollectionManager: Loaded 0 collections in 0.002561 seconds
+[2018.09.23-09.17.41:684][  0]LogFileCache: Scanning file cache for directory 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/Collections/' took 0.01s
+[2018.09.23-09.17.41:684][  0]LogFileCache: Scanning file cache for directory 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/Developers/86230/Collections/' took 0.01s
+[2018.09.23-09.17.41:684][  0]LogFileCache: Scanning file cache for directory 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/Collections/' took 0.01s
+[2018.09.23-09.17.41:684][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.09.23-09.17.41:698][  0]LogContentBrowser: Native class hierarchy populated in 0.0123 seconds. Added 2574 classes and 608 folders.
+[2018.09.23-09.17.41:714][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.09.23-09.17.41:894][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.09.23-09.17.41:911][  0]LogSlate: Took 0.002059 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.09.23-09.17.41:929][  0]LogSlate: Took 0.017596 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2018.09.23-09.17.41:934][  0]LogSlate: Took 0.001889 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.09.23-09.17.41:939][  0]LogSlate: Took 0.001707 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.09.23-09.17.42:057][  0]LogRenderer: Reallocating scene render targets to support 964x444 Format 10 NumSamples 1 (Frame:1).
+[2018.09.23-09.17.42:279][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.09.23-09.17.42:279][  0]LogLoad: (Engine Initialization) Total time: 23.12 seconds
+[2018.09.23-09.17.42:279][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.09.23-09.17.42:360][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (中文 - QQ拼音输入法).
+[2018.09.23-09.17.42:390][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.09.23-09.17.42:552][  1]LogAssetRegistry: Asset discovery search completed in 13.0548 seconds
+[2018.09.23-09.17.42:554][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.09.23-09.17.42:554][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000070 seconds (updated 0 objects)
+[2018.09.23-09.17.43:337][ 39]LogSlate: Took 0.002028 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.09.23-09.17.46:342][219]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.23-09.17.46:418][222]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/TopDownBP/Blueprints/UI/bag/UI_scollBag.UI_scollBag
+[2018.09.23-09.17.47:095][222]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 116 classes and 0 folders.
+[2018.09.23-09.17.48:145][222]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/TopDownBP/Blueprints/UI/bag/UI_gezi.UI_gezi
+[2018.09.23-09.17.48:681][222]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/TopDownBP/Blueprints/UI/UI_WipinInBeibao.UI_WipinInBeibao
+[2018.09.23-09.17.49:109][222]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/TopDownBP/Blueprints/UI/bag/UI_beijingezi.UI_beijingezi
+[2018.09.23-09.17.49:554][222]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/TopDownController.TopDownController
+[2018.09.23-09.17.50:060][222]LogAssetEditorManager: Opening Asset editor for UserDefinedStruct /Game/TopDownBP/Blueprints/JG_wupin.JG_wupin
+[2018.09.23-09.17.50:165][222]LogAssetEditorManager: Opening Asset editor for UserDefinedEnum /Game/TopDownBP/Blueprints/UI/bag/ItemType.ItemType
+[2018.09.23-09.17.50:270][222]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/TopDownBP/Blueprints/UI/UI_xiangxixinxi.UI_xiangxixinxi
+[2018.09.23-09.17.50:697][222]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/TopDownBP/Blueprints/UI/UI_beibao.UI_beibao
+[2018.09.23-09.17.51:152][222]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/BP_hero.BP_hero
+[2018.09.23-09.17.51:586][222]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/wupin/BP_jibenwupin.BP_jibenwupin
+[2018.09.23-09.17.51:993][222]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/wupin/BP_mana+.BP_mana+
+[2018.09.23-09.17.52:477][222]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/wupin/BP_HP+.BP_HP+
+[2018.09.23-09.17.52:967][222]LogSlate: Took 0.002683 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.09.23-09.18.21:941][627]LogSlate: Took 0.002131 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.09.23-09.18.29:271][961]LogSlate: Window 'BP_HP+' being destroyed
+[2018.09.23-09.19.20:085][981]LogAssetEditorManager: Opening Asset editor for Material /Game/TopDownBP/Blueprints/M_Cursor_Decal.M_Cursor_Decal
+[2018.09.23-09.19.20:094][981]LogMaterial: Display: Missing cached shader map for material M_Cursor_Decal, compiling. 
+[2018.09.23-09.19.20:638][981]LogMaterial: Display: Missing cached shader map for material M_Cursor_Decal, compiling. 
+[2018.09.23-09.19.20:665][981]LogMaterial: Display: Missing cached shader map for material M_Cursor_Decal, compiling. 
+[2018.09.23-09.19.20:696][981]LogShaderCompilers: Display: Shaders left to compile 32
+[2018.09.23-09.19.20:696][981]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.09.23-09.19.20:696][981]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.09.23-09.19.20:697][981]LogShaderCompilers: Display: Shaders left to compile 29
+[2018.09.23-09.19.21:694][ 26]LogShaderCompilers: Display: Shaders left to compile 28
+[2018.09.23-09.19.21:708][ 27]LogShaderCompilers: Display: Shaders left to compile 27
+[2018.09.23-09.19.21:708][ 27]LogShaderCompilers: Display: Shaders left to compile 26
+[2018.09.23-09.19.21:725][ 28]LogShaderCompilers: Display: Shaders left to compile 25
+[2018.09.23-09.19.21:914][ 39]LogShaderCompilers: Display: Shaders left to compile 24
+[2018.09.23-09.19.21:934][ 39]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.09.23-09.19.21:997][ 44]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.09.23-09.19.22:012][ 45]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.09.23-09.19.22:479][ 71]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.09.23-09.19.22:494][ 72]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.09.23-09.19.22:544][ 75]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.09.23-09.19.22:962][ 97]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.09.23-09.19.23:100][105]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.09.23-09.19.23:191][110]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.09.23-09.19.23:411][123]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.09.23-09.19.23:578][133]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.09.23-09.19.23:678][139]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.09.23-09.19.23:814][147]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.09.23-09.19.24:028][160]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.09.23-09.19.24:422][183]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.09.23-09.19.24:525][188]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.09.23-09.19.24:660][197]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.09.23-09.19.24:945][214]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.09.23-09.19.25:134][224]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.09.23-09.19.25:235][231]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.09.23-09.19.25:360][238]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.09.23-09.19.25:589][252]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.09.23-09.19.25:857][268]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.09.23-09.19.27:634][328]MaterialEditorStats: Base pass shader: 96 instructions
+[2018.09.23-09.19.27:634][328]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 117 instructions
+[2018.09.23-09.19.27:634][328]MaterialEditorStats: Base pass vertex shader: 111 instructions
+[2018.09.23-09.19.27:634][328]MaterialEditorStats: Texture samplers: 3/16
+[2018.09.23-09.19.27:634][328]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.09.23-09.19.34:910][751]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/MyGameinstance.MyGameinstance
+[2018.09.23-09.20.11:654][636]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/AI/task/attack.attack
+[2018.09.23-09.20.24:759][393]LogTemp: Repeating last play command: 新建编辑器窗口（在编辑器中运行）
+[2018.09.23-09.20.24:809][393]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.23-09.20.24:812][393]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.23-09.20.24:840][393]PIE: New page: PIE会话: TopDownExampleMap (2018年9月24日 上午1:20:24)
+[2018.09.23-09.20.24:841][393]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2018.09.23-09.20.24:880][393]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039286s)
+[2018.09.23-09.20.24:881][393]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.09.23-09.20.24:882][393]LogPlayLevel: PIE: World Init took: (0.001775s)
+[2018.09.23-09.20.24:883][393]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.041888s)
+[2018.09.23-09.20.25:027][393]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.23-09.20.25:113][393]LogInit: FAudioDevice initialized.
+[2018.09.23-09.20.25:140][393]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.23-09.20.25:254][393]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.23-09.20.25:265][393]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2018.09.23-17.20.25
+[2018.09.23-09.20.25:291][393]LogWorld: Bringing up level for play took: 0.035640
+[2018.09.23-09.20.25:326][393]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 10 classes and 0 folders.
+[2018.09.23-09.20.25:341][393]PIE: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap的‘在编辑器中播放’的起始时间1.189
+[2018.09.23-09.20.25:342][393]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.23-09.20.25:388][393]LogRenderer: Reallocating scene render targets to support 1024x576 Format 10 NumSamples 1 (Frame:1).
+[2018.09.23-09.20.26:102][428]LogBlueprintUserMessages: [monster2_5] monster death
+[2018.09.23-09.20.27:906][535]LogBlueprintUserMessages: [BP_mana+_2] 能
+[2018.09.23-09.20.27:906][535]LogBlueprintUserMessages: [BP_mana+_2] 2.8
+[2018.09.23-09.20.27:906][535]LogBlueprintUserMessages: [BP_mana+_2] 7
+[2018.09.23-09.20.27:906][535]LogBlueprintUserMessages: [BP_mana+_2] 2
+[2018.09.23-09.20.27:906][535]LogBlueprintUserMessages: [BP_mana+_2] mana+
+[2018.09.23-09.20.27:906][535]LogBlueprintUserMessages: [BP_mana+_2] 0
+[2018.09.23-09.20.28:567][574]LogBlueprintUserMessages: [BP_mana+2] 能
+[2018.09.23-09.20.28:567][574]LogBlueprintUserMessages: [BP_mana+2] 5.6
+[2018.09.23-09.20.28:567][574]LogBlueprintUserMessages: [BP_mana+2] 14
+[2018.09.23-09.20.28:567][574]LogBlueprintUserMessages: [BP_mana+2] 2
+[2018.09.23-09.20.28:567][574]LogBlueprintUserMessages: [BP_mana+2] mana+
+[2018.09.23-09.20.28:567][574]LogBlueprintUserMessages: [BP_mana+2] 0
+[2018.09.23-09.20.29:342][620]LogBlueprintUserMessages: [BP_mana+3] 能
+[2018.09.23-09.20.29:342][620]LogBlueprintUserMessages: [BP_mana+3] 8.4
+[2018.09.23-09.20.29:342][620]LogBlueprintUserMessages: [BP_mana+3] 21
+[2018.09.23-09.20.29:342][620]LogBlueprintUserMessages: [BP_mana+3] 2
+[2018.09.23-09.20.29:342][620]LogBlueprintUserMessages: [BP_mana+3] mana+
+[2018.09.23-09.20.29:342][620]LogBlueprintUserMessages: [BP_mana+3] 0
+[2018.09.23-09.20.30:055][663]LogBlueprintUserMessages: [BP_mana+4] 能
+[2018.09.23-09.20.30:056][663]LogBlueprintUserMessages: [BP_mana+4] 11.2
+[2018.09.23-09.20.30:056][663]LogBlueprintUserMessages: [BP_mana+4] 28
+[2018.09.23-09.20.30:056][663]LogBlueprintUserMessages: [BP_mana+4] 2
+[2018.09.23-09.20.30:056][663]LogBlueprintUserMessages: [BP_mana+4] mana+
+[2018.09.23-09.20.30:056][663]LogBlueprintUserMessages: [BP_mana+4] 0
+[2018.09.23-09.20.31:410][744]LogBlueprintUserMessages: [BP_jibenwupin_5] 能
+[2018.09.23-09.20.31:410][744]LogBlueprintUserMessages: [BP_jibenwupin_5] 16.200001
+[2018.09.23-09.20.31:410][744]LogBlueprintUserMessages: [BP_jibenwupin_5] 10
+[2018.09.23-09.20.31:410][744]LogBlueprintUserMessages: [BP_jibenwupin_5] 0
+[2018.09.23-09.20.31:410][744]LogBlueprintUserMessages: [BP_jibenwupin_5] 金锥子
+[2018.09.23-09.20.31:410][744]LogBlueprintUserMessages: [BP_jibenwupin_5] 1
+[2018.09.23-09.20.32:550][812]LogBlueprintUserMessages: [BP_jibenwupin2_8] 不能
+[2018.09.23-09.20.32:550][812]LogBlueprintUserMessages: [BP_jibenwupin2_8] 19.700001
+[2018.09.23-09.20.32:550][812]LogBlueprintUserMessages: [BP_jibenwupin2_8] 17
+[2018.09.23-09.20.32:550][812]LogBlueprintUserMessages: [BP_jibenwupin2_8] 0
+[2018.09.23-09.20.32:550][812]LogBlueprintUserMessages: [BP_jibenwupin2_8] 金锥子
+[2018.09.23-09.20.32:550][812]LogBlueprintUserMessages: [BP_jibenwupin2_8] 1
+[2018.09.23-09.20.33:703][881]LogBlueprintUserMessages: [BP_HP+_2] 不能
+[2018.09.23-09.20.33:703][881]LogBlueprintUserMessages: [BP_HP+_2] 19.700001
+[2018.09.23-09.20.33:703][881]LogBlueprintUserMessages: [BP_HP+_2] 0
+[2018.09.23-09.20.33:703][881]LogBlueprintUserMessages: [BP_HP+_2] 1
+[2018.09.23-09.20.33:703][881]LogBlueprintUserMessages: [BP_HP+_2] 加血药
+[2018.09.23-09.20.33:704][881]LogBlueprintUserMessages: [BP_HP+_2] 2
+[2018.09.23-09.20.35:269][974]LogCharacterMovement: monster7 is stuck and failed to move! Velocity: X=39.71 Y=273.27 Z=0.00 Location: X=-15.39 Y=-103.07 Z=275.06 Normal: X=-0.37 Y=-0.71 Z=-0.60 PenetrationDepth:0.000 Actor:TopDownCharacter Component:rw BoneName:None (0 other events since notify)
+[2018.09.23-09.20.41:496][345]LogBlueprintUserMessages: [monster8] monster death
+[2018.09.23-09.20.43:488][464]LogBlueprintUserMessages: [monster6] monster death
+[2018.09.23-09.20.48:944][789]LogBlueprintUserMessages: [monster7] monster death
+[2018.09.23-09.20.50:542][883]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.23-09.20.54:799][137]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.23-09.20.55:106][155]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.23-09.20.55:108][155]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.23-09.20.55:126][155]LogSlate: Window '我的项目2 游戏预览 Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.23-09.20.55:212][155]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.23-09.20.55:212][155]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.23-09.20.55:306][156]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2018.09.23-09.21.14:726][260]BlueprintLog: New page: 编译UI_gezi
+[2018.09.23-09.21.15:534][283]LogTemp: Repeating last play command: 新建编辑器窗口（在编辑器中运行）
+[2018.09.23-09.21.15:584][283]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.23-09.21.15:584][283]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.23-09.21.15:584][283]PIE: New page: PIE会话: TopDownExampleMap (2018年9月24日 上午1:21:15)
+[2018.09.23-09.21.15:584][283]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2018.09.23-09.21.15:604][283]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020076s)
+[2018.09.23-09.21.15:605][283]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.09.23-09.21.15:606][283]LogPlayLevel: PIE: World Init took: (0.001085s)
+[2018.09.23-09.21.15:606][283]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.021310s)
+[2018.09.23-09.21.15:733][283]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.23-09.21.15:832][283]LogInit: FAudioDevice initialized.
+[2018.09.23-09.21.15:851][283]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.23-09.21.15:940][283]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.23-09.21.15:957][283]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2018.09.23-17.21.15
+[2018.09.23-09.21.15:962][283]LogWorld: Bringing up level for play took: 0.019669
+[2018.09.23-09.21.15:980][283]PIE: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap的‘在编辑器中播放’的起始时间-0.172
+[2018.09.23-09.21.15:981][283]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.23-09.21.17:467][364]LogCharacterMovement: monster_2 is stuck and failed to move! Velocity: X=59.94 Y=293.95 Z=0.00 Location: X=-689.92 Y=12.60 Z=275.19 Normal: X=0.04 Y=1.00 Z=-0.00 PenetrationDepth:20.428 Actor:TopDownCharacter Component:rw BoneName:None (0 other events since notify)
+[2018.09.23-09.21.17:735][380]LogBlueprintUserMessages: [BP_mana+_2] 能
+[2018.09.23-09.21.17:735][380]LogBlueprintUserMessages: [BP_mana+_2] 2.8
+[2018.09.23-09.21.17:735][380]LogBlueprintUserMessages: [BP_mana+_2] 7
+[2018.09.23-09.21.17:735][380]LogBlueprintUserMessages: [BP_mana+_2] 2
+[2018.09.23-09.21.17:735][380]LogBlueprintUserMessages: [BP_mana+_2] mana+
+[2018.09.23-09.21.17:735][380]LogBlueprintUserMessages: [BP_mana+_2] 0
+[2018.09.23-09.21.18:300][414]LogBlueprintUserMessages: [TopDownCharacter] 1
+[2018.09.23-09.21.18:317][415]LogCharacterMovement: monster4_11 is stuck and failed to move! Velocity: X=-35.47 Y=-12.58 Z=0.00 Location: X=-598.98 Y=296.17 Z=275.20 Normal: X=0.92 Y=0.40 Z=0.00 PenetrationDepth:0.000 Actor:TopDownCharacter Component:rw BoneName:None (0 other events since notify)
+[2018.09.23-09.21.18:638][434]LogBlueprintUserMessages: [BP_mana+2] 能
+[2018.09.23-09.21.18:638][434]LogBlueprintUserMessages: [BP_mana+2] 5.6
+[2018.09.23-09.21.18:638][434]LogBlueprintUserMessages: [BP_mana+2] 14
+[2018.09.23-09.21.18:638][434]LogBlueprintUserMessages: [BP_mana+2] 2
+[2018.09.23-09.21.18:638][434]LogBlueprintUserMessages: [BP_mana+2] mana+
+[2018.09.23-09.21.18:638][434]LogBlueprintUserMessages: [BP_mana+2] 0
+[2018.09.23-09.21.18:739][440]LogBlueprintUserMessages: [TopDownCharacter] 2
+[2018.09.23-09.21.20:414][539]LogScript: Warning: “无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue
+	UI_gezi_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.UI_gezi_C_0
+	Function /Game/TopDownBP/Blueprints/UI/bag/UI_gezi.UI_gezi_C:OnMouseMove:0137
+[2018.09.23-09.21.20:415][539]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.20:415][539]LogScript: Warning: “无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue
+	UI_gezi_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.UI_gezi_C_0
+	Function /Game/TopDownBP/Blueprints/UI/bag/UI_gezi.UI_gezi_C:OnMouseMove:0137
+[2018.09.23-09.21.20:415][539]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.20:423][539]LogScript: Warning: “无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue
+	UI_gezi_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.UI_gezi_C_0
+	Function /Game/TopDownBP/Blueprints/UI/bag/UI_gezi.UI_gezi_C:OnMouseMove:0137
+[2018.09.23-09.21.20:423][539]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.20:431][540]LogScript: Warning: “无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue
+	UI_gezi_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.UI_gezi_C_0
+	Function /Game/TopDownBP/Blueprints/UI/bag/UI_gezi.UI_gezi_C:OnMouseMove:0137
+[2018.09.23-09.21.20:432][540]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.20:437][540]LogScript: Warning: “无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue
+	UI_gezi_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.UI_gezi_C_0
+	Function /Game/TopDownBP/Blueprints/UI/bag/UI_gezi.UI_gezi_C:OnMouseMove:0137
+[2018.09.23-09.21.20:437][540]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.20:448][541]LogScript: Warning: “无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue
+	UI_gezi_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.UI_gezi_C_0
+	Function /Game/TopDownBP/Blueprints/UI/bag/UI_gezi.UI_gezi_C:OnMouseMove:0137
+[2018.09.23-09.21.20:448][541]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.20:455][541]LogScript: Warning: “无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue
+	UI_gezi_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.UI_gezi_C_0
+	Function /Game/TopDownBP/Blueprints/UI/bag/UI_gezi.UI_gezi_C:OnMouseMove:0137
+[2018.09.23-09.21.20:455][541]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.20:471][542]LogScript: Warning: “无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue
+	UI_gezi_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.UI_gezi_C_0
+	Function /Game/TopDownBP/Blueprints/UI/bag/UI_gezi.UI_gezi_C:OnMouseMove:0137
+[2018.09.23-09.21.20:471][542]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.20:488][543]LogScript: Warning: “无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue
+	UI_gezi_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.UI_gezi_C_0
+	Function /Game/TopDownBP/Blueprints/UI/bag/UI_gezi.UI_gezi_C:OnMouseMove:0137
+[2018.09.23-09.21.20:489][543]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.20:505][544]LogScript: Warning: “无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue
+	UI_gezi_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.UI_gezi_C_0
+	Function /Game/TopDownBP/Blueprints/UI/bag/UI_gezi.UI_gezi_C:OnMouseMove:0137
+[2018.09.23-09.21.20:506][544]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.20:516][545]LogScript: Warning: “无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue
+	UI_gezi_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.UI_gezi_C_0
+	Function /Game/TopDownBP/Blueprints/UI/bag/UI_gezi.UI_gezi_C:OnMouseMove:0137
+[2018.09.23-09.21.20:516][545]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.20:524][545]LogScript: Warning: “无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue
+	UI_gezi_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.UI_gezi_C_0
+	Function /Game/TopDownBP/Blueprints/UI/bag/UI_gezi.UI_gezi_C:OnMouseMove:0137
+[2018.09.23-09.21.20:524][545]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.20:541][546]LogScript: Warning: “无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue
+	UI_gezi_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.UI_gezi_C_0
+	Function /Game/TopDownBP/Blueprints/UI/bag/UI_gezi.UI_gezi_C:OnMouseMove:0137
+[2018.09.23-09.21.20:541][546]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.20:556][547]LogScript: Warning: “无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue
+	UI_gezi_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.UI_gezi_C_0
+	Function /Game/TopDownBP/Blueprints/UI/bag/UI_gezi.UI_gezi_C:OnMouseMove:0137
+[2018.09.23-09.21.20:556][547]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.20:566][548]LogScript: Warning: “无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue
+	UI_gezi_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.UI_gezi_C_0
+	Function /Game/TopDownBP/Blueprints/UI/bag/UI_gezi.UI_gezi_C:OnMouseMove:0137
+[2018.09.23-09.21.20:566][548]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.20:567][548]LogScript: Warning: “无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue
+	UI_gezi_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.UI_gezi_C_0
+	Function /Game/TopDownBP/Blueprints/UI/bag/UI_gezi.UI_gezi_C:OnMouseMove:0137
+[2018.09.23-09.21.20:567][548]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.20:579][548]LogScript: Warning: “无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue
+	UI_gezi_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.UI_gezi_C_0
+	Function /Game/TopDownBP/Blueprints/UI/bag/UI_gezi.UI_gezi_C:OnMouseMove:0137
+[2018.09.23-09.21.20:579][548]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.20:588][549]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.20:596][549]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.20:608][550]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.20:620][551]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.20:627][551]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.20:643][552]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.20:660][553]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.20:675][554]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.20:693][555]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.20:709][556]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.20:726][557]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.20:740][558]LogBlueprintUserMessages: [TopDownCharacter] 连击中断
+[2018.09.23-09.21.20:745][558]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.20:760][559]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.20:779][560]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.20:794][561]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.20:812][562]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.20:827][563]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.20:845][564]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.20:859][565]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.20:877][566]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.20:895][567]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.21:768][619]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.21:777][620]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.21:785][620]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.21:798][621]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.21:805][621]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.21:813][622]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.21:820][622]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.21:835][623]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.21:853][624]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.21:870][625]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.21:887][626]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.21:903][627]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.21:920][628]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.21:936][629]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.21:954][630]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.21:969][631]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.21:986][632]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.22:002][633]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.22:020][634]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.22:035][635]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.22:052][636]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.22:069][637]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.22:086][638]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.22:102][639]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.22:120][640]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.22:136][641]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.22:153][642]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.22:170][643]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.22:187][644]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.22:203][645]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.22:220][646]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.22:237][647]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.23:781][739]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.23-09.21.23:781][739]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.23-09.21.23:799][739]LogSlate: Window '我的项目2 游戏预览 Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.23-09.21.23:852][739]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.23-09.21.23:853][739]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.23-09.21.23:956][740]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2018.09.23-09.21.32:536][247]LogTemp: Repeating last play command: 新建编辑器窗口（在编辑器中运行）
+[2018.09.23-09.21.32:590][247]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.23-09.21.32:590][247]BlueprintLog: New page: 运行前自动重新编译
+[2018.09.23-09.21.32:616][247]LogPlayLevel: [PlayLevel] Compiling UI_gezi before play...
+[2018.09.23-09.21.32:890][247]LogPlayLevel: PlayLevel: Blueprint regeneration took 298 ms (1 blueprints)
+[2018.09.23-09.21.32:890][247]PIE: New page: PIE会话: TopDownExampleMap (2018年9月24日 上午1:21:32)
+[2018.09.23-09.21.32:890][247]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2018.09.23-09.21.32:911][247]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021171s)
+[2018.09.23-09.21.32:911][247]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.09.23-09.21.32:912][247]LogPlayLevel: PIE: World Init took: (0.000999s)
+[2018.09.23-09.21.32:912][247]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.022377s)
+[2018.09.23-09.21.33:036][247]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.23-09.21.33:124][247]LogInit: FAudioDevice initialized.
+[2018.09.23-09.21.33:144][247]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.23-09.21.33:225][247]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.23-09.21.33:235][247]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2018.09.23-17.21.33
+[2018.09.23-09.21.33:236][247]LogWorld: Bringing up level for play took: 0.010601
+[2018.09.23-09.21.33:252][247]PIE: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap的‘在编辑器中播放’的起始时间1.101
+[2018.09.23-09.21.33:253][247]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.23-09.21.34:448][311]LogBlueprintUserMessages: [BP_mana+_2] 能
+[2018.09.23-09.21.34:448][311]LogBlueprintUserMessages: [BP_mana+_2] 2.8
+[2018.09.23-09.21.34:448][311]LogBlueprintUserMessages: [BP_mana+_2] 7
+[2018.09.23-09.21.34:448][311]LogBlueprintUserMessages: [BP_mana+_2] 2
+[2018.09.23-09.21.34:448][311]LogBlueprintUserMessages: [BP_mana+_2] mana+
+[2018.09.23-09.21.34:448][311]LogBlueprintUserMessages: [BP_mana+_2] 0
+[2018.09.23-09.21.34:631][322]LogBlueprintUserMessages: [BP_mana+2] 能
+[2018.09.23-09.21.34:631][322]LogBlueprintUserMessages: [BP_mana+2] 5.6
+[2018.09.23-09.21.34:631][322]LogBlueprintUserMessages: [BP_mana+2] 14
+[2018.09.23-09.21.34:631][322]LogBlueprintUserMessages: [BP_mana+2] 2
+[2018.09.23-09.21.34:631][322]LogBlueprintUserMessages: [BP_mana+2] mana+
+[2018.09.23-09.21.34:631][322]LogBlueprintUserMessages: [BP_mana+2] 0
+[2018.09.23-09.21.34:899][338]LogBlueprintUserMessages: [monster_2] monster death
+[2018.09.23-09.21.36:415][427]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.36:425][428]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.36:432][428]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.36:441][429]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.36:448][429]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.36:457][430]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.36:458][430]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.36:465][430]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.36:474][431]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.36:479][431]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.36:490][432]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.36:496][432]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.36:514][433]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.36:529][434]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.36:546][435]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.36:564][436]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.36:579][437]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.36:601][438]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.36:612][439]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.36:631][440]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.36:646][441]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.36:663][442]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.36:681][443]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.36:697][444]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.36:714][445]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.36:731][446]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.36:750][447]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.36:764][448]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.36:783][449]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.36:796][450]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.36:814][451]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.36:831][452]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.36:848][453]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.36:864][454]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.36:880][455]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.37:884][515]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.37:895][516]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.37:902][516]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.37:910][517]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.37:917][517]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.37:933][518]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.37:950][519]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.37:967][520]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.37:984][521]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.37:998][522]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.38:017][523]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.38:032][524]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.38:050][525]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.38:065][526]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.38:083][527]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.38:099][528]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.38:116][529]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.38:133][530]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.38:150][531]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.38:167][532]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.38:184][533]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.38:200][534]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.38:217][535]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.38:233][536]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.38:250][537]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.38:267][538]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.38:283][539]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.38:299][540]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.38:316][541]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.38:338][542]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.38:353][543]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.38:361][544]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.38:369][544]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.38:378][545]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.38:378][545]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.38:832][572]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.38:838][572]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.38:846][573]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.38:847][573]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.38:855][573]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.38:863][574]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.38:871][574]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.38:881][575]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.38:888][575]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.38:897][576]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.38:905][576]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.38:922][577]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.38:936][578]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.38:954][579]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.38:970][580]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.38:988][581]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.39:004][582]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.39:021][583]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.39:037][584]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.39:058][585]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.39:071][586]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.39:088][587]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.39:104][588]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.39:123][589]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.39:138][590]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.39:156][591]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.39:171][592]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.39:188][593]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.39:205][594]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.39:222][595]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.39:237][596]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.39:256][597]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.39:271][598]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.39:290][599]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.39:303][600]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_SlotAsCanvasSlot_ReturnValue"。 蓝图： UI_gezi 函数： On Mouse Move 图表： OnMouseMove 节点： Set Position
+[2018.09.23-09.21.39:754][627]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.23-09.21.39:755][627]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.23-09.21.39:773][627]LogSlate: Window '我的项目2 游戏预览 Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.23-09.21.39:836][627]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.23-09.21.39:836][627]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.23-09.21.39:933][628]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2018.09.23-09.21.47:998][100]LogSlate: Window '消息日志' being destroyed
+[2018.09.23-09.21.48:011][100]LogSlate: Window '消息日志' being destroyed
+[2018.09.23-09.23.31:788][190]BlueprintLog: New page: 编译UI_gezi
+[2018.09.23-09.23.32:908][234]LogTemp: Repeating last play command: 新建编辑器窗口（在编辑器中运行）
+[2018.09.23-09.23.32:957][234]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.23-09.23.32:957][234]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.23-09.23.32:957][234]PIE: New page: PIE会话: TopDownExampleMap (2018年9月24日 上午1:23:32)
+[2018.09.23-09.23.32:958][234]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2018.09.23-09.23.32:980][234]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021901s)
+[2018.09.23-09.23.32:981][234]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.09.23-09.23.32:981][234]LogPlayLevel: PIE: World Init took: (0.001457s)
+[2018.09.23-09.23.32:981][234]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.023616s)
+[2018.09.23-09.23.33:104][234]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.23-09.23.33:192][234]LogInit: FAudioDevice initialized.
+[2018.09.23-09.23.33:215][234]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.23-09.23.33:307][234]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.23-09.23.33:322][234]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2018.09.23-17.23.33
+[2018.09.23-09.23.33:326][234]LogWorld: Bringing up level for play took: 0.017580
+[2018.09.23-09.23.33:346][234]PIE: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap的‘在编辑器中播放’的起始时间1.194
+[2018.09.23-09.23.33:346][234]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.23-09.23.34:274][283]LogBlueprintUserMessages: [monster_2] monster death
+[2018.09.23-09.23.34:777][313]LogBlueprintUserMessages: [BP_mana+_2] 能
+[2018.09.23-09.23.34:777][313]LogBlueprintUserMessages: [BP_mana+_2] 2.8
+[2018.09.23-09.23.34:777][313]LogBlueprintUserMessages: [BP_mana+_2] 7
+[2018.09.23-09.23.34:777][313]LogBlueprintUserMessages: [BP_mana+_2] 2
+[2018.09.23-09.23.34:777][313]LogBlueprintUserMessages: [BP_mana+_2] mana+
+[2018.09.23-09.23.34:777][313]LogBlueprintUserMessages: [BP_mana+_2] 0
+[2018.09.23-09.23.35:943][383]LogBlueprintUserMessages: [BP_mana+2] 能
+[2018.09.23-09.23.35:943][383]LogBlueprintUserMessages: [BP_mana+2] 5.6
+[2018.09.23-09.23.35:943][383]LogBlueprintUserMessages: [BP_mana+2] 14
+[2018.09.23-09.23.35:943][383]LogBlueprintUserMessages: [BP_mana+2] 2
+[2018.09.23-09.23.35:943][383]LogBlueprintUserMessages: [BP_mana+2] mana+
+[2018.09.23-09.23.35:944][383]LogBlueprintUserMessages: [BP_mana+2] 0
+[2018.09.23-09.23.40:724][668]LogBlueprintUserMessages: [monster7] monster death
+[2018.09.23-09.23.41:698][726]LogBlueprintUserMessages: [TopDownCharacter] 1
+[2018.09.23-09.23.43:712][845]LogBlueprintUserMessages: [TopDownCharacter] 连击中断
+[2018.09.23-09.23.45:511][952]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.23-09.23.45:512][952]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.23-09.23.45:529][952]LogSlate: Window '我的项目2 游戏预览 Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.23-09.23.45:590][952]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.23-09.23.45:590][952]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.23-09.23.45:718][953]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2018.09.23-09.23.47:657][ 69]LogTemp: Repeating last play command: 新建编辑器窗口（在编辑器中运行）
+[2018.09.23-09.23.47:707][ 69]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.23-09.23.47:707][ 69]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.23-09.23.47:707][ 69]PIE: New page: PIE会话: TopDownExampleMap (2018年9月24日 上午1:23:47)
+[2018.09.23-09.23.47:707][ 69]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2018.09.23-09.23.47:724][ 69]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017302s)
+[2018.09.23-09.23.47:725][ 69]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.09.23-09.23.47:726][ 69]LogPlayLevel: PIE: World Init took: (0.001231s)
+[2018.09.23-09.23.47:726][ 69]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.018788s)
+[2018.09.23-09.23.47:844][ 69]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.23-09.23.47:936][ 69]LogInit: FAudioDevice initialized.
+[2018.09.23-09.23.47:959][ 69]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.23-09.23.48:046][ 69]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.23-09.23.48:054][ 69]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2018.09.23-17.23.48
+[2018.09.23-09.23.48:055][ 69]LogWorld: Bringing up level for play took: 0.008563
+[2018.09.23-09.23.48:071][ 69]PIE: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap的‘在编辑器中播放’的起始时间-0.081
+[2018.09.23-09.23.48:072][ 69]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.23-09.23.52:456][322]LogBlueprintUserMessages: [BP_mana+_2] 能
+[2018.09.23-09.23.52:456][322]LogBlueprintUserMessages: [BP_mana+_2] 2.8
+[2018.09.23-09.23.52:456][322]LogBlueprintUserMessages: [BP_mana+_2] 7
+[2018.09.23-09.23.52:456][322]LogBlueprintUserMessages: [BP_mana+_2] 2
+[2018.09.23-09.23.52:456][322]LogBlueprintUserMessages: [BP_mana+_2] mana+
+[2018.09.23-09.23.52:456][322]LogBlueprintUserMessages: [BP_mana+_2] 0
+[2018.09.23-09.23.54:024][416]LogBlueprintUserMessages: [BP_mana+2] 能
+[2018.09.23-09.23.54:024][416]LogBlueprintUserMessages: [BP_mana+2] 5.6
+[2018.09.23-09.23.54:024][416]LogBlueprintUserMessages: [BP_mana+2] 14
+[2018.09.23-09.23.54:025][416]LogBlueprintUserMessages: [BP_mana+2] 2
+[2018.09.23-09.23.54:025][416]LogBlueprintUserMessages: [BP_mana+2] mana+
+[2018.09.23-09.23.54:025][416]LogBlueprintUserMessages: [BP_mana+2] 0
+[2018.09.23-09.23.55:924][530]LogBlueprintUserMessages: [BP_mana+3] 能
+[2018.09.23-09.23.55:924][530]LogBlueprintUserMessages: [BP_mana+3] 8.4
+[2018.09.23-09.23.55:924][530]LogBlueprintUserMessages: [BP_mana+3] 21
+[2018.09.23-09.23.55:924][530]LogBlueprintUserMessages: [BP_mana+3] 2
+[2018.09.23-09.23.55:924][530]LogBlueprintUserMessages: [BP_mana+3] mana+
+[2018.09.23-09.23.55:924][530]LogBlueprintUserMessages: [BP_mana+3] 0
+[2018.09.23-09.24.22:809][135]LogBlueprintUserMessages: [monster6] monster death
+[2018.09.23-09.24.28:182][456]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.23-09.24.28:183][456]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.23-09.24.28:201][456]LogSlate: Window '我的项目2 游戏预览 Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.23-09.24.28:265][456]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.23-09.24.28:266][456]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.23-09.24.28:374][457]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2018.09.23-09.25.10:083][930]BlueprintLog: New page: 编译UI_gezi
+[2018.09.23-09.25.10:748][950]LogTemp: Repeating last play command: 新建编辑器窗口（在编辑器中运行）
+[2018.09.23-09.25.10:798][950]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.23-09.25.10:798][950]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.23-09.25.10:798][950]PIE: New page: PIE会话: TopDownExampleMap (2018年9月24日 上午1:25:10)
+[2018.09.23-09.25.10:798][950]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2018.09.23-09.25.10:819][950]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020180s)
+[2018.09.23-09.25.10:820][950]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.09.23-09.25.10:821][950]LogPlayLevel: PIE: World Init took: (0.001706s)
+[2018.09.23-09.25.10:821][950]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.022182s)
+[2018.09.23-09.25.10:951][950]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.23-09.25.11:039][950]LogInit: FAudioDevice initialized.
+[2018.09.23-09.25.11:060][950]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.23-09.25.11:147][950]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.23-09.25.11:158][950]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2018.09.23-17.25.11
+[2018.09.23-09.25.11:161][950]LogWorld: Bringing up level for play took: 0.012162
+[2018.09.23-09.25.11:177][950]PIE: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap的‘在编辑器中播放’的起始时间1.025
+[2018.09.23-09.25.11:177][950]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.23-09.25.12:580][ 29]LogBlueprintUserMessages: [BP_mana+_2] 能
+[2018.09.23-09.25.12:580][ 29]LogBlueprintUserMessages: [BP_mana+_2] 2.8
+[2018.09.23-09.25.12:580][ 29]LogBlueprintUserMessages: [BP_mana+_2] 7
+[2018.09.23-09.25.12:580][ 29]LogBlueprintUserMessages: [BP_mana+_2] 2
+[2018.09.23-09.25.12:580][ 29]LogBlueprintUserMessages: [BP_mana+_2] mana+
+[2018.09.23-09.25.12:580][ 29]LogBlueprintUserMessages: [BP_mana+_2] 0
+[2018.09.23-09.25.13:046][ 57]LogBlueprintUserMessages: [monster6] monster death
+[2018.09.23-09.25.13:363][ 76]LogBlueprintUserMessages: [BP_mana+2] 能
+[2018.09.23-09.25.13:363][ 76]LogBlueprintUserMessages: [BP_mana+2] 5.6
+[2018.09.23-09.25.13:364][ 76]LogBlueprintUserMessages: [BP_mana+2] 14
+[2018.09.23-09.25.13:364][ 76]LogBlueprintUserMessages: [BP_mana+2] 2
+[2018.09.23-09.25.13:364][ 76]LogBlueprintUserMessages: [BP_mana+2] mana+
+[2018.09.23-09.25.13:364][ 76]LogBlueprintUserMessages: [BP_mana+2] 0
+[2018.09.23-09.25.14:297][132]LogBlueprintUserMessages: [BP_mana+4] 能
+[2018.09.23-09.25.14:297][132]LogBlueprintUserMessages: [BP_mana+4] 8.4
+[2018.09.23-09.25.14:297][132]LogBlueprintUserMessages: [BP_mana+4] 21
+[2018.09.23-09.25.14:297][132]LogBlueprintUserMessages: [BP_mana+4] 2
+[2018.09.23-09.25.14:297][132]LogBlueprintUserMessages: [BP_mana+4] mana+
+[2018.09.23-09.25.14:297][132]LogBlueprintUserMessages: [BP_mana+4] 0
+[2018.09.23-09.25.15:046][177]LogBlueprintUserMessages: [BP_mana+3] 能
+[2018.09.23-09.25.15:046][177]LogBlueprintUserMessages: [BP_mana+3] 11.2
+[2018.09.23-09.25.15:046][177]LogBlueprintUserMessages: [BP_mana+3] 28
+[2018.09.23-09.25.15:046][177]LogBlueprintUserMessages: [BP_mana+3] 2
+[2018.09.23-09.25.15:046][177]LogBlueprintUserMessages: [BP_mana+3] mana+
+[2018.09.23-09.25.15:046][177]LogBlueprintUserMessages: [BP_mana+3] 0
+[2018.09.23-09.25.15:413][199]LogBlueprintUserMessages: [BP_jibenwupin_5] 能
+[2018.09.23-09.25.15:413][199]LogBlueprintUserMessages: [BP_jibenwupin_5] 16.200001
+[2018.09.23-09.25.15:413][199]LogBlueprintUserMessages: [BP_jibenwupin_5] 10
+[2018.09.23-09.25.15:413][199]LogBlueprintUserMessages: [BP_jibenwupin_5] 0
+[2018.09.23-09.25.15:413][199]LogBlueprintUserMessages: [BP_jibenwupin_5] 金锥子
+[2018.09.23-09.25.15:413][199]LogBlueprintUserMessages: [BP_jibenwupin_5] 1
+[2018.09.23-09.25.16:300][252]LogBlueprintUserMessages: [BP_jibenwupin2_8] 不能
+[2018.09.23-09.25.16:300][252]LogBlueprintUserMessages: [BP_jibenwupin2_8] 19.700001
+[2018.09.23-09.25.16:300][252]LogBlueprintUserMessages: [BP_jibenwupin2_8] 17
+[2018.09.23-09.25.16:300][252]LogBlueprintUserMessages: [BP_jibenwupin2_8] 0
+[2018.09.23-09.25.16:300][252]LogBlueprintUserMessages: [BP_jibenwupin2_8] 金锥子
+[2018.09.23-09.25.16:300][252]LogBlueprintUserMessages: [BP_jibenwupin2_8] 1
+[2018.09.23-09.25.17:185][305]LogBlueprintUserMessages: [BP_HP+_2] 不能
+[2018.09.23-09.25.17:185][305]LogBlueprintUserMessages: [BP_HP+_2] 19.700001
+[2018.09.23-09.25.17:185][305]LogBlueprintUserMessages: [BP_HP+_2] 0
+[2018.09.23-09.25.17:185][305]LogBlueprintUserMessages: [BP_HP+_2] 1
+[2018.09.23-09.25.17:185][305]LogBlueprintUserMessages: [BP_HP+_2] 加血药
+[2018.09.23-09.25.17:185][305]LogBlueprintUserMessages: [BP_HP+_2] 2
+[2018.09.23-09.25.17:371][316]LogBlueprintUserMessages: [BP_HP+_2] 不能
+[2018.09.23-09.25.17:371][316]LogBlueprintUserMessages: [BP_HP+_2] 19.700001
+[2018.09.23-09.25.17:371][316]LogBlueprintUserMessages: [BP_HP+_2] 0
+[2018.09.23-09.25.17:371][316]LogBlueprintUserMessages: [BP_HP+_2] 1
+[2018.09.23-09.25.17:371][316]LogBlueprintUserMessages: [BP_HP+_2] 加血药
+[2018.09.23-09.25.17:371][316]LogBlueprintUserMessages: [BP_HP+_2] 2
+[2018.09.23-09.25.17:788][341]LogBlueprintUserMessages: [TopDownCharacter] 1
+[2018.09.23-09.25.19:798][461]LogBlueprintUserMessages: [TopDownCharacter] 连击中断
+[2018.09.23-09.25.31:519][162]LogBlueprintUserMessages: [monster3_8] monster death
+[2018.09.23-09.25.33:475][279]LogBlueprintUserMessages: [monster2_5] monster death
+[2018.09.23-09.25.55:427][590]LogBlueprintUserMessages: [TopDownCharacter] 40.0
+[2018.09.23-09.25.56:334][644]LogBlueprintUserMessages: [BP_HP+_2] 不能
+[2018.09.23-09.25.56:335][644]LogBlueprintUserMessages: [BP_HP+_2] 19.700001
+[2018.09.23-09.25.56:335][644]LogBlueprintUserMessages: [BP_HP+_2] 0
+[2018.09.23-09.25.56:335][644]LogBlueprintUserMessages: [BP_HP+_2] 1
+[2018.09.23-09.25.56:335][644]LogBlueprintUserMessages: [BP_HP+_2] 加血药
+[2018.09.23-09.25.56:335][644]LogBlueprintUserMessages: [BP_HP+_2] 2
+[2018.09.23-09.25.56:530][656]LogBlueprintUserMessages: [BP_HP+_2] 不能
+[2018.09.23-09.25.56:530][656]LogBlueprintUserMessages: [BP_HP+_2] 19.700001
+[2018.09.23-09.25.56:530][656]LogBlueprintUserMessages: [BP_HP+_2] 0
+[2018.09.23-09.25.56:530][656]LogBlueprintUserMessages: [BP_HP+_2] 1
+[2018.09.23-09.25.56:530][656]LogBlueprintUserMessages: [BP_HP+_2] 加血药
+[2018.09.23-09.25.56:530][656]LogBlueprintUserMessages: [BP_HP+_2] 2
+[2018.09.23-09.25.57:281][701]LogBlueprintUserMessages: [BP_HP+_2] 不能
+[2018.09.23-09.25.57:281][701]LogBlueprintUserMessages: [BP_HP+_2] 19.700001
+[2018.09.23-09.25.57:281][701]LogBlueprintUserMessages: [BP_HP+_2] 0
+[2018.09.23-09.25.57:281][701]LogBlueprintUserMessages: [BP_HP+_2] 1
+[2018.09.23-09.25.57:281][701]LogBlueprintUserMessages: [BP_HP+_2] 加血药
+[2018.09.23-09.25.57:281][701]LogBlueprintUserMessages: [BP_HP+_2] 2
+[2018.09.23-09.25.57:614][721]LogBlueprintUserMessages: [TopDownCharacter] 30.0
+[2018.09.23-09.25.58:014][745]LogBlueprintUserMessages: [BP_HP+2_5] 不能
+[2018.09.23-09.25.58:015][745]LogBlueprintUserMessages: [BP_HP+2_5] 19.700001
+[2018.09.23-09.25.58:015][745]LogBlueprintUserMessages: [BP_HP+2_5] 0
+[2018.09.23-09.25.58:015][745]LogBlueprintUserMessages: [BP_HP+2_5] 1
+[2018.09.23-09.25.58:015][745]LogBlueprintUserMessages: [BP_HP+2_5] 加血药
+[2018.09.23-09.25.58:015][745]LogBlueprintUserMessages: [BP_HP+2_5] 2
+[2018.09.23-09.25.58:199][756]LogBlueprintUserMessages: [BP_HP+2_5] 不能
+[2018.09.23-09.25.58:199][756]LogBlueprintUserMessages: [BP_HP+2_5] 19.700001
+[2018.09.23-09.25.58:199][756]LogBlueprintUserMessages: [BP_HP+2_5] 0
+[2018.09.23-09.25.58:199][756]LogBlueprintUserMessages: [BP_HP+2_5] 1
+[2018.09.23-09.25.58:199][756]LogBlueprintUserMessages: [BP_HP+2_5] 加血药
+[2018.09.23-09.25.58:199][756]LogBlueprintUserMessages: [BP_HP+2_5] 2
+[2018.09.23-09.25.59:632][842]LogBlueprintUserMessages: [TopDownCharacter] 20.0
+[2018.09.23-09.26.02:822][ 33]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.23-09.26.05:250][178]LogBlueprintUserMessages: [TopDownCharacter] 10.0
+[2018.09.23-09.26.06:304][241]LogBlueprintUserMessages: [monster_2] monster death
+[2018.09.23-09.26.07:891][336]LogBlueprintUserMessages: [TopDownCharacter] 1
+[2018.09.23-09.26.09:900][456]LogBlueprintUserMessages: [TopDownCharacter] 连击中断
+[2018.09.23-09.26.12:302][600]LogBlueprintUserMessages: [BP_HP+2_5] 不能
+[2018.09.23-09.26.12:303][600]LogBlueprintUserMessages: [BP_HP+2_5] 19.700001
+[2018.09.23-09.26.12:303][600]LogBlueprintUserMessages: [BP_HP+2_5] 0
+[2018.09.23-09.26.12:303][600]LogBlueprintUserMessages: [BP_HP+2_5] 1
+[2018.09.23-09.26.12:303][600]LogBlueprintUserMessages: [BP_HP+2_5] 加血药
+[2018.09.23-09.26.12:303][600]LogBlueprintUserMessages: [BP_HP+2_5] 0
+[2018.09.23-09.26.12:506][612]LogBlueprintUserMessages: [BP_HP+2_5] 不能
+[2018.09.23-09.26.12:506][612]LogBlueprintUserMessages: [BP_HP+2_5] 19.700001
+[2018.09.23-09.26.12:506][612]LogBlueprintUserMessages: [BP_HP+2_5] 0
+[2018.09.23-09.26.12:506][612]LogBlueprintUserMessages: [BP_HP+2_5] 1
+[2018.09.23-09.26.12:506][612]LogBlueprintUserMessages: [BP_HP+2_5] 加血药
+[2018.09.23-09.26.12:506][612]LogBlueprintUserMessages: [BP_HP+2_5] 0
+[2018.09.23-09.26.13:223][655]LogBlueprintUserMessages: [BP_HP+3_8] 不能
+[2018.09.23-09.26.13:223][655]LogBlueprintUserMessages: [BP_HP+3_8] 19.700001
+[2018.09.23-09.26.13:223][655]LogBlueprintUserMessages: [BP_HP+3_8] 0
+[2018.09.23-09.26.13:223][655]LogBlueprintUserMessages: [BP_HP+3_8] 1
+[2018.09.23-09.26.13:223][655]LogBlueprintUserMessages: [BP_HP+3_8] 加血药
+[2018.09.23-09.26.13:223][655]LogBlueprintUserMessages: [BP_HP+3_8] 0
+[2018.09.23-09.26.14:790][749]LogBlueprintUserMessages: [BP_jiasu_2] 不能
+[2018.09.23-09.26.14:790][749]LogBlueprintUserMessages: [BP_jiasu_2] 19.700001
+[2018.09.23-09.26.14:790][749]LogBlueprintUserMessages: [BP_jiasu_2] 0
+[2018.09.23-09.26.14:790][749]LogBlueprintUserMessages: [BP_jiasu_2] 0
+[2018.09.23-09.26.14:790][749]LogBlueprintUserMessages: [BP_jiasu_2] 金锥子
+[2018.09.23-09.26.14:790][749]LogBlueprintUserMessages: [BP_jiasu_2] 1
+[2018.09.23-09.26.18:752][986]LogBlueprintUserMessages: [BP_HP+2_5] 不能
+[2018.09.23-09.26.18:752][986]LogBlueprintUserMessages: [BP_HP+2_5] 19.700001
+[2018.09.23-09.26.18:752][986]LogBlueprintUserMessages: [BP_HP+2_5] 0
+[2018.09.23-09.26.18:752][986]LogBlueprintUserMessages: [BP_HP+2_5] 1
+[2018.09.23-09.26.18:752][986]LogBlueprintUserMessages: [BP_HP+2_5] 加血药
+[2018.09.23-09.26.18:752][986]LogBlueprintUserMessages: [BP_HP+2_5] 0
+[2018.09.23-09.26.19:419][ 26]LogBlueprintUserMessages: [BP_HP+2_5] 不能
+[2018.09.23-09.26.19:419][ 26]LogBlueprintUserMessages: [BP_HP+2_5] 19.700001
+[2018.09.23-09.26.19:419][ 26]LogBlueprintUserMessages: [BP_HP+2_5] 0
+[2018.09.23-09.26.19:419][ 26]LogBlueprintUserMessages: [BP_HP+2_5] 1
+[2018.09.23-09.26.19:419][ 26]LogBlueprintUserMessages: [BP_HP+2_5] 加血药
+[2018.09.23-09.26.19:419][ 26]LogBlueprintUserMessages: [BP_HP+2_5] 0
+[2018.09.23-09.26.19:901][ 55]LogBlueprintUserMessages: [BP_HP+2_5] 不能
+[2018.09.23-09.26.19:902][ 55]LogBlueprintUserMessages: [BP_HP+2_5] 19.700001
+[2018.09.23-09.26.19:902][ 55]LogBlueprintUserMessages: [BP_HP+2_5] 0
+[2018.09.23-09.26.19:902][ 55]LogBlueprintUserMessages: [BP_HP+2_5] 1
+[2018.09.23-09.26.19:902][ 55]LogBlueprintUserMessages: [BP_HP+2_5] 加血药
+[2018.09.23-09.26.19:902][ 55]LogBlueprintUserMessages: [BP_HP+2_5] 0
+[2018.09.23-09.26.20:357][ 82]LogBlueprintUserMessages: [BP_HP+2_5] 不能
+[2018.09.23-09.26.20:357][ 82]LogBlueprintUserMessages: [BP_HP+2_5] 19.700001
+[2018.09.23-09.26.20:357][ 82]LogBlueprintUserMessages: [BP_HP+2_5] 0
+[2018.09.23-09.26.20:357][ 82]LogBlueprintUserMessages: [BP_HP+2_5] 1
+[2018.09.23-09.26.20:357][ 82]LogBlueprintUserMessages: [BP_HP+2_5] 加血药
+[2018.09.23-09.26.20:357][ 82]LogBlueprintUserMessages: [BP_HP+2_5] 0
+[2018.09.23-09.26.20:757][106]LogBlueprintUserMessages: [BP_HP+2_5] 不能
+[2018.09.23-09.26.20:757][106]LogBlueprintUserMessages: [BP_HP+2_5] 19.700001
+[2018.09.23-09.26.20:757][106]LogBlueprintUserMessages: [BP_HP+2_5] 0
+[2018.09.23-09.26.20:757][106]LogBlueprintUserMessages: [BP_HP+2_5] 1
+[2018.09.23-09.26.20:757][106]LogBlueprintUserMessages: [BP_HP+2_5] 加血药
+[2018.09.23-09.26.20:757][106]LogBlueprintUserMessages: [BP_HP+2_5] 0
+[2018.09.23-09.26.22:708][223]LogBlueprintUserMessages: [BP_jiasu_2] 不能
+[2018.09.23-09.26.22:708][223]LogBlueprintUserMessages: [BP_jiasu_2] 19.700001
+[2018.09.23-09.26.22:708][223]LogBlueprintUserMessages: [BP_jiasu_2] 0
+[2018.09.23-09.26.22:708][223]LogBlueprintUserMessages: [BP_jiasu_2] 0
+[2018.09.23-09.26.22:708][223]LogBlueprintUserMessages: [BP_jiasu_2] 金锥子
+[2018.09.23-09.26.22:708][223]LogBlueprintUserMessages: [BP_jiasu_2] 1
+[2018.09.23-09.26.23:745][285]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.23-09.26.23:745][285]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.23-09.26.23:763][285]LogSlate: Window '我的项目2 游戏预览 Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.23-09.26.23:824][285]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.23-09.26.23:824][285]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.23-09.26.23:921][286]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2018.09.23-09.30.35:125][201]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/TopDownExampleMap_Auto1A0E928134943B34F0C73A98AB748AD29.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/Autosaves/Game/TopDownBP/Maps/TopDownExampleMap_Auto1.umap'
+[2018.09.23-09.30.35:137][201]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.559
+[2018.09.23-09.30.35:137][201]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.559
+[2018.09.23-09.30.35:146][201]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Blueprints/UI/bag/UI_gezi] ([1] browsable assets)...
+[2018.09.23-09.30.35:146][201]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/UI/bag/UI_gezi]
+[2018.09.23-09.30.35:246][201]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/UI_gezi_Auto145F36D544B98100920CDD1B50C3152A1.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/Autosaves/Game/TopDownBP/Blueprints/UI/bag/UI_gezi_Auto1.uasset'
+[2018.09.23-09.30.35:252][201]LogFileHelpers: Auto-saving content packages took 0.111
+[2018.09.23-09.42.38:108][647]BlueprintLog: New page: 编译BP_jibenwupin
+[2018.09.23-09.43.13:938][301]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/TopDownExampleMap_Auto25E98D4A843F737C2499F96A743CAE3AE.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/Autosaves/Game/TopDownBP/Maps/TopDownExampleMap_Auto2.umap'
+[2018.09.23-09.43.13:966][301]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.515
+[2018.09.23-09.43.13:966][301]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.515
+[2018.09.23-09.43.13:973][301]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownBP/Blueprints/wupin/BP_jibenwupin] ([1] browsable assets)...
+[2018.09.23-09.43.14:003][301]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TopDownBP/Blueprints/wupin/BP_jibenwupin.BP_jibenwupin]
+[2018.09.23-09.43.14:003][301]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/wupin/BP_jibenwupin]
+[2018.09.23-09.43.14:234][301]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/BP_jibenwupin_Auto269C0C78649502C33F0B21291FF0D8767.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/Autosaves/Game/TopDownBP/Blueprints/wupin/BP_jibenwupin_Auto2.uasset'
+[2018.09.23-09.43.14:244][301]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownBP/Blueprints/wupin/BP_HP+] ([1] browsable assets)...
+[2018.09.23-09.43.14:266][301]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TopDownBP/Blueprints/wupin/BP_HP+.BP_HP+]
+[2018.09.23-09.43.14:266][301]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/wupin/BP_HP+]
+[2018.09.23-09.43.14:340][301]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/BP_HP+_Auto2633FDC30437382A4958767A74A3F4BD5.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/Autosaves/Game/TopDownBP/Blueprints/wupin/BP_HP+_Auto2.uasset'
+[2018.09.23-09.43.14:351][301]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownBP/Blueprints/wupin/BP_mana+] ([1] browsable assets)...
+[2018.09.23-09.43.14:373][301]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TopDownBP/Blueprints/wupin/BP_mana+.BP_mana+]
+[2018.09.23-09.43.14:373][301]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/wupin/BP_mana+]
+[2018.09.23-09.43.14:444][301]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/BP_mana+_Auto2FBF8ECDE4DAF185598612AB0586099A3.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/Autosaves/Game/TopDownBP/Blueprints/wupin/BP_mana+_Auto2.uasset'
+[2018.09.23-09.43.14:454][301]LogFileHelpers: Auto-saving content packages took 0.485
+[2018.09.23-09.53.14:832][569]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.062
+[2018.09.23-09.53.14:839][569]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Blueprints/wupin/BP_jibenwupin] ([1] browsable assets)...
+[2018.09.23-09.53.14:839][569]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/wupin/BP_jibenwupin]
+[2018.09.23-09.53.15:094][569]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/BP_jibenwupin_Auto34BB0759A40A33FAC9E2C4A8317DBB8A9.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/Autosaves/Game/TopDownBP/Blueprints/wupin/BP_jibenwupin_Auto3.uasset'
+[2018.09.23-09.53.15:103][569]LogFileHelpers: Auto-saving content packages took 0.270
+[2018.09.23-10.03.15:392][404]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.055
+[2018.09.23-10.03.15:398][404]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Blueprints/wupin/BP_jibenwupin] ([1] browsable assets)...
+[2018.09.23-10.03.15:398][404]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/wupin/BP_jibenwupin]
+[2018.09.23-10.03.15:610][404]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/BP_jibenwupin_Auto4E034C64B48EA83E2587F5699A4FAFD77.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/Autosaves/Game/TopDownBP/Blueprints/wupin/BP_jibenwupin_Auto4.uasset'
+[2018.09.23-10.03.15:616][404]LogFileHelpers: Auto-saving content packages took 0.222
+[2018.09.23-10.39.22:072][685]LogEditorTransaction: Undo 删除当前选项
+[2018.09.23-10.39.23:884][775]LogEditorTransaction: Undo 删除当前选项
+[2018.09.23-10.40.06:833][217]BlueprintLog: New page: 编译UI_scollBag
+[2018.09.23-10.40.35:720][256]BlueprintLog: New page: 编译UI_scollBag
+[2018.09.23-10.41.03:475][434]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/TopDownExampleMap_Auto50CA8ACF3480CD8BCBDCF3A990E86B3E9.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/Autosaves/Game/TopDownBP/Maps/TopDownExampleMap_Auto5.umap'
+[2018.09.23-10.41.03:486][434]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.465
+[2018.09.23-10.41.03:486][434]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.465
+[2018.09.23-10.41.03:493][434]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownBP/Blueprints/wupin/BP_jibenwupin] ([1] browsable assets)...
+[2018.09.23-10.41.03:512][434]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TopDownBP/Blueprints/wupin/BP_jibenwupin.BP_jibenwupin]
+[2018.09.23-10.41.03:512][434]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/wupin/BP_jibenwupin]
+[2018.09.23-10.41.03:723][434]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/BP_jibenwupin_Auto5BED12F8C4CBF694D0047AE88A5327C8E.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/Autosaves/Game/TopDownBP/Blueprints/wupin/BP_jibenwupin_Auto5.uasset'
+[2018.09.23-10.41.03:737][434]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Blueprints/UI/bag/UI_scollBag] ([1] browsable assets)...
+[2018.09.23-10.41.03:737][434]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/UI/bag/UI_scollBag]
+[2018.09.23-10.41.03:935][434]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/UI_scollBag_Auto5B51B629145FFBAA6B7D931819D03FD8C.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/Autosaves/Game/TopDownBP/Blueprints/UI/bag/UI_scollBag_Auto5.uasset'
+[2018.09.23-10.41.03:945][434]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Blueprints/UI/bag/UI_gezi] ([1] browsable assets)...
+[2018.09.23-10.41.03:945][434]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/UI/bag/UI_gezi]
+[2018.09.23-10.41.04:053][434]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/UI_gezi_Auto5D927FFA246AE9EAD60339DB3FFEF878B.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/Autosaves/Game/TopDownBP/Blueprints/UI/bag/UI_gezi_Auto5.uasset'
+[2018.09.23-10.41.04:065][434]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Blueprints/wupin/BP_HP+] ([1] browsable assets)...
+[2018.09.23-10.41.04:065][434]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/wupin/BP_HP+]
+[2018.09.23-10.41.04:137][434]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/BP_HP+_Auto5BC533CE24E53FB55C922D794009B59B1.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/Autosaves/Game/TopDownBP/Blueprints/wupin/BP_HP+_Auto5.uasset'
+[2018.09.23-10.41.04:148][434]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Blueprints/wupin/BP_mana+] ([1] browsable assets)...
+[2018.09.23-10.41.04:148][434]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/wupin/BP_mana+]
+[2018.09.23-10.41.04:224][434]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/BP_mana+_Auto52017E5084D9BE05A81EBDBB69400C842.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/Autosaves/Game/TopDownBP/Blueprints/wupin/BP_mana+_Auto5.uasset'
+[2018.09.23-10.41.04:238][434]LogFileHelpers: Auto-saving content packages took 0.749
+[2018.09.23-10.44.16:051][771]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/TopDownBP/Blueprints/UI/BP_Epressget.BP_Epressget
+[2018.09.23-10.53.30:403][352]BlueprintLog: New page: 编译UI_scollBag
+[2018.09.23-10.53.49:756][438]LogTemp: Repeating last play command: 新建编辑器窗口（在编辑器中运行）
+[2018.09.23-10.53.49:808][438]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.23-10.53.49:808][438]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.23-10.53.49:808][438]PIE: New page: PIE会话: TopDownExampleMap (2018年9月24日 上午2:53:49)
+[2018.09.23-10.53.49:808][438]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2018.09.23-10.53.49:831][438]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022541s)
+[2018.09.23-10.53.49:833][438]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.09.23-10.53.49:833][438]LogPlayLevel: PIE: World Init took: (0.001717s)
+[2018.09.23-10.53.49:833][438]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.024549s)
+[2018.09.23-10.53.50:012][438]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.23-10.53.50:113][438]LogInit: FAudioDevice initialized.
+[2018.09.23-10.53.50:142][438]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.23-10.53.50:305][438]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.23-10.53.50:316][438]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2018.09.23-18.53.50
+[2018.09.23-10.53.50:318][438]LogWorld: Bringing up level for play took: 0.011760
+[2018.09.23-10.53.50:336][438]PIE: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap的‘在编辑器中播放’的起始时间0.185
+[2018.09.23-10.53.50:336][438]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.23-10.53.54:253][664]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.23-10.53.54:254][664]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.23-10.53.54:274][664]LogSlate: Window '我的项目2 游戏预览 Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.23-10.53.54:328][664]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.23-10.53.54:329][664]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.23-10.53.54:426][665]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2018.09.23-10.54.15:291][883]BlueprintLog: New page: 编译TopDownController
+[2018.09.23-10.54.17:715][  3]LogTemp: Repeating last play command: 新建编辑器窗口（在编辑器中运行）
+[2018.09.23-10.54.17:765][  3]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.23-10.54.17:765][  3]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.23-10.54.17:766][  3]PIE: New page: PIE会话: TopDownExampleMap (2018年9月24日 上午2:54:17)
+[2018.09.23-10.54.17:766][  3]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2018.09.23-10.54.17:790][  3]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023780s)
+[2018.09.23-10.54.17:791][  3]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.09.23-10.54.17:791][  3]LogPlayLevel: PIE: World Init took: (0.001222s)
+[2018.09.23-10.54.17:791][  3]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.025237s)
+[2018.09.23-10.54.17:921][  3]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.23-10.54.18:024][  3]LogInit: FAudioDevice initialized.
+[2018.09.23-10.54.18:046][  3]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.23-10.54.18:194][  3]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.23-10.54.18:203][  3]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2018.09.23-18.54.18
+[2018.09.23-10.54.18:206][  3]LogWorld: Bringing up level for play took: 0.010067
+[2018.09.23-10.54.18:223][  3]PIE: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap的‘在编辑器中播放’的起始时间0.071
+[2018.09.23-10.54.18:223][  3]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.23-10.54.20:124][110]LogBlueprintUserMessages: [monster6] monster death
+[2018.09.23-10.54.21:577][195]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.23-10.54.21:577][195]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.23-10.54.21:595][195]LogSlate: Window '我的项目2 游戏预览 Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.23-10.54.21:661][195]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.23-10.54.21:661][195]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.09.23-10.54.21:760][196]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2018.09.23-10.55.07:111][242]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/TopDownExampleMap_Auto6382CE0244BA0ABEAF1F535ACB7E6D1F9.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/Autosaves/Game/TopDownBP/Maps/TopDownExampleMap_Auto6.umap'
+[2018.09.23-10.55.07:121][242]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.480
+[2018.09.23-10.55.07:121][242]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.480
+[2018.09.23-10.55.07:127][242]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownBP/Blueprints/wupin/BP_jibenwupin] ([1] browsable assets)...
+[2018.09.23-10.55.07:140][242]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TopDownBP/Blueprints/wupin/BP_jibenwupin.BP_jibenwupin]
+[2018.09.23-10.55.07:140][242]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/wupin/BP_jibenwupin]
+[2018.09.23-10.55.07:374][242]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/BP_jibenwupin_Auto68AC01A2246353B40CA8518B42B2442C8.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/Autosaves/Game/TopDownBP/Blueprints/wupin/BP_jibenwupin_Auto6.uasset'
+[2018.09.23-10.55.07:384][242]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Blueprints/TopDownController] ([1] browsable assets)...
+[2018.09.23-10.55.07:384][242]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/TopDownController]
+[2018.09.23-10.55.07:491][242]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/TopDownController_Auto6461D60484AA9525D161BD2A568F2F0D6.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/Autosaves/Game/TopDownBP/Blueprints/TopDownController_Auto6.uasset'
+[2018.09.23-10.55.07:505][242]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Blueprints/UI/bag/UI_scollBag] ([1] browsable assets)...
+[2018.09.23-10.55.07:505][242]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/UI/bag/UI_scollBag]
+[2018.09.23-10.55.07:715][242]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/UI_scollBag_Auto64DCE31BC42EDB84E82186E96F00A1F1B.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/Autosaves/Game/TopDownBP/Blueprints/UI/bag/UI_scollBag_Auto6.uasset'
+[2018.09.23-10.55.07:728][242]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Blueprints/UI/bag/UI_gezi] ([1] browsable assets)...
+[2018.09.23-10.55.07:728][242]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/UI/bag/UI_gezi]
+[2018.09.23-10.55.07:832][242]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/UI_gezi_Auto65379BA21474405D0CA5AF79A1B8D3132.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/Autosaves/Game/TopDownBP/Blueprints/UI/bag/UI_gezi_Auto6.uasset'
+[2018.09.23-10.55.07:842][242]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Blueprints/wupin/BP_HP+] ([1] browsable assets)...
+[2018.09.23-10.55.07:842][242]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/wupin/BP_HP+]
+[2018.09.23-10.55.07:909][242]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/BP_HP+_Auto6914DAD8F4D8B1DA4BD66CCB446C98622.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/Autosaves/Game/TopDownBP/Blueprints/wupin/BP_HP+_Auto6.uasset'
+[2018.09.23-10.55.07:919][242]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Blueprints/wupin/BP_mana+] ([1] browsable assets)...
+[2018.09.23-10.55.07:919][242]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/wupin/BP_mana+]
+[2018.09.23-10.55.07:984][242]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/BP_mana+_Auto6E62B4755412035AA06D89896036F3A0F.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/Autosaves/Game/TopDownBP/Blueprints/wupin/BP_mana+_Auto6.uasset'
+[2018.09.23-10.55.07:990][242]LogFileHelpers: Auto-saving content packages took 0.867
+[2018.09.23-10.58.01:218][818]LogSlate: Window '保存内容' being destroyed
+[2018.09.23-10.58.01:963][818]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/TopDownController" FILE="C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/TopDownController.uasset" SILENT=true
+[2018.09.23-10.58.02:096][818]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/TopDownController51D953764C9ECE9D64BD47909E82C7D4.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/TopDownController.uasset'
+[2018.09.23-10.58.02:128][818]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/UI/bag/UI_gezi" FILE="C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/UI/bag/UI_gezi.uasset" SILENT=true
+[2018.09.23-10.58.02:242][818]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/UI_gezi205E93244363343D060AFB908B68B49B.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/UI/bag/UI_gezi.uasset'
+[2018.09.23-10.58.02:261][818]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/UI/bag/UI_scollBag" FILE="C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/UI/bag/UI_scollBag.uasset" SILENT=true
+[2018.09.23-10.58.02:482][818]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/UI_scollBag7388B541422AAF70C639F5943DD0E52B.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/UI/bag/UI_scollBag.uasset'
+[2018.09.23-10.58.02:500][818]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/wupin/BP_HP+" FILE="C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/wupin/BP_HP+.uasset" SILENT=true
+[2018.09.23-10.58.02:568][818]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/BP_HP+4EA4C1614BB10E05189DE9963714F061.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/wupin/BP_HP+.uasset'
+[2018.09.23-10.58.02:590][818]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/wupin/BP_jibenwupin" FILE="C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/wupin/BP_jibenwupin.uasset" SILENT=true
+[2018.09.23-10.58.02:804][818]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/BP_jibenwupin7092B56944831B2C3EEC199C550D3D95.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/wupin/BP_jibenwupin.uasset'
+[2018.09.23-10.58.02:825][818]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/wupin/BP_mana+" FILE="C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/wupin/BP_mana+.uasset" SILENT=true
+[2018.09.23-10.58.02:886][818]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/BP_mana+4B4AFF23471ADFA50BD48A8437F40CED.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Blueprints/wupin/BP_mana+.uasset'
+[2018.09.23-10.58.03:492][818]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Saved/TopDownExampleMap371D29CB46F62DC16BF7CAADEE052AA9.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2018.09.23-10.58.03:537][818]LogFileHelpers: Saving map 'TopDownExampleMap' took 0.631
+[2018.09.23-10.58.04:008][818]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.09.23-10.58.04:064][818]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.09.23-10.58.04:126][818]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.09.23-10.58.04:189][818]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.09.23-10.58.04:355][818]LogSlate: Window '我的项目2 - 虚幻编辑器' being destroyed
+[2018.09.23-10.58.04:647][819]Cmd: QUIT_EDITOR
+[2018.09.23-10.58.05:303][819]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (中文 - QQ拼音输入法).
+[2018.09.23-10.58.05:525][819]LogExit: Preparing to exit.
+[2018.09.23-10.58.06:364][819]LogExit: Editor shut down
+[2018.09.23-10.58.06:365][819]LogExit: Transaction tracking system shut down
+[2018.09.23-10.58.07:222][819]LogExit: Object subsystem successfully closed.
+[2018.09.23-10.58.07:259][819]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.09.23-10.58.07:265][819]LogD3D11RHI: Shutdown
+[2018.09.23-10.58.07:265][819]LogD3D11RHI: CleanupD3DDevice
+[2018.09.23-10.58.07:271][819]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.09.23-10.58.07:329][819]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (620)
+[2018.09.23-10.58.07:329][819]LogModuleManager: Shutting down and abandoning module Voice (618)
+[2018.09.23-10.58.07:329][819]LogModuleManager: Shutting down and abandoning module SequencerWidgets (616)
+[2018.09.23-10.58.07:329][819]LogModuleManager: Shutting down and abandoning module BlueprintGraph (614)
+[2018.09.23-10.58.07:329][819]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (612)
+[2018.09.23-10.58.07:329][819]LogModuleManager: Shutting down and abandoning module AddContentDialog (610)
+[2018.09.23-10.58.07:331][819]LogModuleManager: Shutting down and abandoning module WidgetCarousel (609)
+[2018.09.23-10.58.07:331][819]LogModuleManager: Shutting down and abandoning module EditorWidgets (606)
+[2018.09.23-10.58.07:331][819]LogModuleManager: Shutting down and abandoning module CollectionManager (604)
+[2018.09.23-10.58.07:332][819]LogModuleManager: Shutting down and abandoning module SceneOutliner (602)
+[2018.09.23-10.58.07:332][819]LogModuleManager: Shutting down and abandoning module StatsViewer (600)
+[2018.09.23-10.58.07:333][819]LogModuleManager: Shutting down and abandoning module FoliageEdit (598)
+[2018.09.23-10.58.07:333][819]LogModuleManager: Shutting down and abandoning module LandscapeEditor (596)
+[2018.09.23-10.58.07:335][819]LogModuleManager: Shutting down and abandoning module MeshPaintMode (594)
+[2018.09.23-10.58.07:335][819]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (592)
+[2018.09.23-10.58.07:335][819]LogModuleManager: Shutting down and abandoning module ActorPickerMode (590)
+[2018.09.23-10.58.07:335][819]LogModuleManager: Shutting down and abandoning module GeometryMode (588)
+[2018.09.23-10.58.07:335][819]LogModuleManager: Shutting down and abandoning module TextureAlignMode (586)
+[2018.09.23-10.58.07:335][819]LogModuleManager: Shutting down and abandoning module BspMode (584)
+[2018.09.23-10.58.07:335][819]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (582)
+[2018.09.23-10.58.07:336][819]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (580)
+[2018.09.23-10.58.07:336][819]LogModuleManager: Shutting down and abandoning module AutomationWorker (578)
+[2018.09.23-10.58.07:336][819]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (576)
+[2018.09.23-10.58.07:337][819]LogModuleManager: Shutting down and abandoning module SequenceRecorder (575)
+[2018.09.23-10.58.07:337][819]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (572)
+[2018.09.23-10.58.07:338][819]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (570)
+[2018.09.23-10.58.07:339][819]LogModuleManager: Shutting down and abandoning module PlacementMode (569)
+[2018.09.23-10.58.07:339][819]LogModuleManager: Shutting down and abandoning module MaterialEditor (568)
+[2018.09.23-10.58.07:339][819]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (564)
+[2018.09.23-10.58.07:339][819]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (562)
+[2018.09.23-10.58.07:339][819]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (560)
+[2018.09.23-10.58.07:341][819]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (558)
+[2018.09.23-10.58.07:341][819]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (556)
+[2018.09.23-10.58.07:341][819]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (554)
+[2018.09.23-10.58.07:341][819]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (552)
+[2018.09.23-10.58.07:341][819]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (550)
+[2018.09.23-10.58.07:341][819]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (548)
+[2018.09.23-10.58.07:341][819]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (546)
+[2018.09.23-10.58.07:341][819]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (544)
+[2018.09.23-10.58.07:341][819]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (542)
+[2018.09.23-10.58.07:341][819]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (540)
+[2018.09.23-10.58.07:341][819]LogModuleManager: Shutting down and abandoning module CharacterAI (538)
+[2018.09.23-10.58.07:341][819]LogModuleManager: Shutting down and abandoning module SmartSnapping (536)
+[2018.09.23-10.58.07:341][819]LogModuleManager: Shutting down and abandoning module SessionServices (534)
+[2018.09.23-10.58.07:341][819]LogModuleManager: Shutting down and abandoning module ViewportSnapping (532)
+[2018.09.23-10.58.07:341][819]LogModuleManager: Shutting down and abandoning module ViewportInteraction (530)
+[2018.09.23-10.58.07:341][819]LogModuleManager: Shutting down and abandoning module ClothPainter (528)
+[2018.09.23-10.58.07:342][819]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (527)
+[2018.09.23-10.58.07:344][819]LogModuleManager: Shutting down and abandoning module LogVisualizer (524)
+[2018.09.23-10.58.07:346][819]LogModuleManager: Shutting down and abandoning module IntroTutorials (522)
+[2018.09.23-10.58.07:347][819]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (521)
+[2018.09.23-10.58.07:348][819]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (518)
+[2018.09.23-10.58.07:348][819]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (516)
+[2018.09.23-10.58.07:348][819]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (514)
+[2018.09.23-10.58.07:348][819]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (512)
+[2018.09.23-10.58.07:348][819]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (511)
+[2018.09.23-10.58.08:331][819]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (508)
+[2018.09.23-10.58.08:331][819]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (506)
+[2018.09.23-10.58.08:331][819]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (504)
+[2018.09.23-10.58.08:331][819]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (502)
+[2018.09.23-10.58.08:331][819]LogModuleManager: Shutting down and abandoning module InputBindingEditor (500)
+[2018.09.23-10.58.08:344][819]LogModuleManager: Shutting down and abandoning module MergeActors (498)
+[2018.09.23-10.58.08:345][819]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (496)
+[2018.09.23-10.58.08:346][819]LogModuleManager: Shutting down and abandoning module LocalizationService (495)
+[2018.09.23-10.58.08:347][819]LogModuleManager: Shutting down and abandoning module HardwareTargeting (492)
+[2018.09.23-10.58.08:347][819]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (490)
+[2018.09.23-10.58.08:347][819]LogModuleManager: Shutting down and abandoning module UndoHistory (488)
+[2018.09.23-10.58.08:348][819]LogModuleManager: Shutting down and abandoning module XmlParser (486)
+[2018.09.23-10.58.08:348][819]LogModuleManager: Shutting down and abandoning module Blutility (484)
+[2018.09.23-10.58.08:348][819]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (482)
+[2018.09.23-10.58.08:348][819]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (481)
+[2018.09.23-10.58.08:348][819]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (478)
+[2018.09.23-10.58.08:349][819]LogModuleManager: Shutting down and abandoning module SettingsEditor (476)
+[2018.09.23-10.58.08:349][819]LogModuleManager: Shutting down and abandoning module ProjectLauncher (474)
+[2018.09.23-10.58.08:350][819]LogModuleManager: Shutting down and abandoning module SessionFrontend (472)
+[2018.09.23-10.58.08:351][819]LogModuleManager: Shutting down and abandoning module ProfilerClient (470)
+[2018.09.23-10.58.08:351][819]LogModuleManager: Shutting down and abandoning module DeviceManager (468)
+[2018.09.23-10.58.08:352][819]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (467)
+[2018.09.23-10.58.08:396][819]LogModuleManager: Shutting down and abandoning module AutomationController (464)
+[2018.09.23-10.58.08:397][819]LogModuleManager: Shutting down and abandoning module AutomationWindow (462)
+[2018.09.23-10.58.08:398][819]LogModuleManager: Shutting down and abandoning module Layers (460)
+[2018.09.23-10.58.08:401][819]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (458)
+[2018.09.23-10.58.08:401][819]LogModuleManager: Shutting down and abandoning module DetailCustomizations (456)
+[2018.09.23-10.58.08:402][819]LogModuleManager: Shutting down and abandoning module PackagesDialog (454)
+[2018.09.23-10.58.08:402][819]LogModuleManager: Shutting down and abandoning module Persona (452)
+[2018.09.23-10.58.08:403][819]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (451)
+[2018.09.23-10.58.08:403][819]LogModuleManager: Shutting down and abandoning module AnimGraph (449)
+[2018.09.23-10.58.08:404][819]LogModuleManager: Shutting down and abandoning module Kismet (446)
+[2018.09.23-10.58.08:409][819]LogModuleManager: Shutting down and abandoning module GraphEditor (444)
+[2018.09.23-10.58.08:409][819]LogModuleManager: Shutting down and abandoning module ClassViewer (442)
+[2018.09.23-10.58.08:409][819]LogModuleManager: Shutting down and abandoning module Toolbox (440)
+[2018.09.23-10.58.08:409][819]LogModuleManager: Shutting down and abandoning module ModuleUI (438)
+[2018.09.23-10.58.08:410][819]LogModuleManager: Shutting down and abandoning module MovieSceneTools (436)
+[2018.09.23-10.58.08:411][819]LogModuleManager: Shutting down and abandoning module OutputLog (434)
+[2018.09.23-10.58.08:411][819]LogModuleManager: Shutting down and abandoning module GammaUI (432)
+[2018.09.23-10.58.08:411][819]LogModuleManager: Shutting down and abandoning module Documentation (430)
+[2018.09.23-10.58.08:412][819]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (428)
+[2018.09.23-10.58.08:412][819]LogModuleManager: Shutting down and abandoning module MovieScene (426)
+[2018.09.23-10.58.08:412][819]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (424)
+[2018.09.23-10.58.08:412][819]LogModuleManager: Shutting down and abandoning module LauncherPlatform (422)
+[2018.09.23-10.58.08:412][819]LogModuleManager: Shutting down and abandoning module AnalyticsET (420)
+[2018.09.23-10.58.08:412][819]LogModuleManager: Shutting down and abandoning module PortalServices (418)
+[2018.09.23-10.58.08:412][819]LogModuleManager: Shutting down and abandoning module PortalRpc (416)
+[2018.09.23-10.58.08:412][819]LogModuleManager: Shutting down and abandoning module MessagingRpc (414)
+[2018.09.23-10.58.08:412][819]LogModuleManager: Shutting down and abandoning module AIModule (412)
+[2018.09.23-10.58.08:412][819]LogModuleManager: Shutting down and abandoning module GameplayDebugger (411)
+[2018.09.23-10.58.08:413][819]LogModuleManager: Shutting down and abandoning module AITestSuite (409)
+[2018.09.23-10.58.08:413][819]LogModuleManager: Shutting down and abandoning module NavigationSystem (407)
+[2018.09.23-10.58.08:413][819]LogModuleManager: Shutting down and abandoning module DesktopPlatform (404)
+[2018.09.23-10.58.08:413][819]LogModuleManager: Shutting down and abandoning module ProfilerService (402)
+[2018.09.23-10.58.08:555][819]LogModuleManager: Shutting down and abandoning module TaskGraph (400)
+[2018.09.23-10.58.08:556][819]LogModuleManager: Shutting down and abandoning module SteamVRController (398)
+[2018.09.23-10.58.08:557][819]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (396)
+[2018.09.23-10.58.08:557][819]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (394)
+[2018.09.23-10.58.08:557][819]LogModuleManager: Shutting down and abandoning module OculusInput (392)
+[2018.09.23-10.58.08:557][819]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (390)
+[2018.09.23-10.58.08:557][819]LogModuleManager: Shutting down and abandoning module EditableMesh (388)
+[2018.09.23-10.58.08:558][819]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (386)
+[2018.09.23-10.58.08:558][819]LogModuleManager: Shutting down and abandoning module CableComponent (384)
+[2018.09.23-10.58.08:558][819]LogModuleManager: Shutting down and abandoning module AudioCapture (382)
+[2018.09.23-10.58.08:558][819]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (380)
+[2018.09.23-10.58.08:558][819]LogModuleManager: Shutting down and abandoning module AndroidPermission (378)
+[2018.09.23-10.58.08:558][819]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (376)
+[2018.09.23-10.58.08:558][819]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (374)
+[2018.09.23-10.58.08:560][819]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (372)
+[2018.09.23-10.58.08:560][819]LogModuleManager: Shutting down and abandoning module MediaCompositing (370)
+[2018.09.23-10.58.08:561][819]LogModuleManager: Shutting down and abandoning module LinearTimecode (368)
+[2018.09.23-10.58.08:561][819]LogModuleManager: Shutting down and abandoning module ImgMedia (366)
+[2018.09.23-10.58.08:567][819]LogModuleManager: Shutting down and abandoning module UE4EditorCustomize (364)
+[2018.09.23-10.58.08:567][819]LogModuleManager: Shutting down and abandoning module HTML5Networking (362)
+[2018.09.23-10.58.08:568][819]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (360)
+[2018.09.23-10.58.08:568][819]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (358)
+[2018.09.23-10.58.08:568][819]LogModuleManager: Shutting down and abandoning module BackChannel (356)
+[2018.09.23-10.58.08:569][819]LogModuleManager: Shutting down and abandoning module AppleVision (354)
+[2018.09.23-10.58.08:569][819]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
+[2018.09.23-10.58.08:569][819]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
+[2018.09.23-10.58.08:569][819]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
+[2018.09.23-10.58.08:569][819]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
+[2018.09.23-10.58.08:569][819]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
+[2018.09.23-10.58.08:569][819]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
+[2018.09.23-10.58.08:569][819]LogModuleManager: Shutting down and abandoning module DatasmithContent (340)
+[2018.09.23-10.58.08:570][819]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
+[2018.09.23-10.58.08:570][819]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
+[2018.09.23-10.58.08:574][819]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
+[2018.09.23-10.58.08:574][819]LogModuleManager: Shutting down and abandoning module PolygonModeling (332)
+[2018.09.23-10.58.08:574][819]LogModuleManager: Shutting down and abandoning module MeshEditor (330)
+[2018.09.23-10.58.08:575][819]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
+[2018.09.23-10.58.08:576][819]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
+[2018.09.23-10.58.08:576][819]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
+[2018.09.23-10.58.08:576][819]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
+[2018.09.23-10.58.08:576][819]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
+[2018.09.23-10.58.08:576][819]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
+[2018.09.23-10.58.08:577][819]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
+[2018.09.23-10.58.08:579][819]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
+[2018.09.23-10.58.08:579][819]LogModuleManager: Shutting down and abandoning module SourceControl (313)
+[2018.09.23-10.58.08:580][819]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
+[2018.09.23-10.58.08:580][819]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (308)
+[2018.09.23-10.58.08:580][819]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (306)
+[2018.09.23-10.58.08:580][819]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (304)
+[2018.09.23-10.58.08:580][819]LogModuleManager: Shutting down and abandoning module Paper2DEditor (302)
+[2018.09.23-10.58.08:582][819]LogModuleManager: Shutting down and abandoning module MeshPaint (301)
+[2018.09.23-10.58.08:582][819]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
+[2018.09.23-10.58.08:582][819]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
+[2018.09.23-10.58.08:582][819]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
+[2018.09.23-10.58.08:582][819]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
+[2018.09.23-10.58.08:583][819]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
+[2018.09.23-10.58.08:583][819]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
+[2018.09.23-10.58.08:583][819]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
+[2018.09.23-10.58.08:584][819]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2018.09.23-10.58.08:584][819]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2018.09.23-10.58.08:684][819]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2018.09.23-10.58.08:785][819]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2018.09.23-10.58.08:785][819]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2018.09.23-10.58.08:786][819]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2018.09.23-10.58.08:786][819]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2018.09.23-10.58.08:786][819]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2018.09.23-10.58.08:786][819]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2018.09.23-10.58.08:787][819]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2018.09.23-10.58.08:789][819]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2018.09.23-10.58.08:789][819]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2018.09.23-10.58.08:790][819]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2018.09.23-10.58.08:790][819]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2018.09.23-10.58.08:791][819]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2018.09.23-10.58.08:793][819]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2018.09.23-10.58.08:794][819]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2018.09.23-10.58.08:794][819]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2018.09.23-10.58.08:794][819]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2018.09.23-10.58.08:794][819]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2018.09.23-10.58.08:795][819]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2018.09.23-10.58.08:797][819]LogModuleManager: Shutting down and abandoning module Media (243)
+[2018.09.23-10.58.08:804][819]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2018.09.23-10.58.08:805][819]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2018.09.23-10.58.08:805][819]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2018.09.23-10.58.08:806][819]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2018.09.23-10.58.08:806][819]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2018.09.23-10.58.08:806][819]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2018.09.23-10.58.08:806][819]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2018.09.23-10.58.08:806][819]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2018.09.23-10.58.08:807][819]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2018.09.23-10.58.08:807][819]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2018.09.23-10.58.08:809][819]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2018.09.23-10.58.08:810][819]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2018.09.23-10.58.08:811][819]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2018.09.23-10.58.08:811][819]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2018.09.23-10.58.08:811][819]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2018.09.23-10.58.08:811][819]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2018.09.23-10.58.08:813][819]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2018.09.23-10.58.08:813][819]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2018.09.23-10.58.08:815][819]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2018.09.23-10.58.08:815][819]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2018.09.23-10.58.08:818][819]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2018.09.23-10.58.08:819][819]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2018.09.23-10.58.08:819][819]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2018.09.23-10.58.08:819][819]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2018.09.23-10.58.08:819][819]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2018.09.23-10.58.08:819][819]LogModuleManager: Shutting down and abandoning module Core (188)
+[2018.09.23-10.58.08:819][819]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2018.09.23-10.58.08:819][819]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2018.09.23-10.58.08:819][819]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2018.09.23-10.58.08:820][819]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2018.09.23-10.58.08:821][819]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2018.09.23-10.58.08:821][819]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2018.09.23-10.58.08:821][819]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2018.09.23-10.58.08:822][819]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2018.09.23-10.58.08:822][819]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2018.09.23-10.58.08:823][819]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2018.09.23-10.58.08:824][819]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2018.09.23-10.58.08:824][819]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2018.09.23-10.58.08:889][819]LogDerivedDataCache: Shutdown
+[2018.09.23-10.58.08:889][819]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2018.09.23-10.58.08:889][819]LogXGEController: Cleaning working directory: C:/Users/86230/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.09.23-10.58.08:890][819]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2018.09.23-10.58.08:890][819]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2018.09.23-10.58.08:890][819]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2018.09.23-10.58.08:891][819]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2018.09.23-10.58.08:891][819]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2018.09.23-10.58.08:891][819]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2018.09.23-10.58.08:892][819]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2018.09.23-10.58.08:892][819]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2018.09.23-10.58.08:892][819]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2018.09.23-10.58.08:893][819]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2018.09.23-10.58.08:893][819]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2018.09.23-10.58.08:893][819]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2018.09.23-10.58.08:893][819]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2018.09.23-10.58.08:893][819]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2018.09.23-10.58.08:893][819]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2018.09.23-10.58.08:893][819]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2018.09.23-10.58.08:893][819]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2018.09.23-10.58.08:893][819]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2018.09.23-10.58.08:893][819]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2018.09.23-10.58.08:893][819]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2018.09.23-10.58.08:894][819]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2018.09.23-10.58.08:894][819]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2018.09.23-10.58.08:895][819]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2018.09.23-10.58.08:895][819]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2018.09.23-10.58.08:896][819]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2018.09.23-10.58.08:896][819]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2018.09.23-10.58.08:904][819]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2018.09.23-10.58.08:904][819]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2018.09.23-10.58.08:904][819]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2018.09.23-10.58.08:904][819]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2018.09.23-10.58.08:904][819]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2018.09.23-10.58.08:904][819]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2018.09.23-10.58.08:904][819]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2018.09.23-10.58.08:904][819]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2018.09.23-10.58.08:904][819]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2018.09.23-10.58.08:904][819]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2018.09.23-10.58.08:904][819]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2018.09.23-10.58.08:904][819]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2018.09.23-10.58.08:904][819]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2018.09.23-10.58.08:904][819]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2018.09.23-10.58.08:904][819]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2018.09.23-10.58.08:905][819]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2018.09.23-10.58.08:905][819]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2018.09.23-10.58.08:905][819]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2018.09.23-10.58.08:906][819]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2018.09.23-10.58.08:908][819]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2018.09.23-10.58.08:927][819]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2018.09.23-10.58.08:927][819]LogHttp: Display: Http module shutting down, but needs to wait on 2 outstanding Http requests:
+[2018.09.23-10.58.08:927][819]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9A168AF5-4DBF-5B33-A35C-BD85C1A36B0C%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=4d3014f34a11e50f8209209bebcd79db%7C571c407eebd54669ab852a27e27f3459%7C0c88f9b3-1fc6-4cef-86ef-a0d375e905af&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.09.23-10.58.08:927][819]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9A168AF5-4DBF-5B33-A35C-BD85C1A36B0C%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=4d3014f34a11e50f8209209bebcd79db%7C571c407eebd54669ab852a27e27f3459%7C0c88f9b3-1fc6-4cef-86ef-a0d375e905af&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.09.23-10.58.08:958][819]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2018.09.23-10.58.08:961][819]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2018.09.23-10.58.08:961][819]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2018.09.23-10.58.08:961][819]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2018.09.23-10.58.08:961][819]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2018.09.23-10.58.08:961][819]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2018.09.23-10.58.08:961][819]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2018.09.23-10.58.08:961][819]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2018.09.23-10.58.08:962][819]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2018.09.23-10.58.08:962][819]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2018.09.23-10.58.08:962][819]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.09.23-10.58.08:962][819]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2018.09.23-10.58.08:962][819]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.09.23-10.58.08:964][819]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.09.23-10.58.08:964][819]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.09.23-10.58.08:965][819]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.09.23-10.58.08:966][819]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.09.23-10.58.08:966][819]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.09.23-10.58.08:966][819]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.09.23-10.58.08:969][819]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.09.23-10.58.08:969][819]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.09.23-10.58.08:969][819]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.09.23-10.58.08:970][819]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.09.23-10.58.08:970][819]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.09.23-10.58.08:970][819]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.09.23-10.58.08:970][819]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.09.23-10.58.08:971][819]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.09.23-10.58.08:971][819]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.09.23-10.58.08:971][819]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.09.23-10.58.08:971][819]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.09.23-10.58.08:983][819]LogExit: Exiting.
+[2018.09.23-10.58.08:990][819]Log file closed, 09/23/18 18:58:08
