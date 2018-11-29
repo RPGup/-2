@@ -1,0 +1,1374 @@
+﻿Log file open, 11/28/18 10:45:23
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: 我的项目2
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.921284
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +8:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.570s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz, GPU: Intel(R) HD Graphics 530
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: D:/Program Files/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.002s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.11.28-02.45.25:009][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.28-02.45.25:009][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.11.28-02.45.25:031][  0]LogHAL: Display: Platform has ~ 16 GB [17058086912 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.11.28-02.45.25:031][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.11.28-02.45.25:032][  0]LogInit: Going up to parent DeviceProfile []
+[2018.11.28-02.45.25:033][  0]LogInit: Computer: DESKTOP-47DQBJE
+[2018.11.28-02.45.25:033][  0]LogInit: User: 86230
+[2018.11.28-02.45.25:033][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.11.28-02.45.25:033][  0]LogInit: High frequency timer resolution =2.531246 MHz
+[2018.11.28-02.45.25:033][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.11.28-02.45.25:034][  0]LogMemory: Platform Memory Stats for Windows
+[2018.11.28-02.45.25:034][  0]LogMemory: Process Physical Memory: 101.61 MB used, 101.61 MB peak
+[2018.11.28-02.45.25:034][  0]LogMemory: Process Virtual Memory: 89.58 MB used, 89.58 MB peak
+[2018.11.28-02.45.25:034][  0]LogMemory: Physical Memory: 4445.73 MB used,  11822.13 MB free, 16267.86 MB total
+[2018.11.28-02.45.25:034][  0]LogMemory: Virtual Memory: 4643.49 MB used,  11822.13 MB free, 134217728.00 MB total
+[2018.11.28-02.45.25:280][  0]LogInit: Using OS detected language (zh-CN).
+[2018.11.28-02.45.25:280][  0]LogInit: Using OS detected locale (zh-CN).
+[2018.11.28-02.45.25:786][  0]LogStreaming: Display: Took  0.503s to InitEngineTextLocalization.
+[2018.11.28-02.45.25:786][  0]LogInit: Setting process to per monitor DPI aware
+[2018.11.28-02.45.25:898][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.11.28-02.45.25:898][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.11.28-02.45.26:576][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.11.28-02.45.26:576][  0]LogD3D11RHI: D3D11 adapters:
+[2018.11.28-02.45.26:707][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060' (Feature Level 11_0)
+[2018.11.28-02.45.26:707][  0]LogD3D11RHI:       6052/0/8133 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.11.28-02.45.26:732][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2018.11.28-02.45.26:732][  0]LogD3D11RHI:       128/0/8133 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2018.11.28-02.45.26:736][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.11.28-02.45.26:736][  0]LogD3D11RHI:       0/0/8133 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.11.28-02.45.26:736][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.11.28-02.45.26:745][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.11.28-02.45.26:745][  0]LogD3D11RHI:     GPU DeviceId: 0x1c20 (for the marketing name, search the web for "GPU Device Id")
+[2018.11.28-02.45.26:746][  0]LogWindows: EnumDisplayDevices:
+[2018.11.28-02.45.26:747][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:0 D:1)
+[2018.11.28-02.45.26:749][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.11.28-02.45.26:751][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.11.28-02.45.26:753][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060' (P:1 D:1)
+[2018.11.28-02.45.26:755][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2018.11.28-02.45.26:758][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2018.11.28-02.45.26:760][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2018.11.28-02.45.26:763][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2018.11.28-02.45.26:763][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060
+[2018.11.28-02.45.26:763][  0]LogD3D11RHI:   Driver Version: 416.34 (internal:25.21.14.1634, unified:416.34)
+[2018.11.28-02.45.26:763][  0]LogD3D11RHI:      Driver Date: 10-10-2018
+[2018.11.28-02.45.26:763][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2018.11.28-02.45.26:838][  0]LogD3D11RHI: Async texture creation enabled
+[2018.11.28-02.45.26:871][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.11.28-02.45.26:930][  0]LogShaderCompilers: Guid format shader working directory is -4 characters bigger than the processId version (C:/Users/86230/Documents/Unreal Projects/我的项目2/-2/Intermediate/Shaders/WorkingDirectory/10608/).
+[2018.11.28-02.45.26:930][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/86230/AppData/Local/Temp/UnrealShaderWorkingDir/FFD4C7A54B737E60C88303BB643B27CA/'.
+[2018.11.28-02.45.28:479][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.11.28-02.45.28:507][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.11.28-02.45.28:532][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.11.28-02.45.28:557][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.11.28-02.45.28:585][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.11.28-02.45.28:610][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.11.28-02.45.28:636][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.11.28-02.45.28:659][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.11.28-02.45.28:676][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.11.28-02.45.28:796][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.28-02.45.28:796][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.28-02.45.28:796][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.28-02.45.28:796][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.28-02.45.28:796][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.28-02.45.28:796][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.28-02.45.28:796][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.28-02.45.28:796][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.28-02.45.28:796][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.28-02.45.28:796][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.28-02.45.28:796][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.28-02.45.28:797][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.28-02.45.28:797][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.28-02.45.28:797][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.28-02.45.28:797][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.28-02.45.28:797][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.28-02.45.28:797][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.28-02.45.28:797][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.28-02.45.28:807][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.11.28-02.45.28:903][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.28-02.45.28:903][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.28-02.45.28:945][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.28-02.45.28:945][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.28-02.45.28:972][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.11.28-02.45.29:001][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.11.28-02.45.29:027][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.11.28-02.45.29:056][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.11.28-02.45.29:078][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.11.28-02.45.29:078][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.11.28-02.45.29:386][  0]LogXGEController: Cleaning working directory: C:/Users/86230/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.11.28-02.45.29:387][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.11.28-02.45.29:387][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.11.28-02.45.29:388][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.11.28-02.45.30:494][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.11.28-02.45.30:901][  0]LogDerivedDataCache: Loaded boot cache 0.41s 87MB C:/Users/86230/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.28-02.45.30:901][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/86230/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.11.28-02.45.30:902][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/86230/Documents/Unreal Projects/我的项目2/-2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.11.28-02.45.30:902][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.11.28-02.45.30:902][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/86230/Documents/Unreal Projects/我的项目2/-2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.11.28-02.45.30:902][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.11.28-02.45.30:922][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.11.28-02.45.30:938][  0]LogDerivedDataCache: Using Local data cache path C:/Users/86230/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.11.28-02.45.30:938][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.11.28-02.45.30:938][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.11.28-02.45.30:963][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.11.28-02.45.30:970][  0]LogSlate: Using FreeType 2.6.0
+[2018.11.28-02.45.30:974][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.11.28-02.45.31:157][  0]LogAssetRegistry: FAssetRegistry took 0.0308 seconds to start up
+[2018.11.28-02.45.31:746][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.28-02.45.32:127][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.11.28-02.45.32:178][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.11.28-02.45.32:179][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.11.28-02.45.32:180][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.11.28-02.45.32:180][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.11.28-02.45.32:237][  0]LogNetVersion: 我的项目2 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1753104541)
+[2018.11.28-02.45.33:712][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 4 prioritized culture(s) in 0.630931 seconds
+[2018.11.28-02.45.33:722][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.11.28-02.45.33:722][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2018.11.28-02.45.33:722][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.11.28-02.45.36:382][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.11.28-02.45.36:408][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.11.28-02.45.36:833][  0]SourceControl: 源码管理已禁用
+[2018.11.28-02.45.40:176][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.11.28-02.45.40:575][  0]LogOcInput: OculusInput pre-init called
+[2018.11.28-02.45.40:731][  0]LogEngine: Initializing Engine...
+[2018.11.28-02.45.40:736][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.11.28-02.45.40:740][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.28-02.45.40:740][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.28-02.45.40:740][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.28-02.45.40:740][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.28-02.45.41:122][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.11.28-02.45.41:177][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.11.28-02.45.41:327][  0]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.28-02.45.41:481][  0]LogInit: FAudioDevice initialized.
+[2018.11.28-02.45.41:481][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.11.28-02.45.41:602][  0]LogDerivedDataCache: Saved boot cache 0.12s 87MB C:/Users/86230/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.28-02.45.41:611][  0]LogInit: Texture streaming: Enabled
+[2018.11.28-02.45.41:712][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.11.28-02.45.41:744][  0]LogInit: Transaction tracking system initialized
+[2018.11.28-02.45.41:851][  0]BlueprintLog: New page: 编辑器加载
+[2018.11.28-02.45.42:306][  0]LocalizationService: 本地化服务已禁用
+[2018.11.28-02.45.43:001][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.11.28-02.45.43:002][  0]LogCook: Display: Mobile HDR setting 1
+[2018.11.28-02.45.43:002][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.11.28-02.45.43:002][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.28-02.45.43:002][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.28-02.45.43:003][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.001 s
+[2018.11.28-02.45.43:003][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.28-02.45.43:520][  0]LogFileCache: Scanning file cache for directory 'C:/Users/86230/Documents/Unreal Projects/我的项目2/-2/Content/' took 0.03s
+[2018.11.28-02.45.43:520][  0]Cmd: MAP LOAD FILE="C:/Users/86230/Documents/Unreal Projects/我的项目2/-2/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.28-02.45.43:522][  0]LightingResults: New page: 光照构建
+[2018.11.28-02.45.43:532][  0]MapCheck: New page: 地图检测
+[2018.11.28-02.45.43:532][  0]LightingResults: New page: 光照构建
+[2018.11.28-02.45.46:930][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.11.28-02.45.47:001][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.28-02.45.47:045][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.28-02.45.47:291][  0]MapCheck: 地图检测完成：0个错误，0 个警告，用时245.126毫秒完成。
+[2018.11.28-02.45.47:291][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 3.771
+[2018.11.28-02.45.47:492][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-02.45.47:504][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-02.45.47:514][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-02.45.47:525][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-02.45.47:806][  0]LogCollectionManager: Loaded 0 collections in 0.003871 seconds
+[2018.11.28-02.45.47:886][  0]LogFileCache: Scanning file cache for directory 'C:/Users/86230/Documents/Unreal Projects/我的项目2/-2/Saved/Collections/' took 0.01s
+[2018.11.28-02.45.47:886][  0]LogFileCache: Scanning file cache for directory 'C:/Users/86230/Documents/Unreal Projects/我的项目2/-2/Content/Developers/86230/Collections/' took 0.01s
+[2018.11.28-02.45.47:886][  0]LogFileCache: Scanning file cache for directory 'C:/Users/86230/Documents/Unreal Projects/我的项目2/-2/Content/Collections/' took 0.01s
+[2018.11.28-02.45.47:886][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.11.28-02.45.47:904][  0]LogContentBrowser: Native class hierarchy populated in 0.0162 seconds. Added 2573 classes and 605 folders.
+[2018.11.28-02.45.47:918][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.11.28-02.45.48:169][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.11.28-02.45.48:207][  0]LogSlate: Took 0.002330 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.11.28-02.45.48:233][  0]LogSlate: Took 0.026395 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2018.11.28-02.45.48:237][  0]LogSlate: Took 0.002048 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.11.28-02.45.48:244][  0]LogSlate: Took 0.001606 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.11.28-02.45.48:385][  0]LogRenderer: Reallocating scene render targets to support 1252x648 Format 10 NumSamples 1 (Frame:1).
+[2018.11.28-02.45.48:613][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.11.28-02.45.48:613][  0]LogLoad: (Engine Initialization) Total time: 29.84 seconds
+[2018.11.28-02.45.48:613][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.11.28-02.45.48:671][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.11.28-02.45.48:714][  0]LogSlate: Took 0.001684 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.28-02.45.48:925][  2]LogAssetRegistry: Asset discovery search completed in 17.7918 seconds
+[2018.11.28-02.45.48:927][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.11.28-02.45.48:927][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000068 seconds (updated 0 objects)
+[2018.11.28-02.45.50:256][  6]LogSlate: Took 0.000393 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.28-02.46.16:567][ 84]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-02.46.37:228][306]LogAssetEditorManager: Opening Asset editor for SkeletalMesh /Game/TopDownBP/Character/SKandMA/sk_MainSK.sk_MainSK
+[2018.11.28-02.46.37:259][306]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.11.28-02.46.37:580][306]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.28-02.46.37:591][306]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0005 seconds. Added 1 classes and 0 folders.
+[2018.11.28-02.46.37:699][306]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.11.28-02.46.38:101][306]LogSlate: Took 0.002189 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.11.28-02.46.38:161][306]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0006 seconds. Added 1 classes and 0 folders.
+[2018.11.28-02.46.38:170][306]LogRenderer: Reallocating scene render targets to support 1252x888 Format 10 NumSamples 1 (Frame:1).
+[2018.11.28-02.46.40:301][423]LogSlate: Window 'sk_MainSK' being destroyed
+[2018.11.28-02.46.43:610][607]LogTexture: Display: 正在编译纹理：maincharactor（BGRA8、256X1）
+[2018.11.28-02.46.43:610][607]LogMaterial: Display: Missing cached shader map for material palette1, compiling. 
+[2018.11.28-02.46.43:706][607]LogSkeletalMesh: Building Skeletal Mesh SK_MainCharactor...
+[2018.11.28-02.46.43:707][607]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.11.28-02.46.43:707][607]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.11.28-02.46.43:707][607]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.11.28-02.46.43:707][607]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.11.28-02.46.43:707][607]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/TopDownBP/Character/main-charactor/SK_MainCharactor.SK_MainCharactor
+[2018.11.28-02.46.43:745][607]LogAssetEditorManager: Opening Asset editor for SkeletalMesh /Game/TopDownBP/Character/main-charactor/SK_MainCharactor.SK_MainCharactor
+[2018.11.28-02.46.43:771][607]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.28-02.46.43:844][607]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.11.28-02.46.48:284][820]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-02.46.48:399][827]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.11.28-02.46.49:089][856]LogSlate: Window 'SK_MainCharactor' being destroyed
+[2018.11.28-02.46.49:652][859]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.11.28-02.47.14:410][309]LogAssetEditorManager: Opening Asset editor for BlendSpace1D /Game/TopDownBP/Blueprints/Idle_Walk.Idle_Walk
+[2018.11.28-02.47.14:438][309]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.28-02.47.14:472][309]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_18:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.11.28-02.47.42:180][924]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/BP_hero.BP_hero
+[2018.11.28-02.47.42:818][924]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 116 classes and 0 folders.
+[2018.11.28-02.47.43:962][924]LogSlate: Took 0.002196 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.11.28-02.47.55:984][601]LogAnimation: Warning: AnimBP BP_Hero_Animation_C is incompatible with skeleton SK_MainCharactor_Skeleton, removing AnimBP from actor.
+[2018.11.28-02.47.55:986][601]LogAnimation: Warning: AnimBP BP_Hero_Animation_C is incompatible with skeleton SK_MainCharactor_Skeleton, removing AnimBP from actor.
+[2018.11.28-02.47.55:988][601]LogAnimation: Warning: AnimBP BP_Hero_Animation_C is incompatible with skeleton SK_MainCharactor_Skeleton, removing AnimBP from actor.
+[2018.11.28-02.47.55:989][601]LogAnimation: Warning: AnimBP BP_Hero_Animation_C is incompatible with skeleton SK_MainCharactor_Skeleton, removing AnimBP from actor.
+[2018.11.28-02.48.15:992][782]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.28-02.48.21:450][102]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-02.48.21:534][107]BlueprintLog: New page: 编译BP_hero
+[2018.11.28-02.48.24:119][213]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-02.48.26:586][357]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/TopDownBP/Blueprints/BP_Hero_Animation.BP_Hero_Animation
+[2018.11.28-02.48.26:629][357]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_21:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.28-02.48.26:958][357]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_21:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.11.28-02.48.27:774][357]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimMontage
+[2018.11.28-02.48.57:582][ 30]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2018.11.28-02.49.12:328][ 30]LogSlate: Window '创建动画蓝图' being destroyed
+[2018.11.28-02.49.18:991][425]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (微软拼音).
+[2018.11.28-02.49.39:588][636]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/TopDownBP/Blueprints/BP_Hero_newaAnime.BP_Hero_newaAnime
+[2018.11.28-02.49.39:605][636]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_25:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.28-02.49.39:928][636]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_25:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.11.28-02.49.40:361][636]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.11.28-02.50.24:253][197]LogAssetEditorManager: Opening Asset editor for BlendSpace1D /Game/TopDownBP/Blueprints/Idle_Walk.Idle_Walk
+[2018.11.28-02.50.24:264][197]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_27:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.28-02.50.24:296][197]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_27:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.11.28-02.51.00:231][839]LogSlate: Window '选择骨架' being destroyed
+[2018.11.28-02.51.05:445][121]LogAssetEditorManager: Opening Asset editor for BlendSpace1D /Game/TopDownBP/Blueprints/Walk.Walk
+[2018.11.28-02.51.05:455][121]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_28:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.28-02.51.05:489][121]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_28:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.11.28-02.53.09:723][485]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/TopDownBP/Character/animation/NewAnimation/AN_Walking_Anim.AN_Walking_Anim
+[2018.11.28-02.53.09:723][485]LogAnimationCompression: Recompressing (AnimSequence /Game/TopDownBP/Character/animation/NewAnimation/AN_Walking_Anim.AN_Walking_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.11.28-02.53.09:777][485]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/TopDownBP/Character/animation/NewAnimation/AN_Walking_Anim.AN_Walking_Anim
+[2018.11.28-02.54.22:601][712]LogAssetEditorManager: Opening Asset editor for BlendSpace1D /Game/TopDownBP/Blueprints/Walk.Walk
+[2018.11.28-02.55.00:462][956]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.11.28-02.55.23:765][311]LogAssetEditorManager: Opening Asset editor for BlendSpace1D /Game/TopDownBP/Blueprints/Idle_Walk.Idle_Walk
+[2018.11.28-02.55.23:778][311]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_30:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.28-02.55.23:812][311]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_30:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.11.28-02.58.09:350][116]BlueprintLog: New page: 编译BP_Hero_newaAnime
+[2018.11.28-02.58.31:742][398]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/Walk" FILE="C:/Users/86230/Documents/Unreal Projects/我的项目2/-2/Content/TopDownBP/Blueprints/Walk.uasset" SILENT=true
+[2018.11.28-02.58.31:766][398]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/-2/Saved/Walk5850533C4537F8EA6335BFB2FF564114.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/-2/Content/TopDownBP/Blueprints/Walk.uasset'
+[2018.11.28-02.58.35:248][556]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/Walk" FILE="C:/Users/86230/Documents/Unreal Projects/我的项目2/-2/Content/TopDownBP/Blueprints/Walk.uasset" SILENT=true
+[2018.11.28-02.58.35:383][556]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/-2/Saved/WalkF23D7CD247EF550678EFF596BCE5CE3F.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/-2/Content/TopDownBP/Blueprints/Walk.uasset'
+[2018.11.28-02.59.06:810][404]LogUObjectArray: Warning: Empty slot
+[2018.11.28-02.59.08:761][404]LogStats: FPlatformStackWalk::StackWalkAndDump -  1.951 s
+[2018.11.28-02.59.08:761][404]LogOutputDevice: Error: === Handled ensure: ===
+[2018.11.28-02.59.08:761][404]LogOutputDevice: Error: 
+[2018.11.28-02.59.08:761][404]LogOutputDevice: Error: Ensure condition failed: false [File:D:\Build\++UE4\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 1142]
+[2018.11.28-02.59.08:761][404]LogOutputDevice: Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
+[2018.11.28-02.59.08:761][404]LogOutputDevice: Error: Stack: 
+[2018.11.28-02.59.08:761][404]LogOutputDevice: Error: [Callstack] 0x00007ff92e8371f6 UE4Editor-Core.dll!UnknownFunction []
+[2018.11.28-02.59.08:761][404]LogOutputDevice: Error: [Callstack] 0x00007ff92e570c92 UE4Editor-Core.dll!UnknownFunction []
+[2018.11.28-02.59.08:761][404]LogOutputDevice: Error: [Callstack] 0x00007ff92e58b356 UE4Editor-Core.dll!UnknownFunction []
+[2018.11.28-02.59.08:761][404]LogOutputDevice: Error: [Callstack] 0x00007ff92a0a11db UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.11.28-02.59.08:761][404]LogOutputDevice: Error: [Callstack] 0x00007ff92a0b060e UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.11.28-02.59.08:761][404]LogOutputDevice: Error: [Callstack] 0x00007ff926f7da7a UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2018.11.28-02.59.08:761][404]LogOutputDevice: Error: [Callstack] 0x00007ff92600ec2a UE4Editor-GraphEditor.dll!UnknownFunction []
+[2018.11.28-02.59.08:761][404]LogOutputDevice: Error: [Callstack] 0x00007ff925fcf337 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2018.11.28-02.59.08:761][404]LogOutputDevice: Error: [Callstack] 0x00007ff92b248204 UE4Editor-Slate.dll!UnknownFunction []
+[2018.11.28-02.59.08:761][404]LogOutputDevice: Error: [Callstack] 0x00007ff92b48e933 UE4Editor-Slate.dll!UnknownFunction []
+[2018.11.28-02.59.08:761][404]LogOutputDevice: Error: [Callstack] 0x00007ff92b2a281a UE4Editor-Slate.dll!UnknownFunction []
+[2018.11.28-02.59.08:761][404]LogOutputDevice: Error: [Callstack] 0x00007ff92b278190 UE4Editor-Slate.dll!UnknownFunction []
+[2018.11.28-02.59.08:761][404]LogOutputDevice: Error: [Callstack] 0x00007ff92b26b073 UE4Editor-Slate.dll!UnknownFunction []
+[2018.11.28-02.59.08:761][404]LogOutputDevice: Error: [Callstack] 0x00007ff96ca4d007 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.11.28-02.59.08:761][404]LogOutputDevice: Error: [Callstack] 0x00007ff96ca40270 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.11.28-02.59.08:761][404]LogOutputDevice: Error: [Callstack] 0x00007ff96ca4f4c5 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.11.28-02.59.08:761][404]LogOutputDevice: Error: [Callstack] 0x00007ff96ca3c209 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.11.28-02.59.08:761][404]LogOutputDevice: Error: [Callstack] 0x00007ff985aa6d41 USER32.dll!UnknownFunction []
+[2018.11.28-02.59.08:761][404]LogOutputDevice: Error: [Callstack] 0x00007ff985aa6713 USER32.dll!UnknownFunction []
+[2018.11.28-02.59.08:761][404]LogOutputDevice: Error: [Callstack] 0x00007ff96ca50646 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.11.28-02.59.08:761][404]LogOutputDevice: Error: [Callstack] 0x00007ff61e2054e5 UE4Editor.exe!UnknownFunction []
+[2018.11.28-02.59.08:762][404]LogOutputDevice: Error: [Callstack] 0x00007ff61e215b3c UE4Editor.exe!UnknownFunction []
+[2018.11.28-02.59.08:762][404]LogOutputDevice: Error: [Callstack] 0x00007ff61e215bba UE4Editor.exe!UnknownFunction []
+[2018.11.28-02.59.08:762][404]LogOutputDevice: Error: [Callstack] 0x00007ff61e223dac UE4Editor.exe!UnknownFunction []
+[2018.11.28-02.59.08:762][404]LogOutputDevice: Error: [Callstack] 0x00007ff61e225aaa UE4Editor.exe!UnknownFunction []
+[2018.11.28-02.59.08:762][404]LogOutputDevice: Error: [Callstack] 0x00007ff988283034 KERNEL32.DLL!UnknownFunction []
+[2018.11.28-02.59.08:762][404]LogOutputDevice: Error: [Callstack] 0x00007ff988671471 ntdll.dll!UnknownFunction []
+[2018.11.28-02.59.08:762][404]LogOutputDevice: Error: 
+[2018.11.28-02.59.08:769][404]LogStats:                SubmitErrorReport -  0.000 s
+[2018.11.28-02.59.10:449][404]LogStats:                    SendNewReport -  1.681 s
+[2018.11.28-02.59.10:449][404]LogStats:             FDebug::EnsureFailed -  3.640 s
+[2018.11.28-02.59.10:449][404]LogUObjectArray: Warning: Empty slot
+[2018.11.28-02.59.10:452][404]LogUObjectArray: Warning: Empty slot
+[2018.11.28-02.59.48:870][662]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/TopDownBP/Character/animation/NewAnimation/AN_Sword_Attack_1_remaked_Anim.AN_Sword_Attack_1_remaked_Anim
+[2018.11.28-02.59.48:870][662]LogAnimationCompression: Recompressing (AnimSequence /Game/TopDownBP/Character/animation/NewAnimation/AN_Sword_Attack_1_remaked_Anim.AN_Sword_Attack_1_remaked_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.11.28-02.59.48:878][662]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/TopDownBP/Character/animation/NewAnimation/AN_Sword_Attack_2_test_Anim.AN_Sword_Attack_2_test_Anim
+[2018.11.28-02.59.48:878][662]LogAnimationCompression: Recompressing (AnimSequence /Game/TopDownBP/Character/animation/NewAnimation/AN_Sword_Attack_2_test_Anim.AN_Sword_Attack_2_test_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.11.28-02.59.48:885][662]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/TopDownBP/Character/animation/NewAnimation/AN_Sword_Attack_TransverseCut_Anim.AN_Sword_Attack_TransverseCut_Anim
+[2018.11.28-02.59.48:885][662]LogAnimationCompression: Recompressing (AnimSequence /Game/TopDownBP/Character/animation/NewAnimation/AN_Sword_Attack_TransverseCut_Anim.AN_Sword_Attack_TransverseCut_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.11.28-02.59.53:333][756]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/-2/Saved/AN_Sword_Attack_1_remaked_AnimF6C0615F4FB716A76AE4E2A1B64DC6A5.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/-2/Content/TopDownBP/Character/animation/NewAnimation/Skill/AN_Sword_Attack_1_remaked_Anim.uasset'
+[2018.11.28-02.59.53:999][756]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/-2/Saved/AN_Sword_Attack_1_remaked_Anim80B3A8014D4B6A2695CFC4B2C6C4EDAC.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/-2/Content/TopDownBP/Character/animation/NewAnimation/AN_Sword_Attack_1_remaked_Anim.uasset'
+[2018.11.28-02.59.54:063][756]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/-2/Saved/AN_Sword_Attack_2_test_AnimD2BF0D584FEAD60B051DDC8877A6631A.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/-2/Content/TopDownBP/Character/animation/NewAnimation/Skill/AN_Sword_Attack_2_test_Anim.uasset'
+[2018.11.28-02.59.54:702][756]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/-2/Saved/AN_Sword_Attack_2_test_AnimA3FD6346460F20BB2DEA1D8EB3EE024C.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/-2/Content/TopDownBP/Character/animation/NewAnimation/AN_Sword_Attack_2_test_Anim.uasset'
+[2018.11.28-02.59.54:767][756]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/-2/Saved/AN_Sword_Attack_TransverseCut_AnC2764BCE416B9196895FD798822DCB5D.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/-2/Content/TopDownBP/Character/animation/NewAnimation/Skill/AN_Sword_Attack_TransverseCut_Anim.uasset'
+[2018.11.28-02.59.55:409][756]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/-2/Saved/AN_Sword_Attack_TransverseCut_An9C1351E54CCB9EBFC538C584646242C0.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/-2/Content/TopDownBP/Character/animation/NewAnimation/AN_Sword_Attack_TransverseCut_Anim.uasset'
+[2018.11.28-03.00.38:918][178]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/TopDownBP/Character/animation/NewAnimation/Skill/AN_Sword_Attack_TransverseCut_Anim.AN_Sword_Attack_TransverseCut_Anim
+[2018.11.28-03.00.38:927][178]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_31:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.28-03.00.38:964][178]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_31:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.11.28-03.00.44:695][476]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/TopDownBP/Character/animation/NewAnimation/Skill/AN_Sword_Attack_2_test_Anim.AN_Sword_Attack_2_test_Anim
+[2018.11.28-03.00.47:023][593]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/TopDownBP/Character/animation/NewAnimation/Skill/AN_Sword_Attack_1_remaked_Anim.AN_Sword_Attack_1_remaked_Anim
+[2018.11.28-03.00.49:629][727]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/TopDownBP/Character/animation/NewAnimation/Skill/AN_Sword_Attack_TransverseCut_Anim.AN_Sword_Attack_TransverseCut_Anim
+[2018.11.28-03.01.08:459][789]LogAssetEditorManager: Opening Asset editor for AnimMontage /Game/TopDownBP/Character/animation/NewAnimation/Skill/NomalAttack00.NomalAttack00
+[2018.11.28-03.01.08:468][789]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_36:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.28-03.01.08:500][789]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_36:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.11.28-03.02.06:606][207]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/-2/Saved/NomalAttack00EFFA7C3D441457F0C73DBABAC845E96A.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/-2/Content/TopDownBP/Character/animation/NewAnimation/Skill/NomalAttack00.uasset'
+[2018.11.28-03.02.17:575][814]LogAssetEditorManager: Opening Asset editor for AnimMontage /Game/TopDownBP/Character/animation/NewAnimation/Skill/NomalAttack01.NomalAttack01
+[2018.11.28-03.03.27:712][968]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/-2/Saved/TopDownExampleMap_Auto16143B3D046B724F7EA8BAE85B3BB7CEA.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/-2/Saved/Autosaves/Game/TopDownBP/Maps/TopDownExampleMap_Auto1.umap'
+[2018.11.28-03.03.27:729][968]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.531
+[2018.11.28-03.03.27:730][968]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.531
+[2018.11.28-03.03.27:740][968]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownBP/Blueprints/BP_hero] ([1] browsable assets)...
+[2018.11.28-03.03.27:755][968]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TopDownBP/Blueprints/BP_hero.BP_hero]
+[2018.11.28-03.03.27:755][968]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/BP_hero]
+[2018.11.28-03.03.28:005][968]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/-2/Saved/BP_hero_Auto1E039EAAA467A8672B106508ABC642862.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/-2/Saved/Autosaves/Game/TopDownBP/Blueprints/BP_hero_Auto1.uasset'
+[2018.11.28-03.03.28:021][968]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownBP/Blueprints/BP_Hero_Animation] ([1] browsable assets)...
+[2018.11.28-03.03.28:036][968]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/TopDownBP/Blueprints/BP_Hero_Animation.BP_Hero_Animation]
+[2018.11.28-03.03.28:036][968]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/BP_Hero_Animation]
+[2018.11.28-03.03.28:262][968]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/-2/Saved/BP_Hero_Animation_Auto1B472D92849D8A90AE366EAB197A9A365.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/-2/Saved/Autosaves/Game/TopDownBP/Blueprints/BP_Hero_Animation_Auto1.uasset'
+[2018.11.28-03.03.28:281][968]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Character/main-charactor/SK_MainCharactor_Skeleton] ([1] browsable assets)...
+[2018.11.28-03.03.28:281][968]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Character/main-charactor/SK_MainCharactor_Skeleton]
+[2018.11.28-03.03.28:382][968]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/-2/Saved/SK_MainCharactor_Skeleton_Auto11AC2F14C4C00C5F7B1E0A896DA6B2FC3.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/-2/Saved/Autosaves/Game/TopDownBP/Character/main-charactor/SK_MainCharactor_Skeleton_Auto1.uasset'
+[2018.11.28-03.03.28:397][968]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownBP/Blueprints/BP_Hero_newaAnime] ([1] browsable assets)...
+[2018.11.28-03.03.28:411][968]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/TopDownBP/Blueprints/BP_Hero_newaAnime.BP_Hero_newaAnime]
+[2018.11.28-03.03.28:411][968]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/BP_Hero_newaAnime]
+[2018.11.28-03.03.28:455][968]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/-2/Saved/BP_Hero_newaAnime_Auto1BCA8E5274F0DD536097C9CBBBC09C7E7.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/-2/Saved/Autosaves/Game/TopDownBP/Blueprints/BP_Hero_newaAnime_Auto1.uasset'
+[2018.11.28-03.03.28:470][968]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownBP/Character/animation/NewAnimation/Skill/NomalAttack01] ([1] browsable assets)...
+[2018.11.28-03.03.28:484][968]OBJ SavePackage:     Rendered thumbnail for [AnimMontage /Game/TopDownBP/Character/animation/NewAnimation/Skill/NomalAttack01.NomalAttack01]
+[2018.11.28-03.03.28:485][968]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Character/animation/NewAnimation/Skill/NomalAttack01]
+[2018.11.28-03.03.28:516][968]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/-2/Saved/NomalAttack01_Auto158426E414DC72328DF17289F8A87BC2C.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/-2/Saved/Autosaves/Game/TopDownBP/Character/animation/NewAnimation/Skill/NomalAttack01_Auto1.uasset'
+[2018.11.28-03.03.28:534][968]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownBP/Character/animation/NewAnimation/Skill/NomalAttack02] ([1] browsable assets)...
+[2018.11.28-03.03.28:548][968]OBJ SavePackage:     Rendered thumbnail for [AnimMontage /Game/TopDownBP/Character/animation/NewAnimation/Skill/NomalAttack02.NomalAttack02]
+[2018.11.28-03.03.28:548][968]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Character/animation/NewAnimation/Skill/NomalAttack02]
+[2018.11.28-03.03.28:576][968]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/-2/Saved/NomalAttack02_Auto1764598AF4E468BAAD8F7B88D054E2456.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/-2/Saved/Autosaves/Game/TopDownBP/Character/animation/NewAnimation/Skill/NomalAttack02_Auto1.uasset'
+[2018.11.28-03.03.28:587][968]LogFileHelpers: Auto-saving content packages took 0.854
+[2018.11.28-03.04.23:294][245]BlueprintLog: New page: 编译BP_Hero_newaAnime
+[2018.11.28-03.04.43:801][442]LogSlate: Took 0.003444 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.11.28-03.05.02:237][528]BlueprintLog: New page: 编译BP_Hero_newaAnime
+[2018.11.28-03.05.13:614][184]LogUObjectBase: Warning: Object is not registered
+[2018.11.28-03.05.13:614][184]LogUObjectBase: Warning: Object is not registered
+[2018.11.28-03.05.13:617][184]LogUObjectBase: Warning: Object is not registered
+[2018.11.28-03.05.13:622][184]LogUObjectBase: Warning: Object is not registered
+[2018.11.28-03.05.13:623][184]LogUObjectBase: Warning: Object is not registered
+[2018.11.28-03.05.13:625][184]LogUObjectBase: Warning: Object is not registered
+[2018.11.28-03.05.13:628][184]LogUObjectBase: Warning: Object is not registered
+[2018.11.28-03.05.13:634][185]LogUObjectBase: Warning: Object is not registered
+[2018.11.28-03.05.13:636][185]LogUObjectBase: Warning: Object is not registered
+[2018.11.28-03.05.13:639][185]LogUObjectBase: Warning: Object is not registered
+[2018.11.28-03.06.10:948][496]BlueprintLog: New page: 编译BP_Hero_newaAnime
+[2018.11.28-03.07.05:333][701]LogUObjectBase: Warning: Object is not registered
+[2018.11.28-03.07.05:333][701]LogUObjectBase: Warning: Object is not registered
+[2018.11.28-03.07.18:170][440]LogUObjectBase: Warning: Object is not registered
+[2018.11.28-03.07.18:170][440]LogUObjectBase: Warning: Object is not registered
+[2018.11.28-03.07.18:173][440]LogUObjectBase: Warning: Object is not registered
+[2018.11.28-03.07.18:175][440]LogUObjectBase: Warning: Object is not registered
+[2018.11.28-03.07.18:178][440]LogUObjectBase: Warning: Object is not registered
+[2018.11.28-03.08.46:706][813]LogSlate: Window '选择骨架' being destroyed
+[2018.11.28-03.09.05:247][893]LogAssetEditorManager: Opening Asset editor for AnimComposite /Game/TopDownBP/Character/animation/NewAnimation/Skill/SwordQi.SwordQi
+[2018.11.28-03.09.29:624][341]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.11.28-03.09.42:890][123]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/TopDownBP/Character/animation/NewAnimation/Skill/AN_Sword_Attack_TransverseCut_Anim.AN_Sword_Attack_TransverseCut_Anim
+[2018.11.28-03.09.51:615][622]LogAssetEditorManager: Opening Asset editor for AnimComposite /Game/TopDownBP/Character/animation/NewAnimation/Skill/SwordQi.SwordQi
+[2018.11.28-03.10.12:618][834]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-03.10.18:706][189]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-03.10.19:146][208]LogSlate: Window 'SwordQi*' being destroyed
+[2018.11.28-03.10.21:730][359]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-03.11.09:166][115]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-03.11.44:083][237]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/TopDownBP/Character/animation/NewAnimation/Skill/AN_Sword_Attack_2_test_Anim.AN_Sword_Attack_2_test_Anim
+[2018.11.28-03.11.55:224][861]LogAssetEditorManager: Opening Asset editor for AnimComposite /Game/TopDownBP/Character/animation/NewAnimation/Skill/SwordQi.SwordQi
+[2018.11.28-03.11.56:937][945]LogSlate: Window 'SwordQi*' being destroyed
+[2018.11.28-03.12.05:949][457]LogSlate: Window 'SwordQi*' being destroyed
+[2018.11.28-03.13.37:145][420]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.059
+[2018.11.28-03.13.37:158][420]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Blueprints/BP_Hero_Animation] ([1] browsable assets)...
+[2018.11.28-03.13.37:158][420]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/BP_Hero_Animation]
+[2018.11.28-03.13.37:368][420]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/-2/Saved/BP_Hero_Animation_Auto2B2ADE5E94004D5B98012A4A5661EBF2E.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/-2/Saved/Autosaves/Game/TopDownBP/Blueprints/BP_Hero_Animation_Auto2.uasset'
+[2018.11.28-03.13.37:383][420]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownBP/Blueprints/BP_Hero_newaAnime] ([1] browsable assets)...
+[2018.11.28-03.13.37:398][420]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/TopDownBP/Blueprints/BP_Hero_newaAnime.BP_Hero_newaAnime]
+[2018.11.28-03.13.37:398][420]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/BP_Hero_newaAnime]
+[2018.11.28-03.13.37:523][420]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/-2/Saved/BP_Hero_newaAnime_Auto2E95BACF44739ACC350B7CC85F6627BFD.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/-2/Saved/Autosaves/Game/TopDownBP/Blueprints/BP_Hero_newaAnime_Auto2.uasset'
+[2018.11.28-03.13.37:537][420]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownBP/Character/animation/NewAnimation/Skill/SwordQi] ([1] browsable assets)...
+[2018.11.28-03.13.37:550][420]OBJ SavePackage:     Rendered thumbnail for [AnimComposite /Game/TopDownBP/Character/animation/NewAnimation/Skill/SwordQi.SwordQi]
+[2018.11.28-03.13.37:550][420]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Character/animation/NewAnimation/Skill/SwordQi]
+[2018.11.28-03.13.37:580][420]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/-2/Saved/SwordQi_Auto2B5ED57894BA962C6161E34ACD4D9D4BD.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/-2/Saved/Autosaves/Game/TopDownBP/Character/animation/NewAnimation/Skill/SwordQi_Auto2.uasset'
+[2018.11.28-03.13.37:592][420]LogFileHelpers: Auto-saving content packages took 0.441
+[2018.11.28-03.16.52:993][861]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/-2/Saved/SwordQi63341E8C4A835727161B33A252BBAEEE.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/-2/Content/TopDownBP/Character/animation/NewAnimation/Skill/SwordQi.uasset'
+[2018.11.28-03.23.56:248][ 67]BlueprintLog: New page: 编译BP_Hero_newaAnime
+[2018.11.28-03.24.01:472][348]BlueprintLog: New page: 编译BP_Hero_Animation
+[2018.11.28-03.25.10:368][361]BlueprintLog: New page: 编译BP_Hero_newaAnime
+[2018.11.28-03.25.23:519][108]LogAssetEditorManager: Opening Asset editor for AnimComposite /Game/TopDownBP/Character/animation/NewAnimation/Skill/SwordQi.SwordQi
+[2018.11.28-03.25.23:530][108]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_43:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.28-03.25.23:576][108]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_43:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.11.28-03.25.26:770][266]LogAssetEditorManager: Opening Asset editor for BlendSpace1D /Game/TopDownBP/Blueprints/Walk.Walk
+[2018.11.28-03.26.13:976][999]LogSlate: Window 'Walk*' being destroyed
+[2018.11.28-03.28.00:727][355]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-03.28.02:327][444]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-03.28.02:731][461]LogSlate: Window 'Walk*' being destroyed
+[2018.11.28-03.28.03:388][499]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-03.28.31:809][170]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/Walk" FILE="C:/Users/86230/Documents/Unreal Projects/我的项目2/-2/Content/TopDownBP/Blueprints/Walk.uasset" SILENT=true
+[2018.11.28-03.28.31:927][170]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/-2/Saved/WalkD9F3FF994BD8E16A3E1F6994E6C8ED6D.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/-2/Content/TopDownBP/Blueprints/Walk.uasset'
+[2018.11.28-03.28.43:492][844]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/TopDownBP/Character/animation/NewAnimation/AN_Walking_Anim.AN_Walking_Anim
+[2018.11.28-03.28.43:508][844]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_44:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.28-03.28.43:544][844]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_44:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.11.28-03.28.59:064][711]BlueprintLog: New page: 编译BP_Hero_newaAnime
+[2018.11.28-03.29.06:160][112]BlueprintLog: New page: 编译BP_Hero_newaAnime
+[2018.11.28-03.29.46:771][478]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.11.28-03.29.55:793][  5]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-03.29.55:893][ 11]BlueprintLog: New page: 编译BP_hero
+[2018.11.28-03.30.01:766][322]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-03.30.52:550][341]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/TopDownController.TopDownController
+[2018.11.28-03.33.40:428][  0]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/TopDownBP/Character/animation/NewAnimation/Skill/AN_Sword_Attack_1_remaked_Anim.AN_Sword_Attack_1_remaked_Anim
+[2018.11.28-03.33.40:438][  0]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_48:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.28-03.33.40:474][  0]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_48:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.11.28-03.33.45:980][280]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/TopDownBP/Character/animation/NewAnimation/Skill/AN_Sword_Attack_TransverseCut_Anim.AN_Sword_Attack_TransverseCut_Anim
+[2018.11.28-03.33.45:991][280]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_50:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.28-03.33.46:031][280]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_50:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.11.28-03.33.59:492][ 10]LogAssetEditorManager: Opening Asset editor for AnimMontage /Game/TopDownBP/Character/animation/NewAnimation/Skill/jianqi01.jianqi01
+[2018.11.28-03.33.59:500][ 10]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_52:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.28-03.33.59:537][ 10]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_52:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.11.28-03.34.18:115][ 72]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/-2/Saved/jianqi01AF686E654B1C5F2323E39FAEBB54C49A.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/-2/Content/TopDownBP/Character/animation/NewAnimation/Skill/jianqi01.uasset'
+[2018.11.28-03.34.52:607][ 36]LogAssetEditorManager: Opening Asset editor for AnimComposite /Game/TopDownBP/Character/animation/NewAnimation/Skill/SwordQi.SwordQi
+[2018.11.28-03.34.52:618][ 36]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_53:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.28-03.34.52:656][ 36]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_53:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.11.28-03.35.41:526][488]LogSlate: Window '选择骨架' being destroyed
+[2018.11.28-03.35.46:031][731]LogAssetEditorManager: Opening Asset editor for AnimMontage /Game/TopDownBP/Character/animation/NewAnimation/Skill/jianqi.jianqi
+[2018.11.28-03.35.46:040][731]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_54:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.28-03.35.46:077][731]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_54:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.11.28-03.35.56:276][302]LogAssetEditorManager: Opening Asset editor for AnimMontage /Game/TopDownBP/Character/animation/NewAnimation/Skill/jianqi01.jianqi01
+[2018.11.28-03.36.02:058][629]LogAssetEditorManager: Opening Asset editor for AnimMontage /Game/TopDownBP/Character/animation/NewAnimation/Skill/NomalAttack00.NomalAttack00
+[2018.11.28-03.36.06:356][863]LogAssetEditorManager: Opening Asset editor for AnimMontage /Game/TopDownBP/Character/animation/NewAnimation/Skill/jianqi.jianqi
+[2018.11.28-03.36.17:371][477]LogSlate: Window 'jianqi*' being destroyed
+[2018.11.28-03.36.31:230][296]BlueprintLog: New page: 编译TopDownController
+[2018.11.28-03.37.14:890][803]BlueprintLog: New page: 编译TopDownController
+[2018.11.28-03.37.32:697][800]LogUObjectArray: Warning: Other object in slot
+[2018.11.28-03.37.32:698][800]LogUObjectArray: Warning: Other object in slot
+[2018.11.28-03.37.33:687][856]LogUObjectArray: Warning: Other object in slot
+[2018.11.28-03.37.33:687][856]LogUObjectArray: Warning: Other object in slot
+[2018.11.28-03.37.33:692][856]LogUObjectArray: Warning: Other object in slot
+[2018.11.28-03.37.33:696][856]LogUObjectArray: Warning: Other object in slot
+[2018.11.28-03.37.33:725][858]LogUObjectArray: Warning: Other object in slot
+[2018.11.28-03.37.33:725][858]LogUObjectArray: Warning: Other object in slot
+[2018.11.28-03.37.33:727][858]LogUObjectArray: Warning: Other object in slot
+[2018.11.28-03.37.33:730][858]LogUObjectArray: Warning: Other object in slot
+[2018.11.28-03.37.33:733][858]LogUObjectArray: Warning: Other object in slot
+[2018.11.28-03.37.36:588][ 27]LogUObjectArray: Warning: Other object in slot
+[2018.11.28-03.37.36:589][ 27]LogUObjectArray: Warning: Other object in slot
+[2018.11.28-03.37.49:726][780]LogUObjectArray: Warning: Other object in slot
+[2018.11.28-03.37.49:738][781]LogUObjectArray: Warning: Other object in slot
+[2018.11.28-03.37.49:739][781]LogUObjectArray: Warning: Other object in slot
+[2018.11.28-03.37.49:742][781]LogUObjectArray: Warning: Other object in slot
+[2018.11.28-03.37.49:929][792]LogUObjectArray: Warning: Other object in slot
+[2018.11.28-03.37.49:929][792]LogUObjectArray: Warning: Other object in slot
+[2018.11.28-03.38.22:124][683]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/TopDownBP/Blueprints/BP_Hero_Animation.BP_Hero_Animation
+[2018.11.28-03.38.22:145][683]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_56:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.28-03.38.22:506][683]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_56:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.11.28-03.38.27:206][922]LogUObjectArray: Warning: Other object in slot
+[2018.11.28-03.38.27:206][922]LogUObjectArray: Warning: Other object in slot
+[2018.11.28-03.39.13:272][625]LogUObjectArray: Warning: Other object in slot
+[2018.11.28-03.39.13:272][625]LogUObjectArray: Warning: Other object in slot
+[2018.11.28-03.39.13:277][625]LogUObjectArray: Warning: Other object in slot
+[2018.11.28-03.39.13:282][625]LogUObjectArray: Warning: Other object in slot
+[2018.11.28-03.40.15:040][164]BlueprintLog: New page: 编译BP_Hero_newaAnime
+[2018.11.28-03.42.15:592][105]BlueprintLog: New page: 编译TopDownController
+[2018.11.28-03.42.34:371][162]LogTemp: Repeating last play command: 新建编辑器窗口（在编辑器中运行）
+[2018.11.28-03.42.34:397][162]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.28-03.42.34:397][162]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.28-03.42.34:412][162]PIE: New page: PIE会话: TopDownExampleMap (2018年11月28日 下午7:42:34)
+[2018.11.28-03.42.34:412][162]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2018.11.28-03.42.34:435][162]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023469s)
+[2018.11.28-03.42.34:435][162]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.11.28-03.42.34:436][162]LogPlayLevel: PIE: World Init took: (0.000986s)
+[2018.11.28-03.42.34:436][162]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.024666s)
+[2018.11.28-03.42.34:598][162]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.28-03.42.34:703][162]LogInit: FAudioDevice initialized.
+[2018.11.28-03.42.34:730][162]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-03.42.34:816][162]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.11.28-03.42.34:825][162]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2018.11.28-11.42.34
+[2018.11.28-03.42.34:831][162]LogWorld: Bringing up level for play took: 0.014178
+[2018.11.28-03.42.34:862][162]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 10 classes and 0 folders.
+[2018.11.28-03.42.34:872][162]PIE: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap的‘在编辑器中播放’的起始时间0.078
+[2018.11.28-03.42.34:872][162]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.28-03.42.34:913][162]LogRenderer: Reallocating scene render targets to support 1292x888 Format 10 NumSamples 1 (Frame:1).
+[2018.11.28-03.42.37:335][302]LogBlueprintUserMessages: [TopDownCharacter] 90.0
+[2018.11.28-03.42.37:500][312]LogBlueprintUserMessages: [TopDownCharacter] 80.0
+[2018.11.28-03.42.37:517][313]LogBlueprintUserMessages: [TopDownCharacter] 70.0
+[2018.11.28-03.42.37:518][313]LogBlueprintUserMessages: [TopDownCharacter] 60.0
+[2018.11.28-03.42.40:818][511]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.42.40:818][511]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.42.41:520][553]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.28-03.42.41:523][553]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-03.42.41:563][553]LogSlate: Window '我的项目2 游戏预览 Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.11.28-03.42.41:612][553]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.28-03.42.41:612][553]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.28-03.42.41:680][554]LogPlayLevel: Display: Destroying online subsystem :Context_59
+[2018.11.28-03.43.15:144][532]LogAssetEditorManager: Opening Asset editor for Skeleton /Game/TopDownBP/Character/main-charactor/SK_MainCharactor_Skeleton.SK_MainCharactor_Skeleton
+[2018.11.28-03.43.15:161][532]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_58:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.28-03.43.15:199][532]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_58:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.11.28-03.43.24:585][ 66]BlueprintLog: New page: 编译BP_hero
+[2018.11.28-03.43.26:360][132]LogTemp: Repeating last play command: 新建编辑器窗口（在编辑器中运行）
+[2018.11.28-03.43.26:395][132]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.28-03.43.26:396][132]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.28-03.43.26:396][132]PIE: New page: PIE会话: TopDownExampleMap (2018年11月28日 下午7:43:26)
+[2018.11.28-03.43.26:396][132]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2018.11.28-03.43.26:419][132]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023433s)
+[2018.11.28-03.43.26:420][132]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.11.28-03.43.26:421][132]LogPlayLevel: PIE: World Init took: (0.001062s)
+[2018.11.28-03.43.26:421][132]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.024766s)
+[2018.11.28-03.43.26:588][132]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.28-03.43.26:694][132]LogInit: FAudioDevice initialized.
+[2018.11.28-03.43.26:718][132]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-03.43.26:778][132]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.11.28-03.43.26:785][132]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2018.11.28-11.43.26
+[2018.11.28-03.43.26:787][132]LogWorld: Bringing up level for play took: 0.008230
+[2018.11.28-03.43.26:809][132]PIE: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap的‘在编辑器中播放’的起始时间0.015
+[2018.11.28-03.43.26:812][132]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.28-03.43.32:511][468]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.28-03.43.32:512][468]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-03.43.32:553][468]LogSlate: Window '我的项目2 游戏预览 Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.11.28-03.43.32:599][468]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.28-03.43.32:599][468]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.28-03.43.32:667][469]LogPlayLevel: Display: Destroying online subsystem :Context_61
+[2018.11.28-03.43.54:043][707]BlueprintLog: New page: 编译BP_hero
+[2018.11.28-03.43.54:928][723]LogTemp: Repeating last play command: 新建编辑器窗口（在编辑器中运行）
+[2018.11.28-03.43.54:969][723]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.28-03.43.54:969][723]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.28-03.43.54:970][723]PIE: New page: PIE会话: TopDownExampleMap (2018年11月28日 下午7:43:54)
+[2018.11.28-03.43.54:970][723]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2018.11.28-03.43.54:994][723]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023911s)
+[2018.11.28-03.43.54:994][723]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.11.28-03.43.54:995][723]LogPlayLevel: PIE: World Init took: (0.001144s)
+[2018.11.28-03.43.54:995][723]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.025283s)
+[2018.11.28-03.43.55:173][723]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.28-03.43.55:285][723]LogInit: FAudioDevice initialized.
+[2018.11.28-03.43.55:309][723]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-03.43.55:359][723]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.11.28-03.43.55:366][723]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2018.11.28-11.43.55
+[2018.11.28-03.43.55:368][723]LogWorld: Bringing up level for play took: 0.007728
+[2018.11.28-03.43.55:387][723]PIE: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap的‘在编辑器中播放’的起始时间0.594
+[2018.11.28-03.43.55:388][723]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.28-03.43.59:442][961]LogBlueprintUserMessages: [TopDownCharacter] 90.0
+[2018.11.28-03.43.59:610][971]LogBlueprintUserMessages: [TopDownCharacter] 80.0
+[2018.11.28-03.43.59:792][982]LogBlueprintUserMessages: [TopDownCharacter] 70.0
+[2018.11.28-03.44.02:759][160]LogBlueprintUserMessages: [TopDownCharacter] 90.0
+[2018.11.28-03.44.05:428][320]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.28-03.44.05:429][320]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-03.44.05:472][320]LogSlate: Window '我的项目2 游戏预览 Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.11.28-03.44.05:527][320]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.28-03.44.05:527][320]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.28-03.44.05:622][321]LogPlayLevel: Display: Destroying online subsystem :Context_62
+[2018.11.28-03.44.20:863][223]LogTemp: Repeating last play command: 新建编辑器窗口（在编辑器中运行）
+[2018.11.28-03.44.20:884][223]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.28-03.44.20:884][223]BlueprintLog: New page: 运行前自动重新编译
+[2018.11.28-03.44.21:069][223]LogPlayLevel: [PlayLevel] Compiling BP_hero before play...
+[2018.11.28-03.44.21:445][223]LogPlayLevel: PlayLevel: Blueprint regeneration took 561 ms (1 blueprints)
+[2018.11.28-03.44.21:446][223]PIE: New page: PIE会话: TopDownExampleMap (2018年11月28日 下午7:44:21)
+[2018.11.28-03.44.21:446][223]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2018.11.28-03.44.21:470][223]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024379s)
+[2018.11.28-03.44.21:471][223]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.11.28-03.44.21:472][223]LogPlayLevel: PIE: World Init took: (0.001474s)
+[2018.11.28-03.44.21:472][223]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.026198s)
+[2018.11.28-03.44.21:639][223]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.28-03.44.21:744][223]LogInit: FAudioDevice initialized.
+[2018.11.28-03.44.21:771][223]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-03.44.21:820][223]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.11.28-03.44.21:827][223]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2018.11.28-11.44.21
+[2018.11.28-03.44.21:829][223]LogWorld: Bringing up level for play took: 0.007612
+[2018.11.28-03.44.21:849][223]PIE: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap的‘在编辑器中播放’的起始时间1.056
+[2018.11.28-03.44.21:850][223]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.28-03.44.24:373][361]LogBlueprintUserMessages: [TopDownCharacter] 90.0
+[2018.11.28-03.44.24:556][372]LogBlueprintUserMessages: [TopDownCharacter] 80.0
+[2018.11.28-03.44.24:755][384]LogBlueprintUserMessages: [TopDownCharacter] 70.0
+[2018.11.28-03.44.24:955][396]LogBlueprintUserMessages: [TopDownCharacter] 60.0
+[2018.11.28-03.44.25:155][408]LogBlueprintUserMessages: [TopDownCharacter] 50.0
+[2018.11.28-03.44.25:355][420]LogBlueprintUserMessages: [TopDownCharacter] 40.0
+[2018.11.28-03.44.25:556][432]LogBlueprintUserMessages: [TopDownCharacter] 30.0
+[2018.11.28-03.44.25:757][444]LogBlueprintUserMessages: [TopDownCharacter] 20.0
+[2018.11.28-03.44.25:957][456]LogBlueprintUserMessages: [TopDownCharacter] 10.0
+[2018.11.28-03.44.26:158][468]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.26:158][468]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.26:358][480]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.26:358][480]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.26:562][492]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.26:562][492]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.26:762][504]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.26:762][504]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.26:965][516]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.26:965][516]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.27:261][533]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.27:262][533]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.27:460][545]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.27:460][545]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.27:668][557]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.27:668][557]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.27:883][569]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.27:883][569]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.28:083][581]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.28:083][581]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.28:281][593]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.28:281][593]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.28:482][605]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.28:482][605]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.28:682][617]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.28:682][617]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.28:882][629]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.28:882][629]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.29:081][641]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.29:081][641]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.29:284][653]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.29:284][653]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.29:481][665]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.29:482][665]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.29:682][677]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.29:682][677]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.29:882][689]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.29:882][689]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.30:082][701]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.30:082][701]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.30:282][713]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.30:282][713]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.30:481][725]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.30:481][725]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.30:682][737]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.30:682][737]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.30:882][749]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.30:882][749]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.31:081][761]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.31:082][761]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.31:284][773]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.31:284][773]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.31:494][785]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.31:494][785]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.31:688][797]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.31:688][797]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.31:887][809]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.31:887][809]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.32:087][821]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.32:087][821]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.32:288][833]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.32:288][833]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.32:487][845]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.32:487][845]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.32:688][857]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.32:688][857]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.32:888][869]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.32:888][869]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.33:209][888]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.33:209][888]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.33:409][900]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.33:410][900]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.33:609][912]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.33:609][912]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.33:809][924]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.33:809][924]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.34:009][936]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.34:010][936]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.34:209][948]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.34:209][948]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.34:424][960]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.34:425][960]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.34:621][972]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.34:621][972]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.34:825][984]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.34:825][984]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.35:026][996]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.35:026][996]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.35:226][  8]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.35:226][  8]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.35:516][ 24]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.35:516][ 24]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.35:717][ 36]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.35:717][ 36]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.35:915][ 48]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.35:915][ 48]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.36:115][ 60]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.36:115][ 60]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.36:316][ 72]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.36:316][ 72]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.36:519][ 84]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.36:519][ 84]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.36:721][ 96]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.36:721][ 96]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.36:923][108]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.36:923][108]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.37:126][120]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.37:126][120]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.37:329][132]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.37:329][132]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.37:528][144]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.37:528][144]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.37:728][156]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.37:728][156]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.37:928][168]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.37:928][168]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.38:128][180]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.38:128][180]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.38:328][192]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.38:328][192]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.38:529][204]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.38:529][204]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.38:728][216]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.38:728][216]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.38:929][228]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.38:929][228]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.39:135][240]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.39:135][240]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.39:335][252]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.39:335][252]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.39:537][264]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.39:537][264]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.39:738][276]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.39:738][276]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.39:938][288]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.39:938][288]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.40:140][300]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.40:141][300]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.40:340][312]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.40:340][312]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.40:540][324]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.40:540][324]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.40:741][336]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.40:741][336]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.40:941][348]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.40:941][348]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.41:164][358]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.41:164][358]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.41:377][368]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.41:377][368]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.41:581][379]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.41:582][379]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.41:781][390]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.41:781][390]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.41:980][402]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.41:980][402]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.42:180][414]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.42:180][414]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.42:380][426]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.42:380][426]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.42:836][434]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.42:837][434]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.43:174][435]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.43:175][435]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.43:513][436]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.43:513][436]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.43:850][437]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.43:851][437]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.44:181][438]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.44:181][438]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.44:515][439]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.44:515][439]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.44:835][440]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-03.44.44:843][440]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.44:844][440]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.45:070][453]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.45:070][453]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.45:270][465]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.45:270][465]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.45:471][477]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.45:471][477]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.45:670][489]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.45:670][489]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.45:869][501]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.45:869][501]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.47:296][584]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.47:296][584]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.47:328][586]LogEditorViewport: Clicking on Actor (LMB): Sword_Skill_jianqi_C (Sword_Skill_jianqi)
+[2018.11.28-03.44.47:497][593]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.47:497][593]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.47:697][605]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.47:697][605]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.47:898][617]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.47:898][617]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.48:098][629]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.48:098][629]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.48:305][640]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.48:305][640]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.48:504][652]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.48:504][652]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.48:554][655]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-03.44.48:895][662]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.48:896][662]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.49:221][675]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.49:221][675]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.49:426][687]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.49:426][687]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.49:626][699]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.49:626][699]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.49:843][711]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.49:843][711]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.50:044][723]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.50:044][723]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.50:243][735]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.50:244][735]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.50:689][749]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.50:689][749]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.50:901][761]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.50:901][761]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.51:101][773]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.51:101][773]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.51:302][785]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.51:302][785]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.51:676][802]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.51:676][802]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.51:878][814]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.51:878][814]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.52:086][826]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.52:086][826]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.52:289][838]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.52:289][838]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.52:489][850]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.52:489][850]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.52:689][862]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.52:689][862]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.52:889][874]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.52:889][874]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.53:089][886]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.53:089][886]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.53:290][898]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.53:290][898]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.53:490][910]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.53:491][910]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.53:690][922]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.53:690][922]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.53:890][934]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.53:890][934]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.54:090][946]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.54:090][946]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.54:290][958]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.54:291][958]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.54:491][970]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.54:491][970]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.54:691][982]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.54:691][982]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.54:891][994]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.54:891][994]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.55:091][  6]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.55:091][  6]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.55:292][ 18]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.55:292][ 18]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.55:492][ 30]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.55:492][ 30]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.55:691][ 42]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.55:691][ 42]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.55:893][ 54]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.55:893][ 54]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.56:093][ 66]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.56:093][ 66]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.56:295][ 78]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.56:295][ 78]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.56:494][ 90]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.56:494][ 90]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.56:694][102]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.56:694][102]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.56:895][114]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.56:895][114]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.57:097][126]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.57:097][126]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.57:298][138]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.57:298][138]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.57:497][150]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.57:498][150]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.57:697][162]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.57:697][162]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.57:899][174]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.57:899][174]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.58:098][186]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.58:098][186]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.58:299][198]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.58:299][198]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.58:501][210]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.58:501][210]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.58:702][222]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.58:702][222]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.58:902][234]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.58:902][234]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.59:102][246]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.59:102][246]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.59:301][258]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.59:301][258]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.59:501][270]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.59:502][270]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.59:702][282]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.59:702][282]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.44.59:902][294]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.44.59:902][294]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.45.00:145][306]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.45.00:145][306]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.45.00:308][316]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.45.00:308][316]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.45.00:508][328]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.45.00:508][328]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.45.00:709][340]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.45.00:709][340]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.45.00:911][352]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.45.00:911][352]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.45.01:112][364]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.45.01:112][364]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.45.01:332][373]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.45.01:332][373]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.45.01:383][375]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.28-03.45.01:384][375]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-03.45.01:422][375]LogSlate: Window '我的项目2 游戏预览 Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.11.28-03.45.01:461][375]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.28-03.45.01:461][375]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.28-03.45.01:531][376]LogPlayLevel: Display: Destroying online subsystem :Context_63
+[2018.11.28-03.45.02:846][440]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.28-03.45.06:652][632]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-03.45.09:870][823]LogTemp: Repeating last play command: 新建编辑器窗口（在编辑器中运行）
+[2018.11.28-03.45.09:904][823]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.28-03.45.09:904][823]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.28-03.45.09:904][823]PIE: New page: PIE会话: TopDownExampleMap (2018年11月28日 下午7:45:09)
+[2018.11.28-03.45.09:904][823]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2018.11.28-03.45.09:926][823]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021551s)
+[2018.11.28-03.45.09:927][823]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.11.28-03.45.09:927][823]LogPlayLevel: PIE: World Init took: (0.001139s)
+[2018.11.28-03.45.09:927][823]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.022870s)
+[2018.11.28-03.45.10:086][823]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.28-03.45.10:190][823]LogInit: FAudioDevice initialized.
+[2018.11.28-03.45.10:212][823]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-03.45.10:274][823]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.11.28-03.45.10:280][823]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2018.11.28-11.45.10
+[2018.11.28-03.45.10:282][823]LogWorld: Bringing up level for play took: 0.007659
+[2018.11.28-03.45.10:304][823]PIE: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap的‘在编辑器中播放’的起始时间-0.489
+[2018.11.28-03.45.10:305][823]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.28-03.45.15:190][110]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.28-03.45.15:191][110]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-03.45.15:215][110]LogSlate: Window '我的项目2 游戏预览 Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.11.28-03.45.15:263][110]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.28-03.45.15:263][110]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.28-03.45.15:348][111]LogPlayLevel: Display: Destroying online subsystem :Context_64
+[2018.11.28-03.45.27:022][782]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-03.45.41:995][673]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-03.46.44:468][382]BlueprintLog: New page: 编译BP_hero
+[2018.11.28-03.47.13:052][945]BlueprintLog: New page: 编译BP_hero
+[2018.11.28-03.47.14:065][967]LogTemp: Repeating last play command: 新建编辑器窗口（在编辑器中运行）
+[2018.11.28-03.47.14:094][967]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.28-03.47.14:094][967]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.28-03.47.14:095][967]PIE: New page: PIE会话: TopDownExampleMap (2018年11月28日 下午7:47:14)
+[2018.11.28-03.47.14:095][967]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2018.11.28-03.47.14:123][967]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028385s)
+[2018.11.28-03.47.14:124][967]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.11.28-03.47.14:125][967]LogPlayLevel: PIE: World Init took: (0.001109s)
+[2018.11.28-03.47.14:125][967]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.029816s)
+[2018.11.28-03.47.14:309][967]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.28-03.47.14:423][967]LogInit: FAudioDevice initialized.
+[2018.11.28-03.47.14:446][967]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-03.47.14:496][967]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.11.28-03.47.14:504][967]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2018.11.28-11.47.14
+[2018.11.28-03.47.14:506][967]LogWorld: Bringing up level for play took: 0.008457
+[2018.11.28-03.47.14:525][967]PIE: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap的‘在编辑器中播放’的起始时间-0.268
+[2018.11.28-03.47.14:526][967]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.28-03.47.30:978][949]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.28-03.47.30:979][949]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-03.47.30:999][949]LogSlate: Window '我的项目2 游戏预览 Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.11.28-03.47.31:049][949]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.28-03.47.31:049][949]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.28-03.47.31:136][950]LogPlayLevel: Display: Destroying online subsystem :Context_65
+[2018.11.28-03.47.44:870][760]LogAssetEditorManager: Opening Asset editor for BlendSpace1D /Game/TopDownBP/Blueprints/Walk.Walk
+[2018.11.28-03.47.44:879][760]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_59:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.28-03.47.44:908][760]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_59:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.11.28-03.47.56:449][397]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/Walk" FILE="C:/Users/86230/Documents/Unreal Projects/我的项目2/-2/Content/TopDownBP/Blueprints/Walk.uasset" SILENT=true
+[2018.11.28-03.47.56:571][397]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/-2/Saved/WalkF530F138493493334C8E7C9FC4082CC8.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/-2/Content/TopDownBP/Blueprints/Walk.uasset'
+[2018.11.28-03.48.02:105][713]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-03.48.09:738][168]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-03.48.12:287][316]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-03.48.13:610][394]LogTemp: Repeating last play command: 新建编辑器窗口（在编辑器中运行）
+[2018.11.28-03.48.13:633][394]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.28-03.48.13:633][394]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.28-03.48.13:633][394]PIE: New page: PIE会话: TopDownExampleMap (2018年11月28日 下午7:48:13)
+[2018.11.28-03.48.13:633][394]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2018.11.28-03.48.13:654][394]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021053s)
+[2018.11.28-03.48.13:655][394]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.11.28-03.48.13:655][394]LogPlayLevel: PIE: World Init took: (0.000844s)
+[2018.11.28-03.48.13:655][394]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.022124s)
+[2018.11.28-03.48.13:818][394]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.28-03.48.13:920][394]LogInit: FAudioDevice initialized.
+[2018.11.28-03.48.13:941][394]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-03.48.14:007][394]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.11.28-03.48.14:016][394]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2018.11.28-11.48.14
+[2018.11.28-03.48.14:018][394]LogWorld: Bringing up level for play took: 0.009414
+[2018.11.28-03.48.14:038][394]PIE: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap的‘在编辑器中播放’的起始时间1.245
+[2018.11.28-03.48.14:039][394]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.28-03.48.16:550][539]LogBlueprintUserMessages: [TopDownCharacter] 90.0
+[2018.11.28-03.48.24:319][  5]LogBlueprintUserMessages: [TopDownCharacter] 80.0
+[2018.11.28-03.48.24:502][ 16]LogBlueprintUserMessages: [TopDownCharacter] 70.0
+[2018.11.28-03.48.24:702][ 28]LogBlueprintUserMessages: [TopDownCharacter] 60.0
+[2018.11.28-03.48.24:902][ 40]LogBlueprintUserMessages: [TopDownCharacter] 50.0
+[2018.11.28-03.48.25:102][ 52]LogBlueprintUserMessages: [TopDownCharacter] 40.0
+[2018.11.28-03.48.25:303][ 64]LogBlueprintUserMessages: [TopDownCharacter] 30.0
+[2018.11.28-03.48.25:503][ 76]LogBlueprintUserMessages: [TopDownCharacter] 20.0
+[2018.11.28-03.48.25:703][ 88]LogBlueprintUserMessages: [TopDownCharacter] 10.0
+[2018.11.28-03.48.25:902][100]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.48.25:902][100]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.48.26:102][112]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.48.26:102][112]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.48.26:303][124]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.48.26:304][124]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.48.26:502][136]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.48.26:503][136]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.48.26:703][148]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.48.26:703][148]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.48.26:720][149]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.28-03.48.26:721][149]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-03.48.26:742][149]LogSlate: Window '我的项目2 游戏预览 Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.11.28-03.48.26:794][149]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.28-03.48.26:795][149]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.28-03.48.26:861][150]LogPlayLevel: Display: Destroying online subsystem :Context_67
+[2018.11.28-03.49.08:552][603]BlueprintLog: New page: 编译BP_hero
+[2018.11.28-03.49.10:297][670]LogTemp: Repeating last play command: 新建编辑器窗口（在编辑器中运行）
+[2018.11.28-03.49.10:335][670]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.28-03.49.10:335][670]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.28-03.49.10:335][670]PIE: New page: PIE会话: TopDownExampleMap (2018年11月28日 下午7:49:10)
+[2018.11.28-03.49.10:336][670]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2018.11.28-03.49.10:358][670]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022617s)
+[2018.11.28-03.49.10:360][670]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.11.28-03.49.10:360][670]LogPlayLevel: PIE: World Init took: (0.001569s)
+[2018.11.28-03.49.10:360][670]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.024433s)
+[2018.11.28-03.49.10:539][670]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.28-03.49.10:655][670]LogInit: FAudioDevice initialized.
+[2018.11.28-03.49.10:678][670]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-03.49.10:742][670]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.11.28-03.49.10:749][670]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2018.11.28-11.49.10
+[2018.11.28-03.49.10:750][670]LogWorld: Bringing up level for play took: 0.007106
+[2018.11.28-03.49.10:772][670]PIE: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap的‘在编辑器中播放’的起始时间-0.021
+[2018.11.28-03.49.10:773][670]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.28-03.49.18:636][136]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.49.18:636][136]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.49.19:971][216]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.28-03.49.19:971][216]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-03.49.20:009][216]LogSlate: Window '我的项目2 游戏预览 Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.11.28-03.49.20:061][216]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.28-03.49.20:062][216]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.28-03.49.20:125][217]LogPlayLevel: Display: Destroying online subsystem :Context_68
+[2018.11.28-03.49.30:662][835]BlueprintLog: New page: 编译BP_hero
+[2018.11.28-03.49.49:290][901]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-03.49.49:755][904]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/-2/Saved/SK_MainCharactor_Skeleton8CE0E94E43ABD5866885E8BE10266326.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/-2/Content/TopDownBP/Character/main-charactor/SK_MainCharactor_Skeleton.uasset'
+[2018.11.28-03.49.50:789][965]LogTemp: Repeating last play command: 新建编辑器窗口（在编辑器中运行）
+[2018.11.28-03.49.50:825][965]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.28-03.49.50:825][965]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.28-03.49.50:825][965]PIE: New page: PIE会话: TopDownExampleMap (2018年11月28日 下午7:49:50)
+[2018.11.28-03.49.50:825][965]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2018.11.28-03.49.50:845][965]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019270s)
+[2018.11.28-03.49.50:846][965]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.11.28-03.49.50:846][965]LogPlayLevel: PIE: World Init took: (0.001408s)
+[2018.11.28-03.49.50:846][965]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.020907s)
+[2018.11.28-03.49.51:026][965]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.28-03.49.51:148][965]LogInit: FAudioDevice initialized.
+[2018.11.28-03.49.51:169][965]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-03.49.51:230][965]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.11.28-03.49.51:238][965]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2018.11.28-11.49.51
+[2018.11.28-03.49.51:239][965]LogWorld: Bringing up level for play took: 0.007987
+[2018.11.28-03.49.51:264][965]PIE: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap的‘在编辑器中播放’的起始时间0.47
+[2018.11.28-03.49.51:264][965]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.28-03.49.53:515][ 93]LogBlueprintUserMessages: [TopDownCharacter] 90.0
+[2018.11.28-03.49.58:432][388]LogBlueprintUserMessages: [TopDownCharacter] 80.0
+[2018.11.28-03.50.00:219][495]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.28-03.50.00:220][495]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-03.50.00:242][495]LogSlate: Window '我的项目2 游戏预览 Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.11.28-03.50.00:288][495]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.28-03.50.00:288][495]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.28-03.50.00:361][496]LogPlayLevel: Display: Destroying online subsystem :Context_69
+[2018.11.28-03.50.14:419][324]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-03.50.14:882][328]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/-2/Saved/SK_MainCharactor_Skeleton60C6E9A4413A1F869414019271CE754B.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/-2/Content/TopDownBP/Character/main-charactor/SK_MainCharactor_Skeleton.uasset'
+[2018.11.28-03.50.19:017][558]LogTemp: Repeating last play command: 新建编辑器窗口（在编辑器中运行）
+[2018.11.28-03.50.19:041][558]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.28-03.50.19:041][558]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.28-03.50.19:041][558]PIE: New page: PIE会话: TopDownExampleMap (2018年11月28日 下午7:50:19)
+[2018.11.28-03.50.19:041][558]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2018.11.28-03.50.19:063][558]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021763s)
+[2018.11.28-03.50.19:064][558]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.11.28-03.50.19:065][558]LogPlayLevel: PIE: World Init took: (0.001542s)
+[2018.11.28-03.50.19:065][558]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.023603s)
+[2018.11.28-03.50.19:224][558]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.28-03.50.19:334][558]LogInit: FAudioDevice initialized.
+[2018.11.28-03.50.19:360][558]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-03.50.19:418][558]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.11.28-03.50.19:424][558]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2018.11.28-11.50.19
+[2018.11.28-03.50.19:425][558]LogWorld: Bringing up level for play took: 0.005936
+[2018.11.28-03.50.19:445][558]PIE: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap的‘在编辑器中播放’的起始时间0.651
+[2018.11.28-03.50.19:445][558]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.28-03.50.21:442][674]LogBlueprintUserMessages: [TopDownCharacter] 90.0
+[2018.11.28-03.50.22:109][714]LogBlueprintUserMessages: [TopDownCharacter] 80.0
+[2018.11.28-03.50.22:126][715]LogBlueprintUserMessages: [TopDownCharacter] 70.0
+[2018.11.28-03.50.24:691][867]LogBlueprintUserMessages: [TopDownCharacter] 60.0
+[2018.11.28-03.50.24:844][876]LogBlueprintUserMessages: [TopDownCharacter] 50.0
+[2018.11.28-03.50.25:492][915]LogBlueprintUserMessages: [TopDownCharacter] 40.0
+[2018.11.28-03.50.25:675][926]LogBlueprintUserMessages: [TopDownCharacter] 30.0
+[2018.11.28-03.50.25:876][938]LogBlueprintUserMessages: [TopDownCharacter] 20.0
+[2018.11.28-03.50.26:075][950]LogBlueprintUserMessages: [TopDownCharacter] 10.0
+[2018.11.28-03.50.26:276][962]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.50.26:276][962]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.50.26:325][965]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.50.26:325][965]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.50.26:342][966]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.50.26:342][966]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.50.26:525][977]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.50.26:525][977]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.50.26:709][988]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.50.26:709][988]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.50.26:759][991]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.50.26:759][991]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.50.30:327][205]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.50.30:327][205]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.50.30:343][206]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.50.30:344][206]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.50.30:510][216]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.50.30:510][216]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.50.37:163][615]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.28-03.50.37:163][615]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-03.50.37:185][615]LogSlate: Window '我的项目2 游戏预览 Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.11.28-03.50.37:235][615]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.28-03.50.37:235][615]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.28-03.50.37:327][616]LogPlayLevel: Display: Destroying online subsystem :Context_70
+[2018.11.28-03.50.46:344][151]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-03.51.06:488][327]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/-2/Saved/SK_MainCharactor_SkeletonF1285F9846A081DD1E6F85BD574F70DD.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/-2/Content/TopDownBP/Character/main-charactor/SK_MainCharactor_Skeleton.uasset'
+[2018.11.28-03.51.07:513][387]LogTemp: Repeating last play command: 新建编辑器窗口（在编辑器中运行）
+[2018.11.28-03.51.07:536][387]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.28-03.51.07:536][387]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.28-03.51.07:536][387]PIE: New page: PIE会话: TopDownExampleMap (2018年11月28日 下午7:51:07)
+[2018.11.28-03.51.07:536][387]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2018.11.28-03.51.07:557][387]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021145s)
+[2018.11.28-03.51.07:559][387]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.11.28-03.51.07:559][387]LogPlayLevel: PIE: World Init took: (0.001504s)
+[2018.11.28-03.51.07:559][387]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.022979s)
+[2018.11.28-03.51.07:724][387]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.28-03.51.07:832][387]LogInit: FAudioDevice initialized.
+[2018.11.28-03.51.07:855][387]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-03.51.07:924][387]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.11.28-03.51.07:934][387]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2018.11.28-11.51.07
+[2018.11.28-03.51.07:936][387]LogWorld: Bringing up level for play took: 0.011270
+[2018.11.28-03.51.07:958][387]PIE: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap的‘在编辑器中播放’的起始时间1.164
+[2018.11.28-03.51.07:958][387]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.28-03.51.10:429][528]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.28-03.51.10:430][528]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-03.51.10:473][528]LogSlate: Window '我的项目2 游戏预览 Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.11.28-03.51.10:525][528]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.28-03.51.10:525][528]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.28-03.51.10:608][529]LogPlayLevel: Display: Destroying online subsystem :Context_71
+[2018.11.28-03.51.21:138][129]LogSavePackage: Moving 'C:/Users/86230/Documents/Unreal Projects/我的项目2/-2/Saved/SK_MainCharactor_SkeletonA89ADD454442C08790C4D181B8D4514A.tmp' to 'C:/Users/86230/Documents/Unreal Projects/我的项目2/-2/Content/TopDownBP/Character/main-charactor/SK_MainCharactor_Skeleton.uasset'
+[2018.11.28-03.51.22:094][183]LogTemp: Repeating last play command: 新建编辑器窗口（在编辑器中运行）
+[2018.11.28-03.51.22:124][183]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.28-03.51.22:124][183]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.28-03.51.22:124][183]PIE: New page: PIE会话: TopDownExampleMap (2018年11月28日 下午7:51:22)
+[2018.11.28-03.51.22:124][183]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2018.11.28-03.51.22:150][183]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025552s)
+[2018.11.28-03.51.22:151][183]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.11.28-03.51.22:152][183]LogPlayLevel: PIE: World Init took: (0.001715s)
+[2018.11.28-03.51.22:152][183]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.027576s)
+[2018.11.28-03.51.22:322][183]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.28-03.51.22:422][183]LogInit: FAudioDevice initialized.
+[2018.11.28-03.51.22:447][183]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-03.51.22:503][183]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.11.28-03.51.22:511][183]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2018.11.28-11.51.22
+[2018.11.28-03.51.22:513][183]LogWorld: Bringing up level for play took: 0.008645
+[2018.11.28-03.51.22:532][183]PIE: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap的‘在编辑器中播放’的起始时间-0.262
+[2018.11.28-03.51.22:533][183]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.28-03.51.24:951][324]LogBlueprintUserMessages: [TopDownCharacter] 90.0
+[2018.11.28-03.51.25:935][383]LogBlueprintUserMessages: [TopDownCharacter] 80.0
+[2018.11.28-03.51.25:951][384]LogBlueprintUserMessages: [TopDownCharacter] 70.0
+[2018.11.28-03.51.26:134][395]LogBlueprintUserMessages: [TopDownCharacter] 60.0
+[2018.11.28-03.51.26:402][411]LogBlueprintUserMessages: [TopDownCharacter] 50.0
+[2018.11.28-03.51.26:418][412]LogBlueprintUserMessages: [TopDownCharacter] 40.0
+[2018.11.28-03.51.26:435][413]LogBlueprintUserMessages: [TopDownCharacter] 30.0
+[2018.11.28-03.51.27:285][464]LogBlueprintUserMessages: [TopDownCharacter] you are death
+[2018.11.28-03.51.27:285][464]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.11.28-03.51.32:989][806]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.28-03.51.32:989][806]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.28-03.51.33:012][806]LogSlate: Window '我的项目2 游戏预览 Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.11.28-03.51.33:064][806]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.28-03.51.33:064][806]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.11.28-03.51.33:156][807]LogPlayLevel: Display: Destroying online subsystem :Context_72
+[2018.11.28-03.51.39:759][198]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-03.51.54:531][ 75]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.28-03.52.03:269][583]Cmd: TRANSACTION UNDO
+[2018.11.28-03.52.03:269][583]LogEditorTransaction: Undo 平移插槽
+[2018.11.28-03.52.03:763][583]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.493 s
+[2018.11.28-03.52.03:763][583]LogOutputDevice: Error: === Handled ensure: ===
+[2018.11.28-03.52.03:763][583]LogOutputDevice: Error: 
+[2018.11.28-03.52.03:763][583]LogOutputDevice: Error: Ensure condition failed: PinHelpers::UnresolvedPins.Num() == 0 [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\EdGraph\EdGraphPin.cpp] [Line: 2103]
+[2018.11.28-03.52.03:763][583]LogOutputDevice: Error: 
+[2018.11.28-03.52.03:763][583]LogOutputDevice: Error: Stack: 
+[2018.11.28-03.52.03:763][583]LogOutputDevice: Error: [Callstack] 0x00007ff92e8371f6 UE4Editor-Core.dll!UnknownFunction []
+[2018.11.28-03.52.03:763][583]LogOutputDevice: Error: [Callstack] 0x00007ff92e570c92 UE4Editor-Core.dll!UnknownFunction []
+[2018.11.28-03.52.03:763][583]LogOutputDevice: Error: [Callstack] 0x00007ff92e58b356 UE4Editor-Core.dll!UnknownFunction []
+[2018.11.28-03.52.03:763][583]LogOutputDevice: Error: [Callstack] 0x00007ff92bf9f1e8 UE4Editor-Engine.dll!UnknownFunction []
+[2018.11.28-03.52.03:763][583]LogOutputDevice: Error: [Callstack] 0x00007ff929c64c25 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.11.28-03.52.03:763][583]LogOutputDevice: Error: [Callstack] 0x00007ff929c901fb UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.11.28-03.52.03:763][583]LogOutputDevice: Error: [Callstack] 0x00007ff929c76535 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.11.28-03.52.03:763][583]LogOutputDevice: Error: [Callstack] 0x00007ff929ce2dc5 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.11.28-03.52.03:763][583]LogOutputDevice: Error: [Callstack] 0x00007ff929d29b6d UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.11.28-03.52.03:763][583]LogOutputDevice: Error: [Callstack] 0x00007ff929cbc81f UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.11.28-03.52.03:763][583]LogOutputDevice: Error: [Callstack] 0x00007ff929c7599c UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.11.28-03.52.03:763][583]LogOutputDevice: Error: [Callstack] 0x00007ff929c6f5d6 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.11.28-03.52.03:763][583]LogOutputDevice: Error: [Callstack] 0x00007ff92a54da43 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.11.28-03.52.03:763][583]LogOutputDevice: Error: [Callstack] 0x00007ff91a5777ce UE4Editor-MainFrame.dll!UnknownFunction []
+[2018.11.28-03.52.03:763][583]LogOutputDevice: Error: [Callstack] 0x00007ff91a577bee UE4Editor-MainFrame.dll!UnknownFunction []
+[2018.11.28-03.52.03:763][583]LogOutputDevice: Error: [Callstack] 0x00007ff92b2324df UE4Editor-Slate.dll!UnknownFunction []
+[2018.11.28-03.52.03:763][583]LogOutputDevice: Error: [Callstack] 0x00007ff92b27437e UE4Editor-Slate.dll!UnknownFunction []
+[2018.11.28-03.52.03:763][583]LogOutputDevice: Error: [Callstack] 0x00007ff91a5871a2 UE4Editor-MainFrame.dll!UnknownFunction []
+[2018.11.28-03.52.03:763][583]LogOutputDevice: Error: [Callstack] 0x00007ff91a577679 UE4Editor-MainFrame.dll!UnknownFunction []
+[2018.11.28-03.52.03:763][583]LogOutputDevice: Error: [Callstack] 0x00007ff92b2760e9 UE4Editor-Slate.dll!UnknownFunction []
+[2018.11.28-03.52.03:763][583]LogOutputDevice: Error: [Callstack] 0x00007ff92b269846 UE4Editor-Slate.dll!UnknownFunction []
+[2018.11.28-03.52.03:763][583]LogOutputDevice: Error: [Callstack] 0x00007ff96ca4ce45 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.11.28-03.52.03:763][583]LogOutputDevice: Error: [Callstack] 0x00007ff96ca40270 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.11.28-03.52.03:763][583]LogOutputDevice: Error: [Callstack] 0x00007ff96ca4f4c5 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.11.28-03.52.03:763][583]LogOutputDevice: Error: [Callstack] 0x00007ff96ca3c209 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.11.28-03.52.03:763][583]LogOutputDevice: Error: [Callstack] 0x00007ff985aa6d41 USER32.dll!UnknownFunction []
+[2018.11.28-03.52.03:763][583]LogOutputDevice: Error: [Callstack] 0x00007ff985aa6713 USER32.dll!UnknownFunction []
+[2018.11.28-03.52.03:763][583]LogOutputDevice: Error: [Callstack] 0x00007ff96ca50646 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.11.28-03.52.03:763][583]LogOutputDevice: Error: [Callstack] 0x00007ff61e2054e5 UE4Editor.exe!UnknownFunction []
+[2018.11.28-03.52.03:763][583]LogOutputDevice: Error: [Callstack] 0x00007ff61e215b3c UE4Editor.exe!UnknownFunction []
+[2018.11.28-03.52.03:763][583]LogOutputDevice: Error: [Callstack] 0x00007ff61e215bba UE4Editor.exe!UnknownFunction []
+[2018.11.28-03.52.03:763][583]LogOutputDevice: Error: [Callstack] 0x00007ff61e223dac UE4Editor.exe!UnknownFunction []
+[2018.11.28-03.52.03:763][583]LogOutputDevice: Error: [Callstack] 0x00007ff61e225aaa UE4Editor.exe!UnknownFunction []
+[2018.11.28-03.52.03:763][583]LogOutputDevice: Error: [Callstack] 0x00007ff988283034 KERNEL32.DLL!UnknownFunction []
+[2018.11.28-03.52.03:763][583]LogOutputDevice: Error: [Callstack] 0x00007ff988671471 ntdll.dll!UnknownFunction []
+[2018.11.28-03.52.03:763][583]LogOutputDevice: Error: 
+[2018.11.28-03.52.03:770][583]LogStats:                SubmitErrorReport -  0.000 s
